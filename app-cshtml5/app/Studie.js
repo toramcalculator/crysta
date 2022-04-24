@@ -138,163 +138,274 @@ JSIL.DeclareNamespace("Studie");
     return ($T00 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.Page)) ();
   };
   var $T01 = function () {
-    return ($T01 = JSIL.Memoize($asm_mscorlib.System.String)) ();
+    return ($T01 = JSIL.Memoize($asm_mscorlib.System.Object)) ();
   };
   var $T02 = function () {
-    return ($T02 = JSIL.Memoize($asm_mscorlib.System.Boolean)) ();
+    return ($T02 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs)) ();
   };
   var $T03 = function () {
-    return ($T03 = JSIL.Memoize($asm_mscorlib.System.Int32)) ();
+    return ($T03 = JSIL.Memoize($asm_mscorlib.System.Boolean)) ();
   };
   var $T04 = function () {
-    return ($T04 = JSIL.Memoize($asm_mscorlib.System.Object)) ();
+    return ($T04 = JSIL.Memoize($asm_mscorlib.System.String)) ();
   };
   var $T05 = function () {
-    return ($T05 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs)) ();
+    return ($T05 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.Control)) ();
   };
   var $T06 = function () {
-    return ($T06 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.FrameworkElement)) ();
+    return ($T06 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Media.SolidColorBrush)) ();
   };
   var $T07 = function () {
-    return ($T07 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.MessageBox)) ();
+    return ($T07 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Colors)) ();
   };
   var $T08 = function () {
-    return ($T08 = JSIL.Memoize($asm_mscorlib.System.Collections.ObjectModel.Collection$b1.Of($asm_mscorlib.System.Object))) ();
+    return ($T08 = JSIL.Memoize($asm_mscorlib.System.Int32)) ();
   };
   var $T09 = function () {
-    return ($T09 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.ItemsControl)) ();
+    return ($T09 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.FrameworkElement)) ();
   };
   var $T0A = function () {
-    return ($T0A = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.Primitives.Selector)) ();
+    return ($T0A = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.MessageBox)) ();
   };
   var $T0B = function () {
-    return ($T0B = JSIL.Memoize($asm_mscorlib.System.Exception)) ();
+    return ($T0B = JSIL.Memoize($asm_mscorlib.System.Collections.ObjectModel.Collection$b1.Of($asm_mscorlib.System.Object))) ();
   };
   var $T0C = function () {
-    return ($T0C = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.TextBox)) ();
+    return ($T0C = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.ItemsControl)) ();
   };
   var $T0D = function () {
-    return ($T0D = JSIL.Memoize($asm_mscorlib.System.Convert)) ();
+    return ($T0D = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.Primitives.Selector)) ();
   };
   var $T0E = function () {
-    return ($T0E = JSIL.Memoize(System.Array.Of($asm_mscorlib.System.String))) ();
+    return ($T0E = JSIL.Memoize($asm_mscorlib.System.Exception)) ();
   };
   var $T0F = function () {
-    return ($T0F = JSIL.Memoize($asm_mscorlib.System.FormatException)) ();
+    return ($T0F = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.TextBox)) ();
   };
   var $T10 = function () {
-    return ($T10 = JSIL.Memoize($asm_CSharpXamlForHtml5_System_dll.System.Net.WebClient)) ();
+    return ($T10 = JSIL.Memoize($asm_mscorlib.System.Convert)) ();
   };
   var $T11 = function () {
-    return ($T11 = JSIL.Memoize($asm_mscorlib.System.Text.Encoding)) ();
+    return ($T11 = JSIL.Memoize(System.Array.Of($asm_mscorlib.System.String))) ();
   };
   var $T12 = function () {
-    return ($T12 = JSIL.Memoize($asm_CSharpXamlForHtml5_System_dll.System.Net.WebHeaderCollection)) ();
+    return ($T12 = JSIL.Memoize($asm_mscorlib.System.FormatException)) ();
   };
   var $T13 = function () {
-    return ($T13 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.UIElement)) ();
+    return ($T13 = JSIL.Memoize($asm_CSharpXamlForHtml5_System_dll.System.Net.WebClient)) ();
   };
   var $T14 = function () {
-    return ($T14 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.Grid)) ();
+    return ($T14 = JSIL.Memoize($asm_mscorlib.System.Text.Encoding)) ();
   };
   var $T15 = function () {
-    return ($T15 = JSIL.Memoize($asm_mscorlib.System.Double)) ();
+    return ($T15 = JSIL.Memoize($asm_CSharpXamlForHtml5_System_dll.System.Net.WebHeaderCollection)) ();
   };
   var $T16 = function () {
-    return ($T16 = JSIL.Memoize($asm_CSharpXamlForHtml5.DotNetForHtml5.Core.TypeFromStringConverters)) ();
+    return ($T16 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.UIElement)) ();
   };
   var $T17 = function () {
-    return ($T17 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.RowDefinition)) ();
+    return ($T17 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.Grid)) ();
   };
   var $T18 = function () {
-    return ($T18 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.GridLength)) ();
+    return ($T18 = JSIL.Memoize($asm_mscorlib.System.Double)) ();
   };
   var $T19 = function () {
-    return ($T19 = JSIL.Memoize($asm_mscorlib.System.Collections.ObjectModel.Collection$b1.Of($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.RowDefinition))) ();
+    return ($T19 = JSIL.Memoize($asm_CSharpXamlForHtml5.DotNetForHtml5.Core.TypeFromStringConverters)) ();
   };
   var $T1A = function () {
-    return ($T1A = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.ColumnDefinition)) ();
+    return ($T1A = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.RowDefinition)) ();
   };
   var $T1B = function () {
-    return ($T1B = JSIL.Memoize($asm_mscorlib.System.Collections.ObjectModel.Collection$b1.Of($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.ColumnDefinition))) ();
+    return ($T1B = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.GridLength)) ();
   };
   var $T1C = function () {
-    return ($T1C = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.Primitives.ToggleButton)) ();
+    return ($T1C = JSIL.Memoize($asm_mscorlib.System.Collections.ObjectModel.Collection$b1.Of($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.RowDefinition))) ();
   };
   var $T1D = function () {
-    return ($T1D = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.UserControl)) ();
+    return ($T1D = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.ColumnDefinition)) ();
   };
   var $T1E = function () {
-    return ($T1E = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.VerticalAlignment)) ();
+    return ($T1E = JSIL.Memoize($asm_mscorlib.System.Collections.ObjectModel.Collection$b1.Of($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.ColumnDefinition))) ();
   };
   var $T1F = function () {
-    return ($T1F = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.HorizontalAlignment)) ();
+    return ($T1F = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.StackPanel)) ();
   };
   var $T20 = function () {
-    return ($T20 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.ContentControl)) ();
+    return ($T20 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.Orientation)) ();
   };
   var $T21 = function () {
-    return ($T21 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.CheckBox)) ();
+    return ($T21 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.VerticalAlignment)) ();
   };
   var $T22 = function () {
-    return ($T22 = JSIL.Memoize($asm_mscorlib.System.Collections.ObjectModel.Collection$b1.Of($asm_CSharpXamlForHtml5.Windows.UI.Xaml.UIElement))) ();
+    return ($T22 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.HorizontalAlignment)) ();
   };
   var $T23 = function () {
-    return ($T23 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.Panel)) ();
+    return ($T23 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.Button)) ();
   };
   var $T24 = function () {
-    return ($T24 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.ComboBox)) ();
+    return ($T24 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.UserControl)) ();
   };
   var $T25 = function () {
-    return ($T25 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Thickness)) ();
+    return ($T25 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.Primitives.ButtonBase)) ();
   };
   var $T26 = function () {
-    return ($T26 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.ComboBoxItem)) ();
+    return ($T26 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventHandler)) ();
   };
   var $T27 = function () {
-    return ($T27 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.Button)) ();
+    return ($T27 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Thickness)) ();
   };
   var $T28 = function () {
-    return ($T28 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.Primitives.ButtonBase)) ();
+    return ($T28 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Media.Brush)) ();
   };
   var $T29 = function () {
-    return ($T29 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventHandler)) ();
+    return ($T29 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.ContentControl)) ();
   };
   var $T2A = function () {
-    return ($T2A = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.ScrollViewer)) ();
+    return ($T2A = JSIL.Memoize($asm_mscorlib.System.Collections.ObjectModel.Collection$b1.Of($asm_CSharpXamlForHtml5.Windows.UI.Xaml.UIElement))) ();
   };
   var $T2B = function () {
-    return ($T2B = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.ListBox)) ();
+    return ($T2B = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.Panel)) ();
   };
   var $T2C = function () {
-    return ($T2C = JSIL.Memoize($asm_mscorlib.System.Collections.Generic.List$b1.Of($asm_Studie.Studie.MainPage_CrystaInfo))) ();
+    return ($T2C = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.ComboBox)) ();
   };
   var $T2D = function () {
-    return ($T2D = JSIL.Memoize($asm_mscorlib.System.Char)) ();
+    return ($T2D = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.ComboBoxItem)) ();
   };
   var $T2E = function () {
-    return ($T2E = JSIL.Memoize($asm_Studie.Studie.MainPage_CrystaInfo)) ();
+    return ($T2E = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.ScrollViewer)) ();
+  };
+  var $T2F = function () {
+    return ($T2F = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.ListBox)) ();
+  };
+  var $T30 = function () {
+    return ($T30 = JSIL.Memoize($asm_mscorlib.System.Collections.Generic.List$b1.Of($asm_Studie.Studie.MainPage_CrystaInfo))) ();
+  };
+  var $T31 = function () {
+    return ($T31 = JSIL.Memoize($asm_mscorlib.System.Char)) ();
+  };
+  var $T32 = function () {
+    return ($T32 = JSIL.Memoize($asm_Studie.Studie.MainPage_CrystaInfo)) ();
+  };
+  var $T33 = function () {
+    return ($T33 = JSIL.Memoize($asm_mscorlib.System.Collections.Generic.List$b1.Of($asm_mscorlib.System.String))) ();
+  };
+  var $T34 = function () {
+    return ($T34 = JSIL.Memoize($asm_mscorlib.System.Collections.Generic.List$b1.Of($asm_mscorlib.System.Int32))) ();
   };
   var $S00 = function () {
-    return ($S00 = JSIL.Memoize(new JSIL.ConstructorSignature($asm_mscorlib.TypeRef("System.Exception"), [$asm_mscorlib.TypeRef("System.String")]))) ();
+    return ($S00 = JSIL.Memoize(new JSIL.ConstructorSignature($asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.Media.SolidColorBrush"), [$asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Color")]))) ();
   };
   var $S01 = function () {
-    return ($S01 = JSIL.Memoize(new JSIL.MethodSignature($asm_mscorlib.TypeRef("System.Int32"), [$asm_mscorlib.TypeRef("System.String")]))) ();
+    return ($S01 = JSIL.Memoize(new JSIL.ConstructorSignature($asm_mscorlib.TypeRef("System.Exception"), [$asm_mscorlib.TypeRef("System.String")]))) ();
   };
   var $S02 = function () {
-    return ($S02 = JSIL.Memoize(new JSIL.MethodSignature(null, [$asm_mscorlib.TypeRef("System.String"), $asm_mscorlib.TypeRef("System.String")]))) ();
+    return ($S02 = JSIL.Memoize(new JSIL.MethodSignature($asm_mscorlib.TypeRef("System.Int32"), [$asm_mscorlib.TypeRef("System.String")]))) ();
   };
   var $S03 = function () {
-    return ($S03 = JSIL.Memoize(new JSIL.MethodSignature($asm_mscorlib.TypeRef("System.String"), [$asm_mscorlib.TypeRef("System.String")]))) ();
+    return ($S03 = JSIL.Memoize(new JSIL.MethodSignature(null, [$asm_mscorlib.TypeRef("System.String"), $asm_mscorlib.TypeRef("System.String")]))) ();
   };
   var $S04 = function () {
-    return ($S04 = JSIL.Memoize(new JSIL.ConstructorSignature($asm_mscorlib.TypeRef("System.Collections.Generic.List`1", [$asm_Studie.TypeRef("Studie.MainPage+CrystaInfo")]), null))) ();
+    return ($S04 = JSIL.Memoize(new JSIL.MethodSignature($asm_mscorlib.TypeRef("System.String"), [$asm_mscorlib.TypeRef("System.String")]))) ();
+  };
+  var $S05 = function () {
+    return ($S05 = JSIL.Memoize(new JSIL.ConstructorSignature($asm_mscorlib.TypeRef("System.Collections.Generic.List`1", [$asm_Studie.TypeRef("Studie.MainPage+CrystaInfo")]), null))) ();
   };
 
   function MainPage__ctor () {
     $T00().prototype['_ctor'].call(this);
     this['InitializeComponent']();
     this['Set_FilterIndex']();
+  };
+
+  function MainPage_Check1 (sender, e) {
+    var flag = ($T04()['Format']("{0}", (this.NormCheckbox)['get_Background']()) == "#FFFFFFFF");
+    if (flag) {
+      (this.NormCheckbox)['set_Background']($S00().Construct($T07()['get_Gray']()['MemberwiseClone']()));
+    } else {
+      (this.NormCheckbox)['set_Background']($S00().Construct($T07()['get_White']()['MemberwiseClone']()));
+    }
+  };
+
+  function MainPage_check10 (sender, e) {
+    var flag = ($T04()['Format']("{0}", (this.SpecialCheckboxEx)['get_Background']()) == "#FFFFFFFF");
+    if (flag) {
+      (this.SpecialCheckboxEx)['set_Background']($S00().Construct($T07()['get_Gray']()['MemberwiseClone']()));
+    } else {
+      (this.SpecialCheckboxEx)['set_Background']($S00().Construct($T07()['get_White']()['MemberwiseClone']()));
+    }
+  };
+
+  function MainPage_check2 (sender, e) {
+    var flag = ($T04()['Format']("{0}", (this.NormCheckboxEx)['get_Background']()) == "#FFFFFFFF");
+    if (flag) {
+      (this.NormCheckboxEx)['set_Background']($S00().Construct($T07()['get_Gray']()['MemberwiseClone']()));
+    } else {
+      (this.NormCheckboxEx)['set_Background']($S00().Construct($T07()['get_White']()['MemberwiseClone']()));
+    }
+  };
+
+  function MainPage_check3 (sender, e) {
+    var flag = ($T04()['Format']("{0}", (this.WeaponCheckbox)['get_Background']()) == "#FFFFFFFF");
+    if (flag) {
+      (this.WeaponCheckbox)['set_Background']($S00().Construct($T07()['get_Gray']()['MemberwiseClone']()));
+    } else {
+      (this.WeaponCheckbox)['set_Background']($S00().Construct($T07()['get_White']()['MemberwiseClone']()));
+    }
+  };
+
+  function MainPage_check4 (sender, e) {
+    var flag = ($T04()['Format']("{0}", (this.WeaponCheckboxEx)['get_Background']()) == "#FFFFFFFF");
+    if (flag) {
+      (this.WeaponCheckboxEx)['set_Background']($S00().Construct($T07()['get_Gray']()['MemberwiseClone']()));
+    } else {
+      (this.WeaponCheckboxEx)['set_Background']($S00().Construct($T07()['get_White']()['MemberwiseClone']()));
+    }
+  };
+
+  function MainPage_check5 (sender, e) {
+    var flag = ($T04()['Format']("{0}", (this.ArmorCheckbox)['get_Background']()) == "#FFFFFFFF");
+    if (flag) {
+      (this.ArmorCheckbox)['set_Background']($S00().Construct($T07()['get_Gray']()['MemberwiseClone']()));
+    } else {
+      (this.ArmorCheckbox)['set_Background']($S00().Construct($T07()['get_White']()['MemberwiseClone']()));
+    }
+  };
+
+  function MainPage_check6 (sender, e) {
+    var flag = ($T04()['Format']("{0}", (this.ArmorCheckboxEx)['get_Background']()) == "#FFFFFFFF");
+    if (flag) {
+      (this.ArmorCheckboxEx)['set_Background']($S00().Construct($T07()['get_Gray']()['MemberwiseClone']()));
+    } else {
+      (this.ArmorCheckboxEx)['set_Background']($S00().Construct($T07()['get_White']()['MemberwiseClone']()));
+    }
+  };
+
+  function MainPage_check7 (sender, e) {
+    var flag = ($T04()['Format']("{0}", (this.AdditionalCheckbox)['get_Background']()) == "#FFFFFFFF");
+    if (flag) {
+      (this.AdditionalCheckbox)['set_Background']($S00().Construct($T07()['get_Gray']()['MemberwiseClone']()));
+    } else {
+      (this.AdditionalCheckbox)['set_Background']($S00().Construct($T07()['get_White']()['MemberwiseClone']()));
+    }
+  };
+
+  function MainPage_check8 (sender, e) {
+    var flag = ($T04()['Format']("{0}", (this.AdditionalCheckboxEx)['get_Background']()) == "#FFFFFFFF");
+    if (flag) {
+      (this.AdditionalCheckboxEx)['set_Background']($S00().Construct($T07()['get_Gray']()['MemberwiseClone']()));
+    } else {
+      (this.AdditionalCheckboxEx)['set_Background']($S00().Construct($T07()['get_White']()['MemberwiseClone']()));
+    }
+  };
+
+  function MainPage_check9 (sender, e) {
+    var flag = ($T04()['Format']("{0}", (this.SpecialCheckbox)['get_Background']()) == "#FFFFFFFF");
+    if (flag) {
+      (this.SpecialCheckbox)['set_Background']($S00().Construct($T07()['get_Gray']()['MemberwiseClone']()));
+    } else {
+      (this.SpecialCheckbox)['set_Background']($S00().Construct($T07()['get_White']()['MemberwiseClone']()));
+    }
   };
 
   function MainPage_CutString (data, start, end) {
@@ -311,7 +422,7 @@ JSIL.DeclareNamespace("Studie");
   function MainPage_DeleteFilterBtn_Click (sender, e) {
     var flag = !(this.FilterListCombo)['get_IsEnabled']();
     if (flag) {
-      $T07()['Show']("\uc0ad\uc81c\ud560 \ud544\ud130\uac00 \uc874\uc7ac\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4");
+      $T0A()['Show']("\uc0ad\uc81c\ud560 \ud544\ud130\uac00 \uc874\uc7ac\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4");
     } else {
       ((this.FilterList)['get_Items']())['RemoveAt']((this.FilterListCombo)['get_SelectedIndex']());
       ((this.FilterListCombo)['get_Items']())['RemoveAt']((this.FilterListCombo)['get_SelectedIndex']());
@@ -325,356 +436,476 @@ JSIL.DeclareNamespace("Studie");
       (((this.FilterSign)['get_SelectedIndex']() | 0) === -1) || 
       ((this.FilterValue)['get_Text']() == "");
       if (flag) {
-        throw $S00().Construct("\ud544\ud130\uc758 \uac12\uc744 \uc804\ubd80 \uc124\uc815\ud574\uc8fc\uc138\uc694");
+        throw $S01().Construct("\ud544\ud130\uc758 \uac12\uc744 \uc804\ubd80 \uc124\uc815\ud574\uc8fc\uc138\uc694");
       }
-      var item = (JSIL.ConcatString.apply(null, JSIL.Array.New($T01(), [((this.FilterOption)['get_SelectedValue']())['toString'](), " ", ((this.FilterSign)['get_SelectedValue']())['toString'](), " ", ($S01().CallStatic($T0D(), "ToInt32", null, (this.FilterValue)['get_Text']())).toString()])));
+      var item = (JSIL.ConcatString.apply(null, JSIL.Array.New($T04(), [((this.FilterOption)['get_SelectedValue']())['toString'](), " ", ((this.FilterSign)['get_SelectedValue']())['toString'](), " ", ($S02().CallStatic($T10(), "ToInt32", null, (this.FilterValue)['get_Text']())).toString()])));
       ((this.FilterList)['get_Items']())['Add'](item);
       ((this.FilterListCombo)['get_Items']())['Add'](item);
       this['Set_FilterIndex']();
     } catch ($exception) {
-      if ($T0F().$Is($exception)) {
-        $T07()['Show']("\uc815\uc218\ub9cc \uc785\ub825\ud574\uc8fc\uc138\uc694");
+      if ($T12().$Is($exception)) {
+        $T0A()['Show']("\uc815\uc218\ub9cc \uc785\ub825\ud574\uc8fc\uc138\uc694");
       } else {
-        $T07()['Show']($exception['get_Message']());
+        $T0A()['Show']($exception['get_Message']());
       }
     }
   };
 
   function MainPage_GetDataFromHub (SourceUrl) {
-    var webClient = new ($T10())();
-    webClient.WebClient$Encoding$value = $T11()['get_UTF8']();
-    $S02().CallVirtual("Add", null, webClient['get_Headers'](), "origin", "dcinside.com");
-    return $S03().CallVirtual("DownloadString", null, webClient, SourceUrl);
+    var webClient = new ($T13())();
+    webClient.WebClient$Encoding$value = $T14()['get_UTF8']();
+    $S03().CallVirtual("Add", null, webClient['get_Headers'](), "origin", "dcinside.com");
+    return $S04().CallVirtual("DownloadString", null, webClient, SourceUrl);
   };
 
   function MainPage_InitializeComponent () {
     if (!this._contentLoaded) {
       this._contentLoaded = true;
       if (this !== null) {
-        $T13().$Cast(this).XamlSourcePath = "Studie\\MainPage.xaml";
+        $T16().$Cast(this).XamlSourcePath = "Studie\\MainPage.xaml";
       }
-      var grid = new ($T14())();
-      grid['set_Height']($T15().$Cast($T16()['ConvertFromInvariantString']($T15().__Type__, "640")));
-      grid['set_Width']($T15().$Cast($T16()['ConvertFromInvariantString']($T15().__Type__, "360")));
-      var rowDefinition = new ($T17())();
-      (rowDefinition.Height = $T18().$Cast($T16()['ConvertFromInvariantString']($T18().__Type__, "3*"))['MemberwiseClone']());
-      var rowDefinition2 = new ($T17())();
-      (rowDefinition2.Height = $T18().$Cast($T16()['ConvertFromInvariantString']($T18().__Type__, "4*"))['MemberwiseClone']());
-      var rowDefinition3 = new ($T17())();
-      (rowDefinition3.Height = $T18().$Cast($T16()['ConvertFromInvariantString']($T18().__Type__, "5*"))['MemberwiseClone']());
-      var rowDefinition4 = new ($T17())();
-      (rowDefinition4.Height = $T18().$Cast($T16()['ConvertFromInvariantString']($T18().__Type__, "*"))['MemberwiseClone']());
+      var grid = new ($T17())();
+      grid['set_Height']($T18().$Cast($T19()['ConvertFromInvariantString']($T18().__Type__, "640")));
+      grid['set_Width']($T18().$Cast($T19()['ConvertFromInvariantString']($T18().__Type__, "360")));
+      var rowDefinition = new ($T1A())();
+      (rowDefinition.Height = $T1B().$Cast($T19()['ConvertFromInvariantString']($T1B().__Type__, "3*"))['MemberwiseClone']());
+      var rowDefinition2 = new ($T1A())();
+      (rowDefinition2.Height = $T1B().$Cast($T19()['ConvertFromInvariantString']($T1B().__Type__, "4*"))['MemberwiseClone']());
+      var rowDefinition3 = new ($T1A())();
+      (rowDefinition3.Height = $T1B().$Cast($T19()['ConvertFromInvariantString']($T1B().__Type__, "5*"))['MemberwiseClone']());
+      var rowDefinition4 = new ($T1A())();
+      (rowDefinition4.Height = $T1B().$Cast($T19()['ConvertFromInvariantString']($T1B().__Type__, "*"))['MemberwiseClone']());
       (grid['get_RowDefinitions']())['Add'](rowDefinition);
       (grid['get_RowDefinitions']())['Add'](rowDefinition2);
       (grid['get_RowDefinitions']())['Add'](rowDefinition3);
       (grid['get_RowDefinitions']())['Add'](rowDefinition4);
-      var grid2 = new ($T14())();
-      $T14()['SetRow'](grid2, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "0")));
-      var columnDefinition = new ($T1A())();
-      (columnDefinition.Width = $T18().$Cast($T16()['ConvertFromInvariantString']($T18().__Type__, "*"))['MemberwiseClone']());
-      var columnDefinition2 = new ($T1A())();
-      (columnDefinition2.Width = $T18().$Cast($T16()['ConvertFromInvariantString']($T18().__Type__, "*"))['MemberwiseClone']());
+      var grid2 = new ($T17())();
+      $T17()['SetRow'](grid2, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "0")));
+      var columnDefinition = new ($T1D())();
+      (columnDefinition.Width = $T1B().$Cast($T19()['ConvertFromInvariantString']($T1B().__Type__, "*"))['MemberwiseClone']());
+      var columnDefinition2 = new ($T1D())();
+      (columnDefinition2.Width = $T1B().$Cast($T19()['ConvertFromInvariantString']($T1B().__Type__, "*"))['MemberwiseClone']());
       (grid2['get_ColumnDefinitions']())['Add'](columnDefinition);
       (grid2['get_ColumnDefinitions']())['Add'](columnDefinition2);
-      var rowDefinition5 = new ($T17())();
-      (rowDefinition5.Height = $T18().$Cast($T16()['ConvertFromInvariantString']($T18().__Type__, "*"))['MemberwiseClone']());
-      var rowDefinition6 = new ($T17())();
-      (rowDefinition6.Height = $T18().$Cast($T16()['ConvertFromInvariantString']($T18().__Type__, "*"))['MemberwiseClone']());
-      var rowDefinition7 = new ($T17())();
-      (rowDefinition7.Height = $T18().$Cast($T16()['ConvertFromInvariantString']($T18().__Type__, "*"))['MemberwiseClone']());
-      var rowDefinition8 = new ($T17())();
-      (rowDefinition8.Height = $T18().$Cast($T16()['ConvertFromInvariantString']($T18().__Type__, "*"))['MemberwiseClone']());
-      var rowDefinition9 = new ($T17())();
-      (rowDefinition9.Height = $T18().$Cast($T16()['ConvertFromInvariantString']($T18().__Type__, "*"))['MemberwiseClone']());
+      var rowDefinition5 = new ($T1A())();
+      (rowDefinition5.Height = $T1B().$Cast($T19()['ConvertFromInvariantString']($T1B().__Type__, "*"))['MemberwiseClone']());
+      var rowDefinition6 = new ($T1A())();
+      (rowDefinition6.Height = $T1B().$Cast($T19()['ConvertFromInvariantString']($T1B().__Type__, "*"))['MemberwiseClone']());
+      var rowDefinition7 = new ($T1A())();
+      (rowDefinition7.Height = $T1B().$Cast($T19()['ConvertFromInvariantString']($T1B().__Type__, "*"))['MemberwiseClone']());
+      var rowDefinition8 = new ($T1A())();
+      (rowDefinition8.Height = $T1B().$Cast($T19()['ConvertFromInvariantString']($T1B().__Type__, "*"))['MemberwiseClone']());
+      var rowDefinition9 = new ($T1A())();
+      (rowDefinition9.Height = $T1B().$Cast($T19()['ConvertFromInvariantString']($T1B().__Type__, "*"))['MemberwiseClone']());
       (grid2['get_RowDefinitions']())['Add'](rowDefinition5);
       (grid2['get_RowDefinitions']())['Add'](rowDefinition6);
       (grid2['get_RowDefinitions']())['Add'](rowDefinition7);
       (grid2['get_RowDefinitions']())['Add'](rowDefinition8);
       (grid2['get_RowDefinitions']())['Add'](rowDefinition9);
-      var toggleButton = new ($T1C())();
-      $T14()['SetRow'](toggleButton, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "0")));
-      $T14()['SetColumn'](toggleButton, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "0")));
-      $T1D().prototype['RegisterName'].call(this, "NormCheckBox", toggleButton);
-      toggleButton['set_Name']("NormCheckBox");
-      toggleButton['set_VerticalAlignment']($T1E().Center);
-      toggleButton['set_HorizontalAlignment']($T1F().Center);
-      toggleButton['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ub178\ub9d0 \ud06c\ub9ac\uc2a4\ud0c0"));
-      var checkBox = new ($T21())();
-      $T14()['SetRow'](checkBox, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "0")));
-      $T14()['SetColumn'](checkBox, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "1")));
-      $T1D().prototype['RegisterName'].call(this, "NormCheckBoxEx", checkBox);
-      checkBox['set_Name']("NormCheckBoxEx");
-      checkBox['set_VerticalAlignment']($T1E().Center);
-      checkBox['set_HorizontalAlignment']($T1F().Center);
-      checkBox['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ub178\ub9d0 \uac15\ud654 \ud06c\ub9ac\uc2a4\ud0c0"));
-      var checkBox2 = new ($T21())();
-      $T14()['SetRow'](checkBox2, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "1")));
-      $T14()['SetColumn'](checkBox2, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "0")));
-      $T1D().prototype['RegisterName'].call(this, "WeaponCheckBox", checkBox2);
-      checkBox2['set_Name']("WeaponCheckBox");
-      checkBox2['set_VerticalAlignment']($T1E().Center);
-      checkBox2['set_HorizontalAlignment']($T1F().Center);
-      checkBox2['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ubb34\uae30 \ud06c\ub9ac\uc2a4\ud0c0"));
-      var checkBox3 = new ($T21())();
-      $T14()['SetRow'](checkBox3, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "1")));
-      $T14()['SetColumn'](checkBox3, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "1")));
-      $T1D().prototype['RegisterName'].call(this, "WeaponCheckBoxEx", checkBox3);
-      checkBox3['set_Name']("WeaponCheckBoxEx");
-      checkBox3['set_VerticalAlignment']($T1E().Center);
-      checkBox3['set_HorizontalAlignment']($T1F().Center);
-      checkBox3['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ubb34\uae30 \uac15\ud654 \ud06c\ub9ac\uc2a4\ud0c0"));
-      var checkBox4 = new ($T21())();
-      $T14()['SetRow'](checkBox4, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "2")));
-      $T14()['SetColumn'](checkBox4, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "0")));
-      $T1D().prototype['RegisterName'].call(this, "ArmorCheckBox", checkBox4);
-      checkBox4['set_Name']("ArmorCheckBox");
-      checkBox4['set_VerticalAlignment']($T1E().Center);
-      checkBox4['set_HorizontalAlignment']($T1F().Center);
-      checkBox4['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ubc29\uc5b4\uad6c \ud06c\ub9ac\uc2a4\ud0c0"));
-      var checkBox5 = new ($T21())();
-      $T14()['SetRow'](checkBox5, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "2")));
-      $T14()['SetColumn'](checkBox5, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "1")));
-      $T1D().prototype['RegisterName'].call(this, "ArmorCheckBoxEx", checkBox5);
-      checkBox5['set_Name']("ArmorCheckBoxEx");
-      checkBox5['set_VerticalAlignment']($T1E().Center);
-      checkBox5['set_HorizontalAlignment']($T1F().Center);
-      checkBox5['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ubc29\uc5b4\uad6c \uac15\ud654 \ud06c\ub9ac\uc2a4\ud0c0"));
-      var checkBox6 = new ($T21())();
-      $T14()['SetRow'](checkBox6, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "3")));
-      $T14()['SetColumn'](checkBox6, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "0")));
-      $T1D().prototype['RegisterName'].call(this, "AdditionalCheckBox", checkBox6);
-      checkBox6['set_Name']("AdditionalCheckBox");
-      checkBox6['set_VerticalAlignment']($T1E().Center);
-      checkBox6['set_HorizontalAlignment']($T1F().Center);
-      checkBox6['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ucd94\uac00 \ud06c\ub9ac\uc2a4\ud0c0"));
-      var checkBox7 = new ($T21())();
-      $T14()['SetRow'](checkBox7, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "3")));
-      $T14()['SetColumn'](checkBox7, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "1")));
-      $T1D().prototype['RegisterName'].call(this, "AdditionalCheckBoxEx", checkBox7);
-      checkBox7['set_Name']("AdditionalCheckBoxEx");
-      checkBox7['set_VerticalAlignment']($T1E().Center);
-      checkBox7['set_HorizontalAlignment']($T1F().Center);
-      checkBox7['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ucd94\uac00 \uac15\ud654 \ud06c\ub9ac\uc2a4\ud0c0"));
-      var checkBox8 = new ($T21())();
-      $T14()['SetRow'](checkBox8, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "4")));
-      $T14()['SetColumn'](checkBox8, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "0")));
-      $T1D().prototype['RegisterName'].call(this, "SpecialCheckBox", checkBox8);
-      checkBox8['set_Name']("SpecialCheckBox");
-      checkBox8['set_VerticalAlignment']($T1E().Center);
-      checkBox8['set_HorizontalAlignment']($T1F().Center);
-      checkBox8['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ud2b9\uc218 \ud06c\ub9ac\uc2a4\ud0c0"));
-      var checkBox9 = new ($T21())();
-      $T14()['SetRow'](checkBox9, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "4")));
-      $T14()['SetColumn'](checkBox9, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "1")));
-      $T1D().prototype['RegisterName'].call(this, "SpecialCheckBoxEx", checkBox9);
-      checkBox9['set_Name']("SpecialCheckBoxEx");
-      checkBox9['set_VerticalAlignment']($T1E().Center);
-      checkBox9['set_HorizontalAlignment']($T1F().Center);
-      checkBox9['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ud2b9\uc218 \uac15\ud654 \ud06c\ub9ac\uc2a4\ud0c0"));
-      (grid2['get_Children']())['Add'](toggleButton);
-      (grid2['get_Children']())['Add'](checkBox);
-      (grid2['get_Children']())['Add'](checkBox2);
-      (grid2['get_Children']())['Add'](checkBox3);
-      (grid2['get_Children']())['Add'](checkBox4);
-      (grid2['get_Children']())['Add'](checkBox5);
-      (grid2['get_Children']())['Add'](checkBox6);
-      (grid2['get_Children']())['Add'](checkBox7);
-      (grid2['get_Children']())['Add'](checkBox8);
-      (grid2['get_Children']())['Add'](checkBox9);
-      var grid3 = new ($T14())();
-      $T14()['SetRow'](grid3, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "1")));
-      var rowDefinition10 = new ($T17())();
-      (rowDefinition10.Height = $T18().$Cast($T16()['ConvertFromInvariantString']($T18().__Type__, "*"))['MemberwiseClone']());
-      var rowDefinition11 = new ($T17())();
-      (rowDefinition11.Height = $T18().$Cast($T16()['ConvertFromInvariantString']($T18().__Type__, "3*"))['MemberwiseClone']());
-      var rowDefinition12 = new ($T17())();
-      (rowDefinition12.Height = $T18().$Cast($T16()['ConvertFromInvariantString']($T18().__Type__, "*"))['MemberwiseClone']());
+      var stackPanel = new ($T1F())();
+      stackPanel['set_Orientation']($T20().Horizontal);
+      $T17()['SetRow'](stackPanel, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "0")));
+      $T17()['SetColumn'](stackPanel, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "0")));
+      stackPanel['set_VerticalAlignment']($T21().Center);
+      stackPanel['set_HorizontalAlignment']($T22().Center);
+      var button = new ($T23())();
+      $T24().prototype['RegisterName'].call(this, "NormCheckbox", button);
+      button['set_Name']("NormCheckbox");
+      button['add_Click']($T26()['New'](this, $thisType.prototype['Check1'], function () { return JSIL.GetMethodInfo($thisType, "Check1", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
+      button['set_Width']($T18().$Cast($T19()['ConvertFromInvariantString']($T18().__Type__, "12")));
+      button['set_Height']($T18().$Cast($T19()['ConvertFromInvariantString']($T18().__Type__, "12")));
+      (button.BorderThickness = $T27().$Cast($T19()['ConvertFromInvariantString']($T27().__Type__, "1"))['MemberwiseClone']());
+      button['set_Background']($T28().$Cast($T19()['ConvertFromInvariantString']($T28().__Type__, "Gray")));
+      var button2 = new ($T23())();
+      button2['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, " \ub178\ub9d0 \ud06c\ub9ac\uc2a4\ud0c0"));
+      button2['add_Click']($T26()['New'](this, $thisType.prototype['Check1'], function () { return JSIL.GetMethodInfo($thisType, "Check1", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
+      button2['set_Background']($T28().$Cast($T19()['ConvertFromInvariantString']($T28().__Type__, "White")));
+      (stackPanel['get_Children']())['Add'](button);
+      (stackPanel['get_Children']())['Add'](button2);
+      var stackPanel2 = new ($T1F())();
+      stackPanel2['set_Orientation']($T20().Horizontal);
+      $T17()['SetRow'](stackPanel2, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "0")));
+      $T17()['SetColumn'](stackPanel2, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "1")));
+      stackPanel2['set_VerticalAlignment']($T21().Center);
+      stackPanel2['set_HorizontalAlignment']($T22().Center);
+      var button3 = new ($T23())();
+      $T24().prototype['RegisterName'].call(this, "NormCheckboxEx", button3);
+      button3['set_Name']("NormCheckboxEx");
+      button3['add_Click']($T26()['New'](this, $thisType.prototype['check2'], function () { return JSIL.GetMethodInfo($thisType, "check2", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
+      button3['set_Width']($T18().$Cast($T19()['ConvertFromInvariantString']($T18().__Type__, "12")));
+      button3['set_Height']($T18().$Cast($T19()['ConvertFromInvariantString']($T18().__Type__, "12")));
+      (button3.BorderThickness = $T27().$Cast($T19()['ConvertFromInvariantString']($T27().__Type__, "1"))['MemberwiseClone']());
+      button3['set_Background']($T28().$Cast($T19()['ConvertFromInvariantString']($T28().__Type__, "Gray")));
+      var button4 = new ($T23())();
+      button4['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, " \ub178\ub9d0 \uac15\ud654 \ud06c\ub9ac\uc2a4\ud0c0"));
+      button4['add_Click']($T26()['New'](this, $thisType.prototype['check2'], function () { return JSIL.GetMethodInfo($thisType, "check2", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
+      button4['set_Background']($T28().$Cast($T19()['ConvertFromInvariantString']($T28().__Type__, "White")));
+      (stackPanel2['get_Children']())['Add'](button3);
+      (stackPanel2['get_Children']())['Add'](button4);
+      var stackPanel3 = new ($T1F())();
+      stackPanel3['set_Orientation']($T20().Horizontal);
+      $T17()['SetRow'](stackPanel3, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "1")));
+      $T17()['SetColumn'](stackPanel3, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "0")));
+      stackPanel3['set_VerticalAlignment']($T21().Center);
+      stackPanel3['set_HorizontalAlignment']($T22().Center);
+      var button5 = new ($T23())();
+      $T24().prototype['RegisterName'].call(this, "WeaponCheckbox", button5);
+      button5['set_Name']("WeaponCheckbox");
+      button5['add_Click']($T26()['New'](this, $thisType.prototype['check3'], function () { return JSIL.GetMethodInfo($thisType, "check3", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
+      button5['set_Width']($T18().$Cast($T19()['ConvertFromInvariantString']($T18().__Type__, "12")));
+      button5['set_Height']($T18().$Cast($T19()['ConvertFromInvariantString']($T18().__Type__, "12")));
+      (button5.BorderThickness = $T27().$Cast($T19()['ConvertFromInvariantString']($T27().__Type__, "1"))['MemberwiseClone']());
+      button5['set_Background']($T28().$Cast($T19()['ConvertFromInvariantString']($T28().__Type__, "Gray")));
+      var button6 = new ($T23())();
+      button6['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, " \ubb34\uae30 \ud06c\ub9ac\uc2a4\ud0c0"));
+      button6['add_Click']($T26()['New'](this, $thisType.prototype['check3'], function () { return JSIL.GetMethodInfo($thisType, "check3", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
+      button6['set_Background']($T28().$Cast($T19()['ConvertFromInvariantString']($T28().__Type__, "White")));
+      (stackPanel3['get_Children']())['Add'](button5);
+      (stackPanel3['get_Children']())['Add'](button6);
+      var stackPanel4 = new ($T1F())();
+      stackPanel4['set_Orientation']($T20().Horizontal);
+      $T17()['SetRow'](stackPanel4, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "1")));
+      $T17()['SetColumn'](stackPanel4, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "1")));
+      stackPanel4['set_VerticalAlignment']($T21().Center);
+      stackPanel4['set_HorizontalAlignment']($T22().Center);
+      var button7 = new ($T23())();
+      $T24().prototype['RegisterName'].call(this, "WeaponCheckboxEx", button7);
+      button7['set_Name']("WeaponCheckboxEx");
+      button7['add_Click']($T26()['New'](this, $thisType.prototype['check4'], function () { return JSIL.GetMethodInfo($thisType, "check4", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
+      button7['set_Width']($T18().$Cast($T19()['ConvertFromInvariantString']($T18().__Type__, "12")));
+      button7['set_Height']($T18().$Cast($T19()['ConvertFromInvariantString']($T18().__Type__, "12")));
+      (button7.BorderThickness = $T27().$Cast($T19()['ConvertFromInvariantString']($T27().__Type__, "1"))['MemberwiseClone']());
+      button7['set_Background']($T28().$Cast($T19()['ConvertFromInvariantString']($T28().__Type__, "Gray")));
+      var button8 = new ($T23())();
+      button8['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, " \ubb34\uae30 \uac15\ud654 \ud06c\ub9ac\uc2a4\ud0c0"));
+      button8['add_Click']($T26()['New'](this, $thisType.prototype['check4'], function () { return JSIL.GetMethodInfo($thisType, "check4", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
+      button8['set_Background']($T28().$Cast($T19()['ConvertFromInvariantString']($T28().__Type__, "White")));
+      (stackPanel4['get_Children']())['Add'](button7);
+      (stackPanel4['get_Children']())['Add'](button8);
+      var stackPanel5 = new ($T1F())();
+      stackPanel5['set_Orientation']($T20().Horizontal);
+      $T17()['SetRow'](stackPanel5, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "2")));
+      $T17()['SetColumn'](stackPanel5, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "0")));
+      stackPanel5['set_VerticalAlignment']($T21().Center);
+      stackPanel5['set_HorizontalAlignment']($T22().Center);
+      var button9 = new ($T23())();
+      $T24().prototype['RegisterName'].call(this, "ArmorCheckbox", button9);
+      button9['set_Name']("ArmorCheckbox");
+      button9['add_Click']($T26()['New'](this, $thisType.prototype['check5'], function () { return JSIL.GetMethodInfo($thisType, "check5", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
+      button9['set_Width']($T18().$Cast($T19()['ConvertFromInvariantString']($T18().__Type__, "12")));
+      button9['set_Height']($T18().$Cast($T19()['ConvertFromInvariantString']($T18().__Type__, "12")));
+      (button9.BorderThickness = $T27().$Cast($T19()['ConvertFromInvariantString']($T27().__Type__, "1"))['MemberwiseClone']());
+      button9['set_Background']($T28().$Cast($T19()['ConvertFromInvariantString']($T28().__Type__, "Gray")));
+      var button10 = new ($T23())();
+      button10['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, " \ubc29\uc5b4\uad6c \ud06c\ub9ac\uc2a4\ud0c0"));
+      button10['add_Click']($T26()['New'](this, $thisType.prototype['check5'], function () { return JSIL.GetMethodInfo($thisType, "check5", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
+      button10['set_Background']($T28().$Cast($T19()['ConvertFromInvariantString']($T28().__Type__, "White")));
+      (stackPanel5['get_Children']())['Add'](button9);
+      (stackPanel5['get_Children']())['Add'](button10);
+      var stackPanel6 = new ($T1F())();
+      stackPanel6['set_Orientation']($T20().Horizontal);
+      $T17()['SetRow'](stackPanel6, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "2")));
+      $T17()['SetColumn'](stackPanel6, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "1")));
+      stackPanel6['set_VerticalAlignment']($T21().Center);
+      stackPanel6['set_HorizontalAlignment']($T22().Center);
+      var button11 = new ($T23())();
+      $T24().prototype['RegisterName'].call(this, "ArmorCheckboxEx", button11);
+      button11['set_Name']("ArmorCheckboxEx");
+      button11['add_Click']($T26()['New'](this, $thisType.prototype['check6'], function () { return JSIL.GetMethodInfo($thisType, "check6", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
+      button11['set_Width']($T18().$Cast($T19()['ConvertFromInvariantString']($T18().__Type__, "12")));
+      button11['set_Height']($T18().$Cast($T19()['ConvertFromInvariantString']($T18().__Type__, "12")));
+      (button11.BorderThickness = $T27().$Cast($T19()['ConvertFromInvariantString']($T27().__Type__, "1"))['MemberwiseClone']());
+      button11['set_Background']($T28().$Cast($T19()['ConvertFromInvariantString']($T28().__Type__, "Gray")));
+      var button12 = new ($T23())();
+      button12['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, " \ubc29\uc5b4\uad6c \uac15\ud654 \ud06c\ub9ac\uc2a4\ud0c0"));
+      button12['add_Click']($T26()['New'](this, $thisType.prototype['check6'], function () { return JSIL.GetMethodInfo($thisType, "check6", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
+      button12['set_Background']($T28().$Cast($T19()['ConvertFromInvariantString']($T28().__Type__, "White")));
+      (stackPanel6['get_Children']())['Add'](button11);
+      (stackPanel6['get_Children']())['Add'](button12);
+      var stackPanel7 = new ($T1F())();
+      stackPanel7['set_Orientation']($T20().Horizontal);
+      $T17()['SetRow'](stackPanel7, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "3")));
+      $T17()['SetColumn'](stackPanel7, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "0")));
+      stackPanel7['set_VerticalAlignment']($T21().Center);
+      stackPanel7['set_HorizontalAlignment']($T22().Center);
+      var button13 = new ($T23())();
+      $T24().prototype['RegisterName'].call(this, "AdditionalCheckbox", button13);
+      button13['set_Name']("AdditionalCheckbox");
+      button13['add_Click']($T26()['New'](this, $thisType.prototype['check7'], function () { return JSIL.GetMethodInfo($thisType, "check7", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
+      button13['set_Width']($T18().$Cast($T19()['ConvertFromInvariantString']($T18().__Type__, "12")));
+      button13['set_Height']($T18().$Cast($T19()['ConvertFromInvariantString']($T18().__Type__, "12")));
+      (button13.BorderThickness = $T27().$Cast($T19()['ConvertFromInvariantString']($T27().__Type__, "1"))['MemberwiseClone']());
+      button13['set_Background']($T28().$Cast($T19()['ConvertFromInvariantString']($T28().__Type__, "Gray")));
+      var button14 = new ($T23())();
+      button14['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, " \ucd94\uac00 \ud06c\ub9ac\uc2a4\ud0c0"));
+      button14['add_Click']($T26()['New'](this, $thisType.prototype['check7'], function () { return JSIL.GetMethodInfo($thisType, "check7", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
+      button14['set_Background']($T28().$Cast($T19()['ConvertFromInvariantString']($T28().__Type__, "White")));
+      (stackPanel7['get_Children']())['Add'](button13);
+      (stackPanel7['get_Children']())['Add'](button14);
+      var stackPanel8 = new ($T1F())();
+      stackPanel8['set_Orientation']($T20().Horizontal);
+      $T17()['SetRow'](stackPanel8, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "3")));
+      $T17()['SetColumn'](stackPanel8, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "1")));
+      stackPanel8['set_VerticalAlignment']($T21().Center);
+      stackPanel8['set_HorizontalAlignment']($T22().Center);
+      var button15 = new ($T23())();
+      $T24().prototype['RegisterName'].call(this, "AdditionalCheckboxEx", button15);
+      button15['set_Name']("AdditionalCheckboxEx");
+      button15['add_Click']($T26()['New'](this, $thisType.prototype['check8'], function () { return JSIL.GetMethodInfo($thisType, "check8", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
+      button15['set_Width']($T18().$Cast($T19()['ConvertFromInvariantString']($T18().__Type__, "12")));
+      button15['set_Height']($T18().$Cast($T19()['ConvertFromInvariantString']($T18().__Type__, "12")));
+      (button15.BorderThickness = $T27().$Cast($T19()['ConvertFromInvariantString']($T27().__Type__, "1"))['MemberwiseClone']());
+      button15['set_Background']($T28().$Cast($T19()['ConvertFromInvariantString']($T28().__Type__, "Gray")));
+      var button16 = new ($T23())();
+      button16['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, " \ucd94\uac00 \uac15\ud654 \ud06c\ub9ac\uc2a4\ud0c0"));
+      button16['add_Click']($T26()['New'](this, $thisType.prototype['check8'], function () { return JSIL.GetMethodInfo($thisType, "check8", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
+      button16['set_Background']($T28().$Cast($T19()['ConvertFromInvariantString']($T28().__Type__, "White")));
+      (stackPanel8['get_Children']())['Add'](button15);
+      (stackPanel8['get_Children']())['Add'](button16);
+      var stackPanel9 = new ($T1F())();
+      stackPanel9['set_Orientation']($T20().Horizontal);
+      $T17()['SetRow'](stackPanel9, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "4")));
+      $T17()['SetColumn'](stackPanel9, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "0")));
+      stackPanel9['set_VerticalAlignment']($T21().Center);
+      stackPanel9['set_HorizontalAlignment']($T22().Center);
+      var button17 = new ($T23())();
+      $T24().prototype['RegisterName'].call(this, "SpecialCheckbox", button17);
+      button17['set_Name']("SpecialCheckbox");
+      button17['add_Click']($T26()['New'](this, $thisType.prototype['check9'], function () { return JSIL.GetMethodInfo($thisType, "check9", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
+      button17['set_Width']($T18().$Cast($T19()['ConvertFromInvariantString']($T18().__Type__, "12")));
+      button17['set_Height']($T18().$Cast($T19()['ConvertFromInvariantString']($T18().__Type__, "12")));
+      (button17.BorderThickness = $T27().$Cast($T19()['ConvertFromInvariantString']($T27().__Type__, "1"))['MemberwiseClone']());
+      button17['set_Background']($T28().$Cast($T19()['ConvertFromInvariantString']($T28().__Type__, "Gray")));
+      var button18 = new ($T23())();
+      button18['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, " \ud2b9\uc218 \ud06c\ub9ac\uc2a4\ud0c0"));
+      button18['add_Click']($T26()['New'](this, $thisType.prototype['check9'], function () { return JSIL.GetMethodInfo($thisType, "check9", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
+      button18['set_Background']($T28().$Cast($T19()['ConvertFromInvariantString']($T28().__Type__, "White")));
+      (stackPanel9['get_Children']())['Add'](button17);
+      (stackPanel9['get_Children']())['Add'](button18);
+      var stackPanel10 = new ($T1F())();
+      stackPanel10['set_Orientation']($T20().Horizontal);
+      $T17()['SetRow'](stackPanel10, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "4")));
+      $T17()['SetColumn'](stackPanel10, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "1")));
+      stackPanel10['set_VerticalAlignment']($T21().Center);
+      stackPanel10['set_HorizontalAlignment']($T22().Center);
+      var button19 = new ($T23())();
+      $T24().prototype['RegisterName'].call(this, "SpecialCheckboxEx", button19);
+      button19['set_Name']("SpecialCheckboxEx");
+      button19['add_Click']($T26()['New'](this, $thisType.prototype['check10'], function () { return JSIL.GetMethodInfo($thisType, "check10", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
+      button19['set_Width']($T18().$Cast($T19()['ConvertFromInvariantString']($T18().__Type__, "12")));
+      button19['set_Height']($T18().$Cast($T19()['ConvertFromInvariantString']($T18().__Type__, "12")));
+      (button19.BorderThickness = $T27().$Cast($T19()['ConvertFromInvariantString']($T27().__Type__, "1"))['MemberwiseClone']());
+      button19['set_Background']($T28().$Cast($T19()['ConvertFromInvariantString']($T28().__Type__, "Gray")));
+      var button20 = new ($T23())();
+      button20['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, " \ucd94\uac00 \uac15\ud654 \ud06c\ub9ac\uc2a4\ud0c0"));
+      button20['add_Click']($T26()['New'](this, $thisType.prototype['check10'], function () { return JSIL.GetMethodInfo($thisType, "check10", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
+      button20['set_Background']($T28().$Cast($T19()['ConvertFromInvariantString']($T28().__Type__, "White")));
+      (stackPanel10['get_Children']())['Add'](button19);
+      (stackPanel10['get_Children']())['Add'](button20);
+      (grid2['get_Children']())['Add'](stackPanel);
+      (grid2['get_Children']())['Add'](stackPanel2);
+      (grid2['get_Children']())['Add'](stackPanel3);
+      (grid2['get_Children']())['Add'](stackPanel4);
+      (grid2['get_Children']())['Add'](stackPanel5);
+      (grid2['get_Children']())['Add'](stackPanel6);
+      (grid2['get_Children']())['Add'](stackPanel7);
+      (grid2['get_Children']())['Add'](stackPanel8);
+      (grid2['get_Children']())['Add'](stackPanel9);
+      (grid2['get_Children']())['Add'](stackPanel10);
+      var grid3 = new ($T17())();
+      $T17()['SetRow'](grid3, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "1")));
+      var rowDefinition10 = new ($T1A())();
+      (rowDefinition10.Height = $T1B().$Cast($T19()['ConvertFromInvariantString']($T1B().__Type__, "*"))['MemberwiseClone']());
+      var rowDefinition11 = new ($T1A())();
+      (rowDefinition11.Height = $T1B().$Cast($T19()['ConvertFromInvariantString']($T1B().__Type__, "3*"))['MemberwiseClone']());
+      var rowDefinition12 = new ($T1A())();
+      (rowDefinition12.Height = $T1B().$Cast($T19()['ConvertFromInvariantString']($T1B().__Type__, "*"))['MemberwiseClone']());
       (grid3['get_RowDefinitions']())['Add'](rowDefinition10);
       (grid3['get_RowDefinitions']())['Add'](rowDefinition11);
       (grid3['get_RowDefinitions']())['Add'](rowDefinition12);
-      var grid4 = new ($T14())();
-      var columnDefinition3 = new ($T1A())();
-      (columnDefinition3.Width = $T18().$Cast($T16()['ConvertFromInvariantString']($T18().__Type__, "7*"))['MemberwiseClone']());
-      var columnDefinition4 = new ($T1A())();
-      (columnDefinition4.Width = $T18().$Cast($T16()['ConvertFromInvariantString']($T18().__Type__, "2*"))['MemberwiseClone']());
-      var columnDefinition5 = new ($T1A())();
-      (columnDefinition5.Width = $T18().$Cast($T16()['ConvertFromInvariantString']($T18().__Type__, "3*"))['MemberwiseClone']());
-      var columnDefinition6 = new ($T1A())();
-      (columnDefinition6.Width = $T18().$Cast($T16()['ConvertFromInvariantString']($T18().__Type__, "*"))['MemberwiseClone']());
+      var grid4 = new ($T17())();
+      var columnDefinition3 = new ($T1D())();
+      (columnDefinition3.Width = $T1B().$Cast($T19()['ConvertFromInvariantString']($T1B().__Type__, "7*"))['MemberwiseClone']());
+      var columnDefinition4 = new ($T1D())();
+      (columnDefinition4.Width = $T1B().$Cast($T19()['ConvertFromInvariantString']($T1B().__Type__, "2*"))['MemberwiseClone']());
+      var columnDefinition5 = new ($T1D())();
+      (columnDefinition5.Width = $T1B().$Cast($T19()['ConvertFromInvariantString']($T1B().__Type__, "3*"))['MemberwiseClone']());
+      var columnDefinition6 = new ($T1D())();
+      (columnDefinition6.Width = $T1B().$Cast($T19()['ConvertFromInvariantString']($T1B().__Type__, "*"))['MemberwiseClone']());
       (grid4['get_ColumnDefinitions']())['Add'](columnDefinition3);
       (grid4['get_ColumnDefinitions']())['Add'](columnDefinition4);
       (grid4['get_ColumnDefinitions']())['Add'](columnDefinition5);
       (grid4['get_ColumnDefinitions']())['Add'](columnDefinition6);
-      var comboBox = new ($T24())();
-      $T1D().prototype['RegisterName'].call(this, "FilterOption", comboBox);
+      var comboBox = new ($T2C())();
+      $T24().prototype['RegisterName'].call(this, "FilterOption", comboBox);
       comboBox['set_Name']("FilterOption");
-      (comboBox.Margin = $T25().$Cast($T16()['ConvertFromInvariantString']($T25().__Type__, "20,7"))['MemberwiseClone']());
-      var comboBoxItem = new ($T26())();
-      comboBoxItem['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "STR"));
-      var comboBoxItem2 = new ($T26())();
-      comboBoxItem2['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "STR%"));
-      var comboBoxItem3 = new ($T26())();
-      comboBoxItem3['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "INT"));
-      var comboBoxItem4 = new ($T26())();
-      comboBoxItem4['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "INT%"));
-      var comboBoxItem5 = new ($T26())();
-      comboBoxItem5['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "VIT"));
-      var comboBoxItem6 = new ($T26())();
-      comboBoxItem6['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "VIT%"));
-      var comboBoxItem7 = new ($T26())();
-      comboBoxItem7['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "AGI"));
-      var comboBoxItem8 = new ($T26())();
-      comboBoxItem8['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "AGI%"));
-      var comboBoxItem9 = new ($T26())();
-      comboBoxItem9['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "DEX"));
-      var comboBoxItem10 = new ($T26())();
-      comboBoxItem10['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "DEX%"));
-      var comboBoxItem11 = new ($T26())();
-      comboBoxItem11['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "ATK"));
-      var comboBoxItem12 = new ($T26())();
-      comboBoxItem12['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "ATK%"));
-      var comboBoxItem13 = new ($T26())();
-      comboBoxItem13['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "MATK"));
-      var comboBoxItem14 = new ($T26())();
-      comboBoxItem14['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "MATK%"));
-      var comboBoxItem15 = new ($T26())();
-      comboBoxItem15['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "DEF"));
-      var comboBoxItem16 = new ($T26())();
-      comboBoxItem16['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "DEF%"));
-      var comboBoxItem17 = new ($T26())();
-      comboBoxItem17['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "MDEF"));
-      var comboBoxItem18 = new ($T26())();
-      comboBoxItem18['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "MDEF%"));
-      var comboBoxItem19 = new ($T26())();
-      comboBoxItem19['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\uc548\uc815\ub960%"));
-      var comboBoxItem20 = new ($T26())();
-      comboBoxItem20['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\uba85\uc911"));
-      var comboBoxItem21 = new ($T26())();
-      comboBoxItem21['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\uba85\uc911%"));
-      var comboBoxItem22 = new ($T26())();
-      comboBoxItem22['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\uc808\ub300\uba85\uc911%"));
-      var comboBoxItem23 = new ($T26())();
-      comboBoxItem23['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ud68c\ud53c"));
-      var comboBoxItem24 = new ($T26())();
-      comboBoxItem24['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ud68c\ud53c%"));
-      var comboBoxItem25 = new ($T26())();
-      comboBoxItem25['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\uc808\ub300\ud68c\ud53c%"));
-      var comboBoxItem26 = new ($T26())();
-      comboBoxItem26['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ud06c\ub9ac\ud2f0\uceec\ub960"));
-      var comboBoxItem27 = new ($T26())();
-      comboBoxItem27['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ud06c\ub9ac\ud2f0\uceec\ub960%"));
-      var comboBoxItem28 = new ($T26())();
-      comboBoxItem28['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ud06c\ub9ac\ud2f0\uceec\ub300\ubbf8\uc9c0"));
-      var comboBoxItem29 = new ($T26())();
-      comboBoxItem29['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ud06c\ub9ac\ud2f0\uceec\ub300\ubbf8\uc9c0%"));
-      var comboBoxItem30 = new ($T26())();
-      comboBoxItem30['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\uacf5\uaca9\uc18d\ub3c4"));
-      var comboBoxItem31 = new ($T26())();
-      comboBoxItem31['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\uacf5\uaca9\uc18d\ub3c4%"));
-      var comboBoxItem32 = new ($T26())();
-      comboBoxItem32['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\uc2dc\uc804\uc18d\ub3c4"));
-      var comboBoxItem33 = new ($T26())();
-      comboBoxItem33['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\uc2dc\uc804\uc18d\ub3c4%"));
-      var comboBoxItem34 = new ($T26())();
-      comboBoxItem34['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ud589\ub3d9\uc18d\ub3c4%"));
-      var comboBoxItem35 = new ($T26())();
-      comboBoxItem35['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ucd5c\ub300HP"));
-      var comboBoxItem36 = new ($T26())();
-      comboBoxItem36['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ucd5c\ub300HP%"));
-      var comboBoxItem37 = new ($T26())();
-      comboBoxItem37['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "HP\uc790\uc5f0\ud68c\ubcf5%"));
-      var comboBoxItem38 = new ($T26())();
-      comboBoxItem38['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ucd5c\ub300MP"));
-      var comboBoxItem39 = new ($T26())();
-      comboBoxItem39['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ucd5c\ub300MP%"));
-      var comboBoxItem40 = new ($T26())();
-      comboBoxItem40['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "MP\uc790\uc5f0\ud68c\ubcf5%"));
-      var comboBoxItem41 = new ($T26())();
-      comboBoxItem41['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\uacf5\uaca9MP\ud68c\ubcf5"));
-      var comboBoxItem42 = new ($T26())();
-      comboBoxItem42['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\uacf5\uaca9MP\ud68c\ubcf5%"));
-      var comboBoxItem43 = new ($T26())();
-      comboBoxItem43['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ubb34\uae30ATK"));
-      var comboBoxItem44 = new ($T26())();
-      comboBoxItem44['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ubb34\uae30ATK%"));
-      var comboBoxItem45 = new ($T26())();
-      comboBoxItem45['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ubb34\ub0b4\uc131%"));
-      var comboBoxItem46 = new ($T26())();
-      comboBoxItem46['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ubd88\ub0b4\uc131%"));
-      var comboBoxItem47 = new ($T26())();
-      comboBoxItem47['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ubb3c\ub0b4\uc131%"));
-      var comboBoxItem48 = new ($T26())();
-      comboBoxItem48['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ubc14\ub78c\ub0b4\uc131%"));
-      var comboBoxItem49 = new ($T26())();
-      comboBoxItem49['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ub545\ub0b4\uc131%"));
-      var comboBoxItem50 = new ($T26())();
-      comboBoxItem50['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ube5b\ub0b4\uc131%"));
-      var comboBoxItem51 = new ($T26())();
-      comboBoxItem51['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\uc5b4\ub460\ub0b4\uc131%"));
-      var comboBoxItem52 = new ($T26())();
-      comboBoxItem52['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ubb3c\ub9ac\ubc30\ub9ac\uc5b4"));
-      var comboBoxItem53 = new ($T26())();
-      comboBoxItem53['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ub9c8\ubc95\ubc30\ub9ac\uc5b4"));
-      var comboBoxItem54 = new ($T26())();
-      comboBoxItem54['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ube44\uc728\ubc30\ub9ac\uc5b4%"));
-      var comboBoxItem55 = new ($T26())();
-      comboBoxItem55['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ubc30\ub9ac\uc5b4\uc18d\ub3c4%"));
-      var comboBoxItem56 = new ($T26())();
-      comboBoxItem56['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ubb3c\ub9ac\ub0b4\uc131%"));
-      var comboBoxItem57 = new ($T26())();
-      comboBoxItem57['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ub9c8\ubc95\ub0b4\uc131%"));
-      var comboBoxItem58 = new ($T26())();
-      comboBoxItem58['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "Guard\ub825%"));
-      var comboBoxItem59 = new ($T26())();
-      comboBoxItem59['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "Guard\ub960%"));
-      var comboBoxItem60 = new ($T26())();
-      comboBoxItem60['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "Avoid\ub960%"));
-      var comboBoxItem61 = new ($T26())();
-      comboBoxItem61['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ub300\ubbf8\uc9c0\ubc18\uc0ac%"));
-      var comboBoxItem62 = new ($T26())();
-      comboBoxItem62['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ubc18\uc0ac\ub300\ubbf8\uc9c0%"));
-      var comboBoxItem63 = new ($T26())();
-      comboBoxItem63['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\uc5b4\uadf8\ub85c%"));
-      var comboBoxItem64 = new ($T26())();
-      comboBoxItem64['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\uc774\uc0c1\ub0b4\uc131%"));
-      var comboBoxItem65 = new ($T26())();
-      comboBoxItem65['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ubb3c\ub9ac\uad00\ud1b5%"));
-      var comboBoxItem66 = new ($T26())();
-      comboBoxItem66['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ub9c8\ubc95\uad00\ud1b5%"));
-      var comboBoxItem67 = new ($T26())();
-      comboBoxItem67['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\uadfc\uac70\ub9ac\uc704\ub825%"));
-      var comboBoxItem68 = new ($T26())();
-      comboBoxItem68['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\uc6d0\uac70\ub9ac\uc704\ub825%"));
-      var comboBoxItem69 = new ($T26())();
-      comboBoxItem69['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ubc1c\ub3c4\uacf5\uaca9"));
-      var comboBoxItem70 = new ($T26())();
-      comboBoxItem70['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ubc1c\ub3c4\uacf5\uaca9%"));
-      var comboBoxItem71 = new ($T26())();
-      comboBoxItem71['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\uc608\uce21%"));
-      var comboBoxItem72 = new ($T26())();
-      comboBoxItem72['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ubc29\uc5b4\ubb34\ub108\ub728\ub9ac\uae30%"));
-      var comboBoxItem73 = new ($T26())();
-      comboBoxItem73['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ubc94\uc704\uacbd\uac10%"));
-      var comboBoxItem74 = new ($T26())();
-      comboBoxItem74['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\uc8fc\uc704\uacbd\uac10%"));
-      var comboBoxItem75 = new ($T26())();
-      comboBoxItem75['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\uc0ac\uc778\uacbd\uac10%"));
-      var comboBoxItem76 = new ($T26())();
-      comboBoxItem76['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ud0c4\ud658\uacbd\uac10%"));
-      var comboBoxItem77 = new ($T26())();
-      comboBoxItem77['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ub3cc\uc9c4\uacbd\uac10%"));
-      var comboBoxItem78 = new ($T26())();
-      comboBoxItem78['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\uc7a5\ud310\uacbd\uac10%"));
-      var comboBoxItem79 = new ($T26())();
-      comboBoxItem79['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\uc6b4\uc11d\uacbd\uac10%"));
-      var comboBoxItem80 = new ($T26())();
-      comboBoxItem80['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\uc9c1\uc120\uacbd\uac10%"));
-      var comboBoxItem81 = new ($T26())();
-      comboBoxItem81['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ud68d\ub4ddEXP%"));
-      var comboBoxItem82 = new ($T26())();
-      comboBoxItem82['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ub4dc\ub78d\ub960%"));
-      var comboBoxItem83 = new ($T26())();
-      comboBoxItem83['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ub3c4\uad6c\uc18d\ub3c4"));
+      (comboBox.Margin = $T27().$Cast($T19()['ConvertFromInvariantString']($T27().__Type__, "20,7"))['MemberwiseClone']());
+      var comboBoxItem = new ($T2D())();
+      comboBoxItem['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "STR"));
+      var comboBoxItem2 = new ($T2D())();
+      comboBoxItem2['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "STR%"));
+      var comboBoxItem3 = new ($T2D())();
+      comboBoxItem3['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "INT"));
+      var comboBoxItem4 = new ($T2D())();
+      comboBoxItem4['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "INT%"));
+      var comboBoxItem5 = new ($T2D())();
+      comboBoxItem5['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "VIT"));
+      var comboBoxItem6 = new ($T2D())();
+      comboBoxItem6['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "VIT%"));
+      var comboBoxItem7 = new ($T2D())();
+      comboBoxItem7['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "AGI"));
+      var comboBoxItem8 = new ($T2D())();
+      comboBoxItem8['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "AGI%"));
+      var comboBoxItem9 = new ($T2D())();
+      comboBoxItem9['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "DEX"));
+      var comboBoxItem10 = new ($T2D())();
+      comboBoxItem10['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "DEX%"));
+      var comboBoxItem11 = new ($T2D())();
+      comboBoxItem11['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "ATK"));
+      var comboBoxItem12 = new ($T2D())();
+      comboBoxItem12['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "ATK%"));
+      var comboBoxItem13 = new ($T2D())();
+      comboBoxItem13['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "MATK"));
+      var comboBoxItem14 = new ($T2D())();
+      comboBoxItem14['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "MATK%"));
+      var comboBoxItem15 = new ($T2D())();
+      comboBoxItem15['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "DEF"));
+      var comboBoxItem16 = new ($T2D())();
+      comboBoxItem16['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "DEF%"));
+      var comboBoxItem17 = new ($T2D())();
+      comboBoxItem17['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "MDEF"));
+      var comboBoxItem18 = new ($T2D())();
+      comboBoxItem18['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "MDEF%"));
+      var comboBoxItem19 = new ($T2D())();
+      comboBoxItem19['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\uc548\uc815\ub960%"));
+      var comboBoxItem20 = new ($T2D())();
+      comboBoxItem20['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\uba85\uc911"));
+      var comboBoxItem21 = new ($T2D())();
+      comboBoxItem21['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\uba85\uc911%"));
+      var comboBoxItem22 = new ($T2D())();
+      comboBoxItem22['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\uc808\ub300\uba85\uc911%"));
+      var comboBoxItem23 = new ($T2D())();
+      comboBoxItem23['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ud68c\ud53c"));
+      var comboBoxItem24 = new ($T2D())();
+      comboBoxItem24['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ud68c\ud53c%"));
+      var comboBoxItem25 = new ($T2D())();
+      comboBoxItem25['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\uc808\ub300\ud68c\ud53c%"));
+      var comboBoxItem26 = new ($T2D())();
+      comboBoxItem26['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ud06c\ub9ac\ud2f0\uceec\ub960"));
+      var comboBoxItem27 = new ($T2D())();
+      comboBoxItem27['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ud06c\ub9ac\ud2f0\uceec\ub960%"));
+      var comboBoxItem28 = new ($T2D())();
+      comboBoxItem28['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ud06c\ub9ac\ud2f0\uceec\ub300\ubbf8\uc9c0"));
+      var comboBoxItem29 = new ($T2D())();
+      comboBoxItem29['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ud06c\ub9ac\ud2f0\uceec\ub300\ubbf8\uc9c0%"));
+      var comboBoxItem30 = new ($T2D())();
+      comboBoxItem30['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\uacf5\uaca9\uc18d\ub3c4"));
+      var comboBoxItem31 = new ($T2D())();
+      comboBoxItem31['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\uacf5\uaca9\uc18d\ub3c4%"));
+      var comboBoxItem32 = new ($T2D())();
+      comboBoxItem32['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\uc2dc\uc804\uc18d\ub3c4"));
+      var comboBoxItem33 = new ($T2D())();
+      comboBoxItem33['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\uc2dc\uc804\uc18d\ub3c4%"));
+      var comboBoxItem34 = new ($T2D())();
+      comboBoxItem34['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ud589\ub3d9\uc18d\ub3c4%"));
+      var comboBoxItem35 = new ($T2D())();
+      comboBoxItem35['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ucd5c\ub300HP"));
+      var comboBoxItem36 = new ($T2D())();
+      comboBoxItem36['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ucd5c\ub300HP%"));
+      var comboBoxItem37 = new ($T2D())();
+      comboBoxItem37['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "HP\uc790\uc5f0\ud68c\ubcf5%"));
+      var comboBoxItem38 = new ($T2D())();
+      comboBoxItem38['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ucd5c\ub300MP"));
+      var comboBoxItem39 = new ($T2D())();
+      comboBoxItem39['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ucd5c\ub300MP%"));
+      var comboBoxItem40 = new ($T2D())();
+      comboBoxItem40['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "MP\uc790\uc5f0\ud68c\ubcf5%"));
+      var comboBoxItem41 = new ($T2D())();
+      comboBoxItem41['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\uacf5\uaca9MP\ud68c\ubcf5"));
+      var comboBoxItem42 = new ($T2D())();
+      comboBoxItem42['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\uacf5\uaca9MP\ud68c\ubcf5%"));
+      var comboBoxItem43 = new ($T2D())();
+      comboBoxItem43['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ubb34\uae30ATK"));
+      var comboBoxItem44 = new ($T2D())();
+      comboBoxItem44['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ubb34\uae30ATK%"));
+      var comboBoxItem45 = new ($T2D())();
+      comboBoxItem45['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ubb34\ub0b4\uc131%"));
+      var comboBoxItem46 = new ($T2D())();
+      comboBoxItem46['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ubd88\ub0b4\uc131%"));
+      var comboBoxItem47 = new ($T2D())();
+      comboBoxItem47['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ubb3c\ub0b4\uc131%"));
+      var comboBoxItem48 = new ($T2D())();
+      comboBoxItem48['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ubc14\ub78c\ub0b4\uc131%"));
+      var comboBoxItem49 = new ($T2D())();
+      comboBoxItem49['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ub545\ub0b4\uc131%"));
+      var comboBoxItem50 = new ($T2D())();
+      comboBoxItem50['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ube5b\ub0b4\uc131%"));
+      var comboBoxItem51 = new ($T2D())();
+      comboBoxItem51['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\uc5b4\ub460\ub0b4\uc131%"));
+      var comboBoxItem52 = new ($T2D())();
+      comboBoxItem52['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ubb3c\ub9ac\ubc30\ub9ac\uc5b4"));
+      var comboBoxItem53 = new ($T2D())();
+      comboBoxItem53['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ub9c8\ubc95\ubc30\ub9ac\uc5b4"));
+      var comboBoxItem54 = new ($T2D())();
+      comboBoxItem54['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ube44\uc728\ubc30\ub9ac\uc5b4%"));
+      var comboBoxItem55 = new ($T2D())();
+      comboBoxItem55['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ubc30\ub9ac\uc5b4\uc18d\ub3c4%"));
+      var comboBoxItem56 = new ($T2D())();
+      comboBoxItem56['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ubb3c\ub9ac\ub0b4\uc131%"));
+      var comboBoxItem57 = new ($T2D())();
+      comboBoxItem57['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ub9c8\ubc95\ub0b4\uc131%"));
+      var comboBoxItem58 = new ($T2D())();
+      comboBoxItem58['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "Guard\ub825%"));
+      var comboBoxItem59 = new ($T2D())();
+      comboBoxItem59['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "Guard\ub960%"));
+      var comboBoxItem60 = new ($T2D())();
+      comboBoxItem60['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "Avoid\ub960%"));
+      var comboBoxItem61 = new ($T2D())();
+      comboBoxItem61['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ub300\ubbf8\uc9c0\ubc18\uc0ac%"));
+      var comboBoxItem62 = new ($T2D())();
+      comboBoxItem62['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ubc18\uc0ac\ub300\ubbf8\uc9c0%"));
+      var comboBoxItem63 = new ($T2D())();
+      comboBoxItem63['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\uc5b4\uadf8\ub85c%"));
+      var comboBoxItem64 = new ($T2D())();
+      comboBoxItem64['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\uc774\uc0c1\ub0b4\uc131%"));
+      var comboBoxItem65 = new ($T2D())();
+      comboBoxItem65['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ubb3c\ub9ac\uad00\ud1b5%"));
+      var comboBoxItem66 = new ($T2D())();
+      comboBoxItem66['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ub9c8\ubc95\uad00\ud1b5%"));
+      var comboBoxItem67 = new ($T2D())();
+      comboBoxItem67['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\uadfc\uac70\ub9ac\uc704\ub825%"));
+      var comboBoxItem68 = new ($T2D())();
+      comboBoxItem68['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\uc6d0\uac70\ub9ac\uc704\ub825%"));
+      var comboBoxItem69 = new ($T2D())();
+      comboBoxItem69['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ubc1c\ub3c4\uacf5\uaca9"));
+      var comboBoxItem70 = new ($T2D())();
+      comboBoxItem70['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ubc1c\ub3c4\uacf5\uaca9%"));
+      var comboBoxItem71 = new ($T2D())();
+      comboBoxItem71['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\uc608\uce21%"));
+      var comboBoxItem72 = new ($T2D())();
+      comboBoxItem72['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ubc29\uc5b4\ubb34\ub108\ub728\ub9ac\uae30%"));
+      var comboBoxItem73 = new ($T2D())();
+      comboBoxItem73['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ubc94\uc704\uacbd\uac10%"));
+      var comboBoxItem74 = new ($T2D())();
+      comboBoxItem74['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\uc8fc\uc704\uacbd\uac10%"));
+      var comboBoxItem75 = new ($T2D())();
+      comboBoxItem75['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\uc0ac\uc778\uacbd\uac10%"));
+      var comboBoxItem76 = new ($T2D())();
+      comboBoxItem76['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ud0c4\ud658\uacbd\uac10%"));
+      var comboBoxItem77 = new ($T2D())();
+      comboBoxItem77['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ub3cc\uc9c4\uacbd\uac10%"));
+      var comboBoxItem78 = new ($T2D())();
+      comboBoxItem78['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\uc7a5\ud310\uacbd\uac10%"));
+      var comboBoxItem79 = new ($T2D())();
+      comboBoxItem79['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\uc6b4\uc11d\uacbd\uac10%"));
+      var comboBoxItem80 = new ($T2D())();
+      comboBoxItem80['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\uc9c1\uc120\uacbd\uac10%"));
+      var comboBoxItem81 = new ($T2D())();
+      comboBoxItem81['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ud68d\ub4ddEXP%"));
+      var comboBoxItem82 = new ($T2D())();
+      comboBoxItem82['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ub4dc\ub78d\ub960%"));
+      var comboBoxItem83 = new ($T2D())();
+      comboBoxItem83['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ub3c4\uad6c\uc18d\ub3c4"));
       (comboBox['get_Items']())['Add'](comboBoxItem);
       (comboBox['get_Items']())['Add'](comboBoxItem2);
       (comboBox['get_Items']())['Add'](comboBoxItem3);
@@ -758,126 +989,126 @@ JSIL.DeclareNamespace("Studie");
       (comboBox['get_Items']())['Add'](comboBoxItem81);
       (comboBox['get_Items']())['Add'](comboBoxItem82);
       (comboBox['get_Items']())['Add'](comboBoxItem83);
-      var comboBox2 = new ($T24())();
-      $T1D().prototype['RegisterName'].call(this, "FilterSign", comboBox2);
+      var comboBox2 = new ($T2C())();
+      $T24().prototype['RegisterName'].call(this, "FilterSign", comboBox2);
       comboBox2['set_Name']("FilterSign");
-      $T14()['SetColumn'](comboBox2, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "1")));
-      (comboBox2.Margin = $T25().$Cast($T16()['ConvertFromInvariantString']($T25().__Type__, "7"))['MemberwiseClone']());
-      var comboBoxItem84 = new ($T26())();
-      comboBoxItem84['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\u2265"));
-      var comboBoxItem85 = new ($T26())();
-      comboBoxItem85['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, ">"));
-      var comboBoxItem86 = new ($T26())();
-      comboBoxItem86['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "="));
-      var comboBoxItem87 = new ($T26())();
-      comboBoxItem87['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "<"));
-      var comboBoxItem88 = new ($T26())();
-      comboBoxItem88['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\u2264"));
+      $T17()['SetColumn'](comboBox2, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "1")));
+      (comboBox2.Margin = $T27().$Cast($T19()['ConvertFromInvariantString']($T27().__Type__, "7"))['MemberwiseClone']());
+      var comboBoxItem84 = new ($T2D())();
+      comboBoxItem84['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\u2265"));
+      var comboBoxItem85 = new ($T2D())();
+      comboBoxItem85['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, ">"));
+      var comboBoxItem86 = new ($T2D())();
+      comboBoxItem86['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "="));
+      var comboBoxItem87 = new ($T2D())();
+      comboBoxItem87['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "<"));
+      var comboBoxItem88 = new ($T2D())();
+      comboBoxItem88['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\u2264"));
       (comboBox2['get_Items']())['Add'](comboBoxItem84);
       (comboBox2['get_Items']())['Add'](comboBoxItem85);
       (comboBox2['get_Items']())['Add'](comboBoxItem86);
       (comboBox2['get_Items']())['Add'](comboBoxItem87);
       (comboBox2['get_Items']())['Add'](comboBoxItem88);
-      var textBox = new ($T0C())();
-      $T1D().prototype['RegisterName'].call(this, "FilterValue", textBox);
+      var textBox = new ($T0F())();
+      $T24().prototype['RegisterName'].call(this, "FilterValue", textBox);
       textBox['set_Name']("FilterValue");
-      $T14()['SetColumn'](textBox, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "2")));
-      (textBox.Margin = $T25().$Cast($T16()['ConvertFromInvariantString']($T25().__Type__, "7"))['MemberwiseClone']());
-      var button = new ($T27())();
-      button['add_Click']($T29()['New'](this, $thisType.prototype['FilterSet_Click'], function () { return JSIL.GetMethodInfo($thisType, "FilterSet_Click", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
-      $T14()['SetColumn'](button, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "3")));
-      (button.Margin = $T25().$Cast($T16()['ConvertFromInvariantString']($T25().__Type__, "2,7"))['MemberwiseClone']());
-      button['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "+"));
+      $T17()['SetColumn'](textBox, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "2")));
+      (textBox.Margin = $T27().$Cast($T19()['ConvertFromInvariantString']($T27().__Type__, "7"))['MemberwiseClone']());
+      var button21 = new ($T23())();
+      button21['add_Click']($T26()['New'](this, $thisType.prototype['FilterSet_Click'], function () { return JSIL.GetMethodInfo($thisType, "FilterSet_Click", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
+      $T17()['SetColumn'](button21, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "3")));
+      (button21.Margin = $T27().$Cast($T19()['ConvertFromInvariantString']($T27().__Type__, "2,7"))['MemberwiseClone']());
+      button21['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "+"));
       (grid4['get_Children']())['Add'](comboBox);
       (grid4['get_Children']())['Add'](comboBox2);
       (grid4['get_Children']())['Add'](textBox);
-      (grid4['get_Children']())['Add'](button);
-      var grid5 = new ($T14())();
-      $T14()['SetRow'](grid5, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "1")));
-      var rowDefinition13 = new ($T17())();
-      (rowDefinition13.Height = $T18().$Cast($T16()['ConvertFromInvariantString']($T18().__Type__, "5*"))['MemberwiseClone']());
-      var rowDefinition14 = new ($T17())();
-      (rowDefinition14.Height = $T18().$Cast($T16()['ConvertFromInvariantString']($T18().__Type__, "2*"))['MemberwiseClone']());
+      (grid4['get_Children']())['Add'](button21);
+      var grid5 = new ($T17())();
+      $T17()['SetRow'](grid5, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "1")));
+      var rowDefinition13 = new ($T1A())();
+      (rowDefinition13.Height = $T1B().$Cast($T19()['ConvertFromInvariantString']($T1B().__Type__, "5*"))['MemberwiseClone']());
+      var rowDefinition14 = new ($T1A())();
+      (rowDefinition14.Height = $T1B().$Cast($T19()['ConvertFromInvariantString']($T1B().__Type__, "2*"))['MemberwiseClone']());
       (grid5['get_RowDefinitions']())['Add'](rowDefinition13);
       (grid5['get_RowDefinitions']())['Add'](rowDefinition14);
-      var scrollViewer = new ($T2A())();
-      var listBox = new ($T2B())();
-      $T1D().prototype['RegisterName'].call(this, "FilterList", listBox);
+      var scrollViewer = new ($T2E())();
+      var listBox = new ($T2F())();
+      $T24().prototype['RegisterName'].call(this, "FilterList", listBox);
       listBox['set_Name']("FilterList");
-      listBox['set_IsEnabled']($T02().$Cast($T16()['ConvertFromInvariantString']($T02().__Type__, "False")));
-      (listBox.Margin = $T25().$Cast($T16()['ConvertFromInvariantString']($T25().__Type__, "7"))['MemberwiseClone']());
+      listBox['set_IsEnabled']($T03().$Cast($T19()['ConvertFromInvariantString']($T03().__Type__, "False")));
+      (listBox.Margin = $T27().$Cast($T19()['ConvertFromInvariantString']($T27().__Type__, "7"))['MemberwiseClone']());
       scrollViewer['set_Content'](listBox);
-      var comboBox3 = new ($T24())();
-      $T1D().prototype['RegisterName'].call(this, "FilterListCombo", comboBox3);
+      var comboBox3 = new ($T2C())();
+      $T24().prototype['RegisterName'].call(this, "FilterListCombo", comboBox3);
       comboBox3['set_Name']("FilterListCombo");
-      $T14()['SetRow'](comboBox3, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "1")));
-      (comboBox3.Margin = $T25().$Cast($T16()['ConvertFromInvariantString']($T25().__Type__, "20,7"))['MemberwiseClone']());
+      $T17()['SetRow'](comboBox3, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "1")));
+      (comboBox3.Margin = $T27().$Cast($T19()['ConvertFromInvariantString']($T27().__Type__, "20,7"))['MemberwiseClone']());
       (grid5['get_Children']())['Add'](scrollViewer);
       (grid5['get_Children']())['Add'](comboBox3);
-      var grid6 = new ($T14())();
-      $T14()['SetRow'](grid6, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "2")));
-      var columnDefinition7 = new ($T1A())();
-      (columnDefinition7.Width = $T18().$Cast($T16()['ConvertFromInvariantString']($T18().__Type__, "*"))['MemberwiseClone']());
-      var columnDefinition8 = new ($T1A())();
-      (columnDefinition8.Width = $T18().$Cast($T16()['ConvertFromInvariantString']($T18().__Type__, "*"))['MemberwiseClone']());
+      var grid6 = new ($T17())();
+      $T17()['SetRow'](grid6, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "2")));
+      var columnDefinition7 = new ($T1D())();
+      (columnDefinition7.Width = $T1B().$Cast($T19()['ConvertFromInvariantString']($T1B().__Type__, "*"))['MemberwiseClone']());
+      var columnDefinition8 = new ($T1D())();
+      (columnDefinition8.Width = $T1B().$Cast($T19()['ConvertFromInvariantString']($T1B().__Type__, "*"))['MemberwiseClone']());
       (grid6['get_ColumnDefinitions']())['Add'](columnDefinition7);
       (grid6['get_ColumnDefinitions']())['Add'](columnDefinition8);
-      var button2 = new ($T27())();
-      button2['add_Click']($T29()['New'](this, $thisType.prototype['StartBtn_Click'], function () { return JSIL.GetMethodInfo($thisType, "StartBtn_Click", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
-      (button2.Margin = $T25().$Cast($T16()['ConvertFromInvariantString']($T25().__Type__, "15,7"))['MemberwiseClone']());
-      button2['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\uac80\uc0c9"));
-      var button3 = new ($T27())();
-      $T14()['SetColumn'](button3, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "1")));
-      button3['add_Click']($T29()['New'](this, $thisType.prototype['DeleteFilterBtn_Click'], function () { return JSIL.GetMethodInfo($thisType, "DeleteFilterBtn_Click", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
-      (button3.Margin = $T25().$Cast($T16()['ConvertFromInvariantString']($T25().__Type__, "15,7"))['MemberwiseClone']());
-      button3['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\ud544\ud130 \uc0ad\uc81c"));
-      (grid6['get_Children']())['Add'](button2);
-      (grid6['get_Children']())['Add'](button3);
+      var button22 = new ($T23())();
+      button22['add_Click']($T26()['New'](this, $thisType.prototype['StartBtn_Click'], function () { return JSIL.GetMethodInfo($thisType, "StartBtn_Click", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
+      (button22.Margin = $T27().$Cast($T19()['ConvertFromInvariantString']($T27().__Type__, "15,7"))['MemberwiseClone']());
+      button22['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\uac80\uc0c9"));
+      var button23 = new ($T23())();
+      $T17()['SetColumn'](button23, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "1")));
+      button23['add_Click']($T26()['New'](this, $thisType.prototype['DeleteFilterBtn_Click'], function () { return JSIL.GetMethodInfo($thisType, "DeleteFilterBtn_Click", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
+      (button23.Margin = $T27().$Cast($T19()['ConvertFromInvariantString']($T27().__Type__, "15,7"))['MemberwiseClone']());
+      button23['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\ud544\ud130 \uc0ad\uc81c"));
+      (grid6['get_Children']())['Add'](button22);
+      (grid6['get_Children']())['Add'](button23);
       (grid3['get_Children']())['Add'](grid4);
       (grid3['get_Children']())['Add'](grid5);
       (grid3['get_Children']())['Add'](grid6);
-      var grid7 = new ($T14())();
-      $T14()['SetRow'](grid7, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "2")));
-      var rowDefinition15 = new ($T17())();
-      (rowDefinition15.Height = $T18().$Cast($T16()['ConvertFromInvariantString']($T18().__Type__, "6*"))['MemberwiseClone']());
-      var rowDefinition16 = new ($T17())();
-      (rowDefinition16.Height = $T18().$Cast($T16()['ConvertFromInvariantString']($T18().__Type__, "*"))['MemberwiseClone']());
+      var grid7 = new ($T17())();
+      $T17()['SetRow'](grid7, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "2")));
+      var rowDefinition15 = new ($T1A())();
+      (rowDefinition15.Height = $T1B().$Cast($T19()['ConvertFromInvariantString']($T1B().__Type__, "6*"))['MemberwiseClone']());
+      var rowDefinition16 = new ($T1A())();
+      (rowDefinition16.Height = $T1B().$Cast($T19()['ConvertFromInvariantString']($T1B().__Type__, "*"))['MemberwiseClone']());
       (grid7['get_RowDefinitions']())['Add'](rowDefinition15);
       (grid7['get_RowDefinitions']())['Add'](rowDefinition16);
-      var scrollViewer2 = new ($T2A())();
-      var listBox2 = new ($T2B())();
-      $T1D().prototype['RegisterName'].call(this, "ResultBox", listBox2);
+      var scrollViewer2 = new ($T2E())();
+      var listBox2 = new ($T2F())();
+      $T24().prototype['RegisterName'].call(this, "ResultBox", listBox2);
       listBox2['set_Name']("ResultBox");
-      listBox2['set_IsEnabled']($T02().$Cast($T16()['ConvertFromInvariantString']($T02().__Type__, "False")));
-      (listBox2.Margin = $T25().$Cast($T16()['ConvertFromInvariantString']($T25().__Type__, "7"))['MemberwiseClone']());
+      listBox2['set_IsEnabled']($T03().$Cast($T19()['ConvertFromInvariantString']($T03().__Type__, "False")));
+      (listBox2.Margin = $T27().$Cast($T19()['ConvertFromInvariantString']($T27().__Type__, "7"))['MemberwiseClone']());
       scrollViewer2['set_Content'](listBox2);
-      var comboBox4 = new ($T24())();
-      $T1D().prototype['RegisterName'].call(this, "ResultBoxCombo", comboBox4);
+      var comboBox4 = new ($T2C())();
+      $T24().prototype['RegisterName'].call(this, "ResultBoxCombo", comboBox4);
       comboBox4['set_Name']("ResultBoxCombo");
-      $T14()['SetRow'](comboBox4, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "1")));
-      (comboBox4.Margin = $T25().$Cast($T16()['ConvertFromInvariantString']($T25().__Type__, "20,7"))['MemberwiseClone']());
+      $T17()['SetRow'](comboBox4, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "1")));
+      (comboBox4.Margin = $T27().$Cast($T19()['ConvertFromInvariantString']($T27().__Type__, "20,7"))['MemberwiseClone']());
       (grid7['get_Children']())['Add'](scrollViewer2);
       (grid7['get_Children']())['Add'](comboBox4);
-      var button4 = new ($T27())();
-      button4['add_Click']($T29()['New'](this, $thisType.prototype['ShowBtn_Click'], function () { return JSIL.GetMethodInfo($thisType, "ShowBtn_Click", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
-      $T14()['SetRow'](button4, $T03().$Cast($T16()['ConvertFromInvariantString']($T03().__Type__, "3")));
-      (button4.Margin = $T25().$Cast($T16()['ConvertFromInvariantString']($T25().__Type__, "45,7"))['MemberwiseClone']());
-      button4['set_Content']($T16()['ConvertFromInvariantString']($T04().__Type__, "\uc0c1\uc138\uc635\uc158 \uac80\uc0c9"));
+      var button24 = new ($T23())();
+      button24['add_Click']($T26()['New'](this, $thisType.prototype['ShowBtn_Click'], function () { return JSIL.GetMethodInfo($thisType, "ShowBtn_Click", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
+      $T17()['SetRow'](button24, $T08().$Cast($T19()['ConvertFromInvariantString']($T08().__Type__, "3")));
+      (button24.Margin = $T27().$Cast($T19()['ConvertFromInvariantString']($T27().__Type__, "45,7"))['MemberwiseClone']());
+      button24['set_Content']($T19()['ConvertFromInvariantString']($T01().__Type__, "\uc0c1\uc138\uc635\uc158 \uac80\uc0c9"));
       (grid['get_Children']())['Add'](grid2);
       (grid['get_Children']())['Add'](grid3);
       (grid['get_Children']())['Add'](grid7);
-      (grid['get_Children']())['Add'](button4);
+      (grid['get_Children']())['Add'](button24);
       this['set_Content'](grid);
-      this.NormCheckBox = toggleButton;
-      this.NormCheckBoxEx = checkBox;
-      this.WeaponCheckBox = checkBox2;
-      this.WeaponCheckBoxEx = checkBox3;
-      this.ArmorCheckBox = checkBox4;
-      this.ArmorCheckBoxEx = checkBox5;
-      this.AdditionalCheckBox = checkBox6;
-      this.AdditionalCheckBoxEx = checkBox7;
-      this.SpecialCheckBox = checkBox8;
-      this.SpecialCheckBoxEx = checkBox9;
+      this.NormCheckbox = button;
+      this.NormCheckboxEx = button3;
+      this.WeaponCheckbox = button5;
+      this.WeaponCheckboxEx = button7;
+      this.ArmorCheckbox = button9;
+      this.ArmorCheckboxEx = button11;
+      this.AdditionalCheckbox = button13;
+      this.AdditionalCheckboxEx = button15;
+      this.SpecialCheckbox = button17;
+      this.SpecialCheckboxEx = button19;
       this.FilterOption = comboBox;
       this.FilterSign = comboBox2;
       this.FilterValue = textBox;
@@ -903,11 +1134,9 @@ JSIL.DeclareNamespace("Studie");
   };
 
   function MainPage_StartBtn_Click (sender, e) {
-    var list = $S04().Construct();
-    var i = 0;
-    var isChecked = (this.NormCheckBox)['get_IsChecked']();
-    var flag2 = (JSIL['Nullable_ValueOrDefault'](isChecked, false) === true) & (isChecked !== null);
-    if (flag2) {
+    var list = $S05().Construct();
+    var flag = ($T04()['Format']("{0}", (this.NormCheckbox)['get_Background']()) != "#FFFFFFFF");
+    if (flag) {
 
       for (var text = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/normal"); (text.indexOf("\"name\":\"")) !== -1; ) {
         var text2 = "";
@@ -922,11 +1151,31 @@ JSIL.DeclareNamespace("Studie");
         }
         text = (System.String.Remove(text, text.indexOf("\"name\":\""), "\"name\":\"".length));
         text = (System.String.Remove(text, text.indexOf("\"option\":\""), "\"option\":\"".length));
-        list['Add'](new ($T2E())(text2, text3));
-      }
+        list['Add'](new ($T32())(text2));
+        text3 = (JSIL.ConcatString(text3, "&"));
 
-      for (; i < (list['get_Count']() | 0); i = ((i + 1) | 0)) {
+        for (var i = 0; i < (text3.length | 0); i = ((i + 1) | 0)) {
+          var text4 = "";
+          var text5 = "";
+
+          while ((((text3[i])['charCodeAt'](0) | 0) !== (("+")['charCodeAt'](0) | 0)) && (((text3[i])['charCodeAt'](0) | 0) !== (("-")['charCodeAt'](0) | 0))) {
+            text4 = (JSIL.ConcatString(text4, (text3[i])['toString']()));
+            i = ((i + 1) | 0);
+          }
+
+          for (; ((text3[i])['charCodeAt'](0) | 0) !== (("&")['charCodeAt'](0) | 0); i = ((i + 1) | 0)) {
+            text5 = (JSIL.ConcatString(text5, (text3[i])['toString']()));
+          }
+          (list['get_Item']((((list['get_Count']() | 0) - 1) | 0)).options)['Add'](text4);
+          (list['get_Item']((((list['get_Count']() | 0) - 1) | 0)).opvalues)['Add']($S02().CallStatic($T10(), "ToInt32", null, text5));
+        }
       }
+      $T0A()['Show']($T04()['Format'](
+          "{0} / {1} / {2}", 
+          (list['get_Item'](2).options)['get_Item'](2), 
+          list['get_Item'](2).$name, 
+          (list['get_Item'](2).opvalues)['get_Item'](2)
+        ));
     }
   };
 
@@ -942,6 +1191,56 @@ JSIL.DeclareNamespace("Studie");
     $.Method({Static:false, Public:true }, ".ctor", 
       JSIL.MethodSignature.Void, 
       MainPage__ctor
+    );
+
+    $.Method({Static:false, Public:false}, "Check1", 
+      new JSIL.MethodSignature(null, [$.Object, $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.RoutedEventArgs")]), 
+      MainPage_Check1
+    );
+
+    $.Method({Static:false, Public:false}, "check10", 
+      new JSIL.MethodSignature(null, [$.Object, $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.RoutedEventArgs")]), 
+      MainPage_check10
+    );
+
+    $.Method({Static:false, Public:false}, "check2", 
+      new JSIL.MethodSignature(null, [$.Object, $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.RoutedEventArgs")]), 
+      MainPage_check2
+    );
+
+    $.Method({Static:false, Public:false}, "check3", 
+      new JSIL.MethodSignature(null, [$.Object, $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.RoutedEventArgs")]), 
+      MainPage_check3
+    );
+
+    $.Method({Static:false, Public:false}, "check4", 
+      new JSIL.MethodSignature(null, [$.Object, $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.RoutedEventArgs")]), 
+      MainPage_check4
+    );
+
+    $.Method({Static:false, Public:false}, "check5", 
+      new JSIL.MethodSignature(null, [$.Object, $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.RoutedEventArgs")]), 
+      MainPage_check5
+    );
+
+    $.Method({Static:false, Public:false}, "check6", 
+      new JSIL.MethodSignature(null, [$.Object, $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.RoutedEventArgs")]), 
+      MainPage_check6
+    );
+
+    $.Method({Static:false, Public:false}, "check7", 
+      new JSIL.MethodSignature(null, [$.Object, $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.RoutedEventArgs")]), 
+      MainPage_check7
+    );
+
+    $.Method({Static:false, Public:false}, "check8", 
+      new JSIL.MethodSignature(null, [$.Object, $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.RoutedEventArgs")]), 
+      MainPage_check8
+    );
+
+    $.Method({Static:false, Public:false}, "check9", 
+      new JSIL.MethodSignature(null, [$.Object, $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.RoutedEventArgs")]), 
+      MainPage_check9
     );
 
     $.Method({Static:false, Public:false}, "CutString", 
@@ -987,16 +1286,16 @@ JSIL.DeclareNamespace("Studie");
       MainPage_StartBtn_Click
     );
 
-    $['Field']({Static:false, Public:false}, "NormCheckBox", $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.Controls.Primitives.ToggleButton")); 
-    $['Field']({Static:false, Public:false}, "NormCheckBoxEx", $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.Controls.CheckBox")); 
-    $['Field']({Static:false, Public:false}, "WeaponCheckBox", $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.Controls.CheckBox")); 
-    $['Field']({Static:false, Public:false}, "WeaponCheckBoxEx", $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.Controls.CheckBox")); 
-    $['Field']({Static:false, Public:false}, "ArmorCheckBox", $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.Controls.CheckBox")); 
-    $['Field']({Static:false, Public:false}, "ArmorCheckBoxEx", $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.Controls.CheckBox")); 
-    $['Field']({Static:false, Public:false}, "AdditionalCheckBox", $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.Controls.CheckBox")); 
-    $['Field']({Static:false, Public:false}, "AdditionalCheckBoxEx", $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.Controls.CheckBox")); 
-    $['Field']({Static:false, Public:false}, "SpecialCheckBox", $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.Controls.CheckBox")); 
-    $['Field']({Static:false, Public:false}, "SpecialCheckBoxEx", $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.Controls.CheckBox")); 
+    $['Field']({Static:false, Public:false}, "NormCheckbox", $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.Controls.Button")); 
+    $['Field']({Static:false, Public:false}, "NormCheckboxEx", $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.Controls.Button")); 
+    $['Field']({Static:false, Public:false}, "WeaponCheckbox", $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.Controls.Button")); 
+    $['Field']({Static:false, Public:false}, "WeaponCheckboxEx", $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.Controls.Button")); 
+    $['Field']({Static:false, Public:false}, "ArmorCheckbox", $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.Controls.Button")); 
+    $['Field']({Static:false, Public:false}, "ArmorCheckboxEx", $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.Controls.Button")); 
+    $['Field']({Static:false, Public:false}, "AdditionalCheckbox", $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.Controls.Button")); 
+    $['Field']({Static:false, Public:false}, "AdditionalCheckboxEx", $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.Controls.Button")); 
+    $['Field']({Static:false, Public:false}, "SpecialCheckbox", $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.Controls.Button")); 
+    $['Field']({Static:false, Public:false}, "SpecialCheckboxEx", $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.Controls.Button")); 
     $['Field']({Static:false, Public:false}, "FilterOption", $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.Controls.ComboBox")); 
     $['Field']({Static:false, Public:false}, "FilterSign", $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.Controls.ComboBox")); 
     $['Field']({Static:false, Public:false}, "FilterValue", $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.Controls.TextBox")); 
@@ -1020,10 +1319,23 @@ JSIL.DeclareNamespace("Studie");
   var $T00 = function () {
     return ($T00 = JSIL.Memoize($asm_mscorlib.System.String)) ();
   };
+  var $T01 = function () {
+    return ($T01 = JSIL.Memoize($asm_mscorlib.System.Collections.Generic.List$b1.Of($asm_mscorlib.System.String))) ();
+  };
+  var $T02 = function () {
+    return ($T02 = JSIL.Memoize($asm_mscorlib.System.Collections.Generic.List$b1.Of($asm_mscorlib.System.Int32))) ();
+  };
+  var $S00 = function () {
+    return ($S00 = JSIL.Memoize(new JSIL.ConstructorSignature($asm_mscorlib.TypeRef("System.Collections.Generic.List`1", [$asm_mscorlib.TypeRef("System.String")]), null))) ();
+  };
+  var $S01 = function () {
+    return ($S01 = JSIL.Memoize(new JSIL.ConstructorSignature($asm_mscorlib.TypeRef("System.Collections.Generic.List`1", [$asm_mscorlib.TypeRef("System.Int32")]), null))) ();
+  };
 
-  function CrystaInfo__ctor (_name, _option) {
+  function CrystaInfo__ctor (_name) {
     this.$name = _name;
-    this.option = _option;
+    this.options = $S00().Construct();
+    this.opvalues = $S01().Construct();
   };
 
   JSIL.MakeType({
@@ -1031,18 +1343,19 @@ JSIL.DeclareNamespace("Studie");
       Name: "Studie.MainPage+CrystaInfo", 
       IsPublic: false, 
       IsReferenceType: false, 
-      MaximumConstructorArguments: 2, 
+      MaximumConstructorArguments: 1, 
       SequentialLayout: true, 
     }, function ($interfaceBuilder) {
     $ = $interfaceBuilder;
 
     $.Method({Static:false, Public:true }, ".ctor", 
-      new JSIL.MethodSignature(null, [$.String, $.String]), 
+      JSIL.MethodSignature.Action($.String), 
       CrystaInfo__ctor
     );
 
     $['Field']({Static:false, Public:true }, "$name", $.String); 
-    $['Field']({Static:false, Public:true }, "option", $.String); 
+    $['Field']({Static:false, Public:true }, "options", $asm_mscorlib.TypeRef("System.Collections.Generic.List`1", [$.String])); 
+    $['Field']({Static:false, Public:true }, "opvalues", $asm_mscorlib.TypeRef("System.Collections.Generic.List`1", [$.Int32])); 
     return function (newThisType) { $thisType = newThisType; }; 
   });
 
