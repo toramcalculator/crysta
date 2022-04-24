@@ -388,7 +388,7 @@ JSIL.DeclareNamespace("Studie");
     this.ExCrystas = $S01().Construct();
     this.Filters = $S02().Construct();
 
-    for (var text = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/normal"); (text.indexOf("\"name\":\"")) !== -1; ) {
+    for (var text = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/normal"); (text.indexOf("\"name\":\"")) !== -1; ) {
       var text2 = "";
       var text3 = "";
 
@@ -422,7 +422,7 @@ JSIL.DeclareNamespace("Studie");
     }
     this.CrystaAmount[0] = ((this.Crystas)['get_Count']() | 0);
 
-    for (var text6 = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/enhance_normal"); (text6.indexOf("\"name\":\"")) !== -1; ) {
+    for (var text6 = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/enhance_normal"); (text6.indexOf("\"name\":\"")) !== -1; ) {
       var text7 = "";
       var text8 = "";
       var text9 = "";
