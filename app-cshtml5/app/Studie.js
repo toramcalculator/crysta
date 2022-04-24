@@ -384,83 +384,95 @@ JSIL.DeclareNamespace("Studie");
     $T01().prototype['_ctor'].call(this);
     this['InitializeComponent']();
     this['Set_FilterIndex']();
-    this.Crystas = $S00().Construct();
-    this.ExCrystas = $S01().Construct();
-    this.Filters = $S02().Construct();
 
-    for (var text = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/normal"); (text.indexOf("\"name\":\"")) !== -1; ) {
-      var text2 = "";
-      var text3 = "";
+    for (var i = 0; i < 5; i = ((i + 1) | 0)) {
+      this.Crystas = $S00().Construct();
+      this.ExCrystas = $S01().Construct();
+      this.Filters = $S02().Construct();
 
-      for (var num = (((text.indexOf("\"name\":\"")) + ("\"name\":\"".length | 0)) | 0); ((text[num])['charCodeAt'](0) | 0) !== (("\"")['charCodeAt'](0) | 0); num = ((num + 1) | 0)) {
-        text2 = (JSIL.ConcatString(text2, (text[num])['toString']()));
-      }
+      for (var text = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/normal"); (text.indexOf("\"name\":\"")) !== -1; ) {
+        var text2 = "";
+        var text3 = "";
 
-      for (var num2 = (((text.indexOf("\"option\":\"")) + ("\"option\":\"".length | 0)) | 0); ((text[num2])['charCodeAt'](0) | 0) !== (("\"")['charCodeAt'](0) | 0); num2 = ((num2 + 1) | 0)) {
-        text3 = (JSIL.ConcatString(text3, (text[num2])['toString']()));
-      }
-      text = (System.String.Remove(text, text.indexOf("\"name\":\""), "\"name\":\"".length));
-      text = (System.String.Remove(text, text.indexOf("\"option\":\""), "\"option\":\"".length));
-      $S03().CallVirtual("Add", null, this.Crystas, new ($T07())(text2));
-      text3 = (JSIL.ConcatString(text3, "&"));
-
-      for (var i = 0; i < (text3.length | 0); i = ((i + 1) | 0)) {
-        var text4 = "";
-        var text5 = "";
-
-        while ((((text3[i])['charCodeAt'](0) | 0) !== (("+")['charCodeAt'](0) | 0)) && (((text3[i])['charCodeAt'](0) | 0) !== (("-")['charCodeAt'](0) | 0))) {
-          text4 = (JSIL.ConcatString(text4, (text3[i])['toString']()));
-          i = ((i + 1) | 0);
+        for (var num = (((text.indexOf("\"name\":\"")) + ("\"name\":\"".length | 0)) | 0); ((text[num])['charCodeAt'](0) | 0) !== (("\"")['charCodeAt'](0) | 0); num = ((num + 1) | 0)) {
+          text2 = (JSIL.ConcatString(text2, (text[num])['toString']()));
         }
 
-        for (; ((text3[i])['charCodeAt'](0) | 0) !== (("&")['charCodeAt'](0) | 0); i = ((i + 1) | 0)) {
-          text5 = (JSIL.ConcatString(text5, (text3[i])['toString']()));
+        for (var num2 = (((text.indexOf("\"option\":\"")) + ("\"option\":\"".length | 0)) | 0); ((text[num2])['charCodeAt'](0) | 0) !== (("\"")['charCodeAt'](0) | 0); num2 = ((num2 + 1) | 0)) {
+          text3 = (JSIL.ConcatString(text3, (text[num2])['toString']()));
         }
-        $S04().CallVirtual("Add", null, (this.Crystas)['get_Item'](((((this.Crystas)['get_Count']() | 0) - 1) | 0)).options, text4);
-        $S05().CallVirtual("Add", null, (this.Crystas)['get_Item'](((((this.Crystas)['get_Count']() | 0) - 1) | 0)).opvalues, $S06().CallStatic($T0A(), "ToInt32", null, text5));
+        text = (System.String.Remove(text, text.indexOf("\"name\":\""), "\"name\":\"".length));
+        text = (System.String.Remove(text, text.indexOf("\"option\":\""), "\"option\":\"".length));
+        $S03().CallVirtual("Add", null, this.Crystas, new ($T07())(text2));
+        text3 = (JSIL.ConcatString(text3, "&"));
+
+        for (var j = 0; j < (text3.length | 0); j = ((j + 1) | 0)) {
+          var text4 = "";
+          var text5 = "";
+
+          while ((((text3[j])['charCodeAt'](0) | 0) !== (("+")['charCodeAt'](0) | 0)) && (((text3[j])['charCodeAt'](0) | 0) !== (("-")['charCodeAt'](0) | 0))) {
+            text4 = (JSIL.ConcatString(text4, (text3[j])['toString']()));
+            j = ((j + 1) | 0);
+          }
+
+          for (; ((text3[j])['charCodeAt'](0) | 0) !== (("&")['charCodeAt'](0) | 0); j = ((j + 1) | 0)) {
+            text5 = (JSIL.ConcatString(text5, (text3[j])['toString']()));
+          }
+          $S04().CallVirtual("Add", null, (this.Crystas)['get_Item'](((((this.Crystas)['get_Count']() | 0) - 1) | 0)).options, text4);
+          $S05().CallVirtual("Add", null, (this.Crystas)['get_Item'](((((this.Crystas)['get_Count']() | 0) - 1) | 0)).opvalues, $S06().CallStatic($T0A(), "ToInt32", null, text5));
+        }
       }
+      this.CrystaAmount[0] = ((this.Crystas)['get_Count']() | 0);
+
+      for (var text6 = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/enhance_normal"); (text6.indexOf("\"name\":\"")) !== -1; ) {
+        var text7 = "";
+        var text8 = "";
+        var text9 = "";
+
+        for (var num3 = (((text6.indexOf("\"name\":\"")) + ("\"name\":\"".length | 0)) | 0); ((text6[num3])['charCodeAt'](0) | 0) !== (("\"")['charCodeAt'](0) | 0); num3 = ((num3 + 1) | 0)) {
+          text7 = (JSIL.ConcatString(text7, (text6[num3])['toString']()));
+        }
+
+        for (var num4 = (((text6.indexOf("\"enhance\":\"")) + ("\"enhance\":\"".length | 0)) | 0); ((text6[num4])['charCodeAt'](0) | 0) !== (("\"")['charCodeAt'](0) | 0); num4 = ((num4 + 1) | 0)) {
+          text8 = (JSIL.ConcatString(text8, (text6[num4])['toString']()));
+        }
+
+        for (var num5 = (((text6.indexOf("\"option\":\"")) + ("\"option\":\"".length | 0)) | 0); ((text6[num5])['charCodeAt'](0) | 0) !== (("\"")['charCodeAt'](0) | 0); num5 = ((num5 + 1) | 0)) {
+          text9 = (JSIL.ConcatString(text9, (text6[num5])['toString']()));
+        }
+        text6 = (System.String.Remove(text6, text6.indexOf("\"name\":\""), "\"name\":\"".length));
+        text6 = (System.String.Remove(text6, text6.indexOf("\"enhance\":\""), "\"enhance\":\"".length));
+        text6 = (System.String.Remove(text6, text6.indexOf("\"option\":\""), "\"option\":\"".length));
+        $S07().CallVirtual("Add", null, this.ExCrystas, new ($T0B())(text7, text8));
+        text9 = (JSIL.ConcatString(text9, "&"));
+
+        for (var k = 0; k < (text9.length | 0); k = ((k + 1) | 0)) {
+          var text10 = "";
+          var text11 = "";
+
+          while ((((text9[k])['charCodeAt'](0) | 0) !== (("+")['charCodeAt'](0) | 0)) && (((text9[k])['charCodeAt'](0) | 0) !== (("-")['charCodeAt'](0) | 0))) {
+            text10 = (JSIL.ConcatString(text10, (text9[k])['toString']()));
+            k = ((k + 1) | 0);
+          }
+
+          for (; ((text9[k])['charCodeAt'](0) | 0) !== (("&")['charCodeAt'](0) | 0); k = ((k + 1) | 0)) {
+            text11 = (JSIL.ConcatString(text11, (text9[k])['toString']()));
+          }
+          $S04().CallVirtual("Add", null, (this.ExCrystas)['get_Item'](((((this.ExCrystas)['get_Count']() | 0) - 1) | 0)).options, text10);
+          $S05().CallVirtual("Add", null, (this.ExCrystas)['get_Item'](((((this.ExCrystas)['get_Count']() | 0) - 1) | 0)).opvalues, $S06().CallStatic($T0A(), "ToInt32", null, text11));
+        }
+      }
+      this.ExCrystaAmount[0] = ((this.ExCrystas)['get_Count']() | 0);
     }
-    this.CrystaAmount[0] = ((this.Crystas)['get_Count']() | 0);
+  };
 
-    for (var text6 = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/enhance_normal"); (text6.indexOf("\"name\":\"")) !== -1; ) {
-      var text7 = "";
-      var text8 = "";
-      var text9 = "";
+  function MainPage_AddLine (target, length) {
+    var num = (((target.length | 0) / (length | 0)) | 0);
 
-      for (var num3 = (((text6.indexOf("\"name\":\"")) + ("\"name\":\"".length | 0)) | 0); ((text6[num3])['charCodeAt'](0) | 0) !== (("\"")['charCodeAt'](0) | 0); num3 = ((num3 + 1) | 0)) {
-        text7 = (JSIL.ConcatString(text7, (text6[num3])['toString']()));
-      }
-
-      for (var num4 = (((text6.indexOf("\"enhance\":\"")) + ("\"enhance\":\"".length | 0)) | 0); ((text6[num4])['charCodeAt'](0) | 0) !== (("\"")['charCodeAt'](0) | 0); num4 = ((num4 + 1) | 0)) {
-        text8 = (JSIL.ConcatString(text8, (text6[num4])['toString']()));
-      }
-
-      for (var num5 = (((text6.indexOf("\"option\":\"")) + ("\"option\":\"".length | 0)) | 0); ((text6[num5])['charCodeAt'](0) | 0) !== (("\"")['charCodeAt'](0) | 0); num5 = ((num5 + 1) | 0)) {
-        text9 = (JSIL.ConcatString(text9, (text6[num5])['toString']()));
-      }
-      text6 = (System.String.Remove(text6, text6.indexOf("\"name\":\""), "\"name\":\"".length));
-      text6 = (System.String.Remove(text6, text6.indexOf("\"enhance\":\""), "\"enhance\":\"".length));
-      text6 = (System.String.Remove(text6, text6.indexOf("\"option\":\""), "\"option\":\"".length));
-      $S07().CallVirtual("Add", null, this.ExCrystas, new ($T0B())(text7, text8));
-      text9 = (JSIL.ConcatString(text9, "&"));
-
-      for (var j = 0; j < (text9.length | 0); j = ((j + 1) | 0)) {
-        var text10 = "";
-        var text11 = "";
-
-        while ((((text9[j])['charCodeAt'](0) | 0) !== (("+")['charCodeAt'](0) | 0)) && (((text9[j])['charCodeAt'](0) | 0) !== (("-")['charCodeAt'](0) | 0))) {
-          text10 = (JSIL.ConcatString(text10, (text9[j])['toString']()));
-          j = ((j + 1) | 0);
-        }
-
-        for (; ((text9[j])['charCodeAt'](0) | 0) !== (("&")['charCodeAt'](0) | 0); j = ((j + 1) | 0)) {
-          text11 = (JSIL.ConcatString(text11, (text9[j])['toString']()));
-        }
-        $S04().CallVirtual("Add", null, (this.ExCrystas)['get_Item'](((((this.ExCrystas)['get_Count']() | 0) - 1) | 0)).options, text10);
-        $S05().CallVirtual("Add", null, (this.ExCrystas)['get_Item'](((((this.ExCrystas)['get_Count']() | 0) - 1) | 0)).opvalues, $S06().CallStatic($T0A(), "ToInt32", null, text11));
-      }
+    for (var i = 1; i <= num; i = ((i + 1) | 0)) {
+      target = (System.String.Insert(target, Math.imul(length, i), "\n"));
     }
-    this.ExCrystaAmount[0] = ((this.ExCrystas)['get_Count']() | 0);
+    return target;
   };
 
   function MainPage_Check1 (sender, e) {
@@ -1258,7 +1270,7 @@ JSIL.DeclareNamespace("Studie");
       listBox2['set_IsEnabled']($T0E().$Cast($T22()['ConvertFromInvariantString']($T0E().__Type__, "False")));
       (listBox2.Margin = $T30().$Cast($T22()['ConvertFromInvariantString']($T30().__Type__, "7"))['MemberwiseClone']());
       var dataTemplate = new ($T39())();
-      dataTemplate['SetMethodToInstantiateFrameworkTemplate']($T3B()['New'](this, $thisType.prototype['Instantiate_DataTemplate_b2714967c6234b459ee99c3103ae8080'], function () { return JSIL.GetMethodInfo($thisType, "Instantiate_DataTemplate_b2714967c6234b459ee99c3103ae8080", new JSIL.MethodSignature($asm_CSharpXamlForHtml5.Windows.UI.Xaml.TemplateInstance, [$asm_CSharpXamlForHtml5.Windows.UI.Xaml.FrameworkElement]), false); }));
+      dataTemplate['SetMethodToInstantiateFrameworkTemplate']($T3B()['New'](this, $thisType.prototype['Instantiate_DataTemplate_2ab3788a67cd47a8ba11a0f71c44d1a1'], function () { return JSIL.GetMethodInfo($thisType, "Instantiate_DataTemplate_2ab3788a67cd47a8ba11a0f71c44d1a1", new JSIL.MethodSignature($asm_CSharpXamlForHtml5.Windows.UI.Xaml.TemplateInstance, [$asm_CSharpXamlForHtml5.Windows.UI.Xaml.FrameworkElement]), false); }));
       listBox2['set_ItemTemplate'](dataTemplate);
       scrollViewer2['set_Content'](listBox2);
       (grid['get_Children']())['Add'](grid2);
@@ -1284,7 +1296,7 @@ JSIL.DeclareNamespace("Studie");
     }
   };
 
-  function MainPage_Instantiate_DataTemplate_b2714967c6234b459ee99c3103ae8080 (templateOwner) {
+  function MainPage_Instantiate_DataTemplate_2ab3788a67cd47a8ba11a0f71c44d1a1 (templateOwner) {
     var templateInstance = new ($T3C())();
     templateInstance['set_TemplateOwner'](templateOwner);
     var stackPanel = new ($T28())();
@@ -1354,74 +1366,86 @@ JSIL.DeclareNamespace("Studie");
               text2 = (text2.substr(0, (((text2.length | 0) - 1) | 0)));
               flag5 = true;
             }
-            text = ((text + text2 + ((crystaInfo.opvalues)['get_Item'](k)).toString()));
-            var flag7 = flag5;
+            text = (JSIL.ConcatString(text, text2));
+            var flag7 = ((crystaInfo.opvalues)['get_Item'](k) | 0) > 0;
             if (flag7) {
+              text = (JSIL.ConcatString(text, "+"));
+            }
+            text = (JSIL.ConcatString(text, ((crystaInfo.opvalues)['get_Item'](k)).toString()));
+            var flag8 = flag5;
+            if (flag8) {
               text = (JSIL.ConcatString(text, "%"));
             }
             text = (JSIL.ConcatString(text, " "));
           }
-          var arg_1D5_0 = (this.ResultBox)['get_Items']();
+          text = this['AddLine'](text, 35);
+          var arg_20F_0 = (this.ResultBox)['get_Items']();
           var singleItem = new ($T42())();
           singleItem.SingleItem$IconPath$value = "ms-appx:/normal.png";
           singleItem.SingleItem$Text$value = ((crystaInfo.$name + "\n -> " + text));
-          arg_1D5_0['Add'](singleItem['MemberwiseClone']());
-          var flag8 = (((this.ResultBox)['get_Items']())['get_Count']() | 0) > 30;
-          if (flag8) {
+          arg_20F_0['Add'](singleItem['MemberwiseClone']());
+          var flag9 = (((this.ResultBox)['get_Items']())['get_Count']() | 0) > 30;
+          if (flag9) {
             $T13()['Show']("30\uac1c\ub97c \ucd08\uacfc\ud558\ub294 \uacb0\uacfc\ub294 \ucd9c\ub825\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4\n\ud544\ud130\ub97c \uc870\uc815\ud558\uc5ec \ubc94\uc704\ub97c \uc881\ud600\uc8fc\uc138\uc694");
             return;
           }
         }
       }
     }
-    var flag9 = ($T05()['Format']("{0}", (this.NormCheckboxEx)['get_Background']()) != "#FFFFFFFF");
-    if (flag9) {
+    var flag10 = ($T05()['Format']("{0}", (this.NormCheckboxEx)['get_Background']()) != "#FFFFFFFF");
+    if (flag10) {
 
     $loop3: 
       for (var l = 0; l < (this.ExCrystaAmount[0] | 0); l = ((l + 1) | 0)) {
-        var flag10 = true;
+        var flag11 = true;
 
       $loop4: 
         for (var m = 0; m < ((this.Filters)['get_Count']() | 0); m = ((m + 1) | 0)) {
-          flag10 = flag10 && 
+          flag11 = flag11 && 
           this['Filtering'](
             (this.ExCrystas)['get_Item'](l), 
             (this.Filters)['get_Item'](m).option, 
             (this.Filters)['get_Item'](m).sign, 
             (this.Filters)['get_Item'](m).value
           );
-          var flag11 = !flag10;
-          if (flag11) {
+          var flag12 = !flag11;
+          if (flag12) {
             break $loop4;
           }
         }
-        var flag12 = flag10;
-        if (flag12) {
+        var flag13 = flag11;
+        if (flag13) {
           var text3 = "";
-          var crystaInfo2 = (this.ExCrystas)['get_Item'](l);
+          var exCrystaInfo = (this.ExCrystas)['get_Item'](l);
 
-          for (var n = 0; n < ((crystaInfo2.options)['get_Count']() | 0); n = ((n + 1) | 0)) {
-            var text4 = (crystaInfo2.options)['get_Item'](n);
-            var flag13 = false;
-            var flag14 = ((text4[(((text4.length | 0) - 1) | 0)])['charCodeAt'](0) | 0) === (("%")['charCodeAt'](0) | 0);
-            if (flag14) {
-              text4 = (text4.substr(0, (((text4.length | 0) - 1) | 0)));
-              flag13 = true;
-            }
-            text3 = ((text3 + text4 + ((crystaInfo2.opvalues)['get_Item'](n)).toString()));
-            var flag15 = flag13;
+          for (var n = 0; n < ((exCrystaInfo.options)['get_Count']() | 0); n = ((n + 1) | 0)) {
+            var text4 = (exCrystaInfo.options)['get_Item'](n);
+            var flag14 = false;
+            var flag15 = ((text4[(((text4.length | 0) - 1) | 0)])['charCodeAt'](0) | 0) === (("%")['charCodeAt'](0) | 0);
             if (flag15) {
+              text4 = (text4.substr(0, (((text4.length | 0) - 1) | 0)));
+              flag14 = true;
+            }
+            text3 = (JSIL.ConcatString(text3, text4));
+            var flag16 = ((exCrystaInfo.opvalues)['get_Item'](n) | 0) > 0;
+            if (flag16) {
+              text3 = (JSIL.ConcatString(text3, "+"));
+            }
+            text3 = (JSIL.ConcatString(text3, ((exCrystaInfo.opvalues)['get_Item'](n)).toString()));
+            var flag17 = flag14;
+            if (flag17) {
               text3 = (JSIL.ConcatString(text3, "%"));
             }
             text3 = (JSIL.ConcatString(text3, " "));
           }
-          var arg_420_0 = (this.ResultBox)['get_Items']();
+          text3 = this['AddLine'](text3, 35);
+          var arg_494_0 = (this.ResultBox)['get_Items']();
           singleItem = new ($T42())();
           singleItem.SingleItem$IconPath$value = "ms-appx:/normalEx.png";
           singleItem.SingleItem$Text$value = (JSIL.ConcatString.apply(null, JSIL.Array.New($T05(), [(this.ExCrystas)['get_Item'](l).$name, "(\uac15\ud654: ", (this.ExCrystas)['get_Item'](l).Enhance, ")\n -> ", text3])));
-          arg_420_0['Add'](singleItem['MemberwiseClone']());
-          var flag16 = (((this.ResultBox)['get_Items']())['get_Count']() | 0) > 30;
-          if (flag16) {
+          arg_494_0['Add'](singleItem['MemberwiseClone']());
+          var flag18 = (((this.ResultBox)['get_Items']())['get_Count']() | 0) > 30;
+          if (flag18) {
             $T13()['Show']("30\uac1c\ub97c \ucd08\uacfc\ud558\ub294 \uacb0\uacfc\ub294 \ucd9c\ub825\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4\n\ud544\ud130\ub97c \uc870\uc815\ud558\uc5ec \ubc94\uc704\ub97c \uc881\ud600\uc8fc\uc138\uc694");
             break $loop3;
           }
@@ -1442,6 +1466,11 @@ JSIL.DeclareNamespace("Studie");
     $.Method({Static:false, Public:true }, ".ctor", 
       JSIL.MethodSignature.Void, 
       MainPage__ctor
+    );
+
+    $.Method({Static:false, Public:false}, "AddLine", 
+      new JSIL.MethodSignature($.String, [$.String, $.Int32]), 
+      MainPage_AddLine
     );
 
     $.Method({Static:false, Public:false}, "Check1", 
@@ -1522,9 +1551,9 @@ JSIL.DeclareNamespace("Studie");
       MainPage_InitializeComponent
     );
 
-    $.Method({Static:false, Public:false}, "Instantiate_DataTemplate_b2714967c6234b459ee99c3103ae8080", 
+    $.Method({Static:false, Public:false}, "Instantiate_DataTemplate_2ab3788a67cd47a8ba11a0f71c44d1a1", 
       new JSIL.MethodSignature($asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.TemplateInstance"), [$asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.FrameworkElement")]), 
-      MainPage_Instantiate_DataTemplate_b2714967c6234b459ee99c3103ae8080
+      MainPage_Instantiate_DataTemplate_2ab3788a67cd47a8ba11a0f71c44d1a1
     );
 
     $.Method({Static:false, Public:false}, "Set_FilterIndex", 
