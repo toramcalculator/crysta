@@ -1138,7 +1138,7 @@ JSIL.DeclareNamespace("Studie");
     var flag = ($T04()['Format']("{0}", (this.NormCheckbox)['get_Background']()) != "#FFFFFFFF");
     if (flag) {
 
-      for (var text = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/normal"); (text.indexOf("\"name\":\"")) !== -1; ) {
+      for (var text = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/normal"); (text.indexOf("\"name\":\"")) !== -1; ) {
         var text2 = "";
         var text3 = "";
 
