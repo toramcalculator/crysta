@@ -757,7 +757,7 @@ JSIL.DeclareNamespace("Studie");
       }
     }
     this.ExCrystaAmount[4] = ((this.ExCrystas)['get_Count']() | 0);
-    var text56 = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/optionlist");
+    var text56 = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/optionlist");
     text56 = (JSIL.ConcatString(text56, "\n"));
 
     for (var num30 = 0; num30 < (text56.length | 0); num30 = ((num30 + 1) | 0)) {
