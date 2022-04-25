@@ -938,7 +938,7 @@ JSIL.DeclareNamespace("Studie");
       }
       var num = ($S06().CallStatic($T0A(), "ToInt32", null, (this.FilterValue)['get_Text']()) | 0);
       var flag2 = ((((this.FilterSign)['get_SelectedIndex']() | 0) === 2) && 
-      (num === 0)) || num>100000 || num<-100000;
+      (num === 0)) || num>1000000 || num<-1000000;
       if (flag2) {
         throw $S09().Construct("\uc720\ud6a8\ud558\uc9c0 \uc54a\uc740 \ud544\ud130\uc785\ub2c8\ub2e4");
       }
