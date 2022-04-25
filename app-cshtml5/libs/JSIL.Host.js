@@ -198,10 +198,6 @@ JSIL.Host.reportPerformance = function (drawDuration, updateDuration, cacheSize,
   svc.report(drawDuration, updateDuration, cacheSize, isWebGL);
 };
 
-// Default service implementations that are environment-agnostic
-
-// Don't use for anything that needs to be reproducible in replays!
-
 (function () {
   if (
     (typeof (window) !== "undefined") &&

@@ -20,8 +20,7 @@ function printStackTrace(options) {
     return result;
 }
 
-printStackTrace.implementation = function() {
-};
+printStackTrace.implementation = function() {};
 
 printStackTrace.implementation.prototype = {
     run: function(ex) {
@@ -60,47 +59,6 @@ printStackTrace.implementation.prototype = {
         }
         return (this._mode = 'other');
     },
-
-    /**
-* Given a context, function name, and callback function, overwrite it so that it calls
-* printStackTrace() first with a callback and then runs the rest of the body.
-*
-* @param {Object} context of execution (e.g. window)
-* @param {String} functionName to instrument
-* @param {Function} function to call with a stack trace on invocation
-*/
-    instrumentFunction: function(context, functionName, callback) {
-        context = context || window;
-        var original = context[functionName];
-        context[functionName] = function instrumented() {
-            callback.call(this, printStackTrace().slice(4));
-            return context[functionName]._instrumented.apply(this, arguments);
-        };
-        context[functionName]._instrumented = original;
-    },
-
-    /**
-* Given a context and function name of a function that has been
-* instrumented, revert the function to it's original (non-instrumented)
-* state.
-*
-* @param {Object} context of execution (e.g. window)
-* @param {String} functionName to de-instrument
-*/
-    deinstrumentFunction: function(context, functionName) {
-        if (context[functionName].constructor === Function &&
-                context[functionName]._instrumented &&
-                context[functionName]._instrumented.constructor === Function) {
-            context[functionName] = context[functionName]._instrumented;
-        }
-    },
-
-    /**
-* Given an Error object, return a formatted Array based on Chrome's stack string.
-*
-* @param e - Error object to inspect
-* @return Array<String> of function calls, files and line numbers
-*/
     chrome: function(e) {
         var stack = (e.stack + '\n').replace(/^\S[^\(]+?[\n$]/gm, '').
           replace(/^\s+at\s+/gm, '').

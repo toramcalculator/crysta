@@ -49,41 +49,6 @@ JSIL.Audio.InstancePrototype = {
     if (this.$set_volume)
       this.$set_volume(this._volume * this._volumeMultiplier);
   },
-  get_volumeMultiplier: function () {
-    return this._volumeMultiplier;
-  },
-  set_volumeMultiplier: function (value) {
-    this._volumeMultiplier = value;
-
-    if (this.$set_volume)
-      this.$set_volume(this._volume * this._volumeMultiplier);
-  },
-  get_pan: function () {
-    return this._pan;
-  },
-  set_pan: function (value) {
-    this._pan = value;
-
-    if (this.$set_pan)
-      this.$set_pan(this._pan);
-    else if ((value !== 0) && (!JSIL.Audio.$WarnedAboutPan)) {
-      JSIL.Audio.$WarnedAboutPan = true;
-      JSIL.Host.warning("Your browser does not have an implementation of panning for sound effects.");
-    }
-  },
-  get_pitch: function () {
-    return this._pitch;
-  },
-  set_pitch: function (value) {
-    this._pitch = value;
-
-    if (this.$set_pitch)
-      this.$set_pitch(this._pitch);
-    else if ((value !== 0) && (!JSIL.Audio.$WarnedAboutPitch)) {
-      JSIL.Audio.$WarnedAboutPitch = true;
-      JSIL.Host.warning("Your browser does not have an implementation of pitch shifting for sound effects.");
-    }
-  },
   get_loop: function () {
     return this._loop;
   },
@@ -272,9 +237,7 @@ JSIL.Audio.WebKitInstance = function (audioInfo, buffer, loop) {
   this.started = 0;
   this.pausedAtOffset = null;
 
-  this._volume = 1.0;
   this._volumeMultiplier = 1.0;
-  this._pan = 0;
   this._pitch = 0;
 };
 JSIL.Audio.WebKitInstance.prototype = JSIL.CreatePrototypeObject(JSIL.Audio.InstancePrototype);
@@ -354,11 +317,8 @@ JSIL.Audio.WebKitInstance.prototype.$get_isPlaying = function () {
   return (elapsed <= this.bufferSource.buffer.duration);
 }
 
-JSIL.Audio.NullInstance = function (audioInfo, loop) {  
-  this._volume = 1.0;
+JSIL.Audio.NullInstance = function () {
   this._volumeMultiplier = 1.0;
-  this._pan = 0;
-  this._pitch = 0;
 };
 JSIL.Audio.NullInstance.prototype = JSIL.CreatePrototypeObject(JSIL.Audio.InstancePrototype);
 
@@ -432,19 +392,15 @@ function loadStreamingSound (audioInfo, filename, data, onError, onDoneLoading) 
     e.setAttribute("preload", "auto");
     e.setAttribute("autobuffer", "true");
     e.src = uri;
-
-    if (e.load)
-      e.load();
+    if (e.load) e.load();
 
     return new JSIL.Audio.HTML5Instance(audioInfo, e, loop);
   };
-
   var finisher = finishLoadingSound.bind(
     null, filename, createInstance
   );
-
   onDoneLoading(finisher);
-};
+}
 
 function loadBufferedHTML5Sound (audioInfo, filename, data, onError, onDoneLoading) {
   var handleError = function (text) {
@@ -573,15 +529,11 @@ function initSoundLoader () {
   audioInfo.canPlayType = function (mimeType) {
     var canPlay = "";
 
-    if (this.testAudioInstance.canPlayType) {
-      canPlay = this.testAudioInstance.canPlayType(mimeType);
-    } else {
-      // Goddamn Safari :|
-      canPlay = (mimeType == "audio/mpeg") ? "maybe" : "";
-    }
+    if (this.testAudioInstance.canPlayType) canPlay = this.testAudioInstance.canPlayType(mimeType);
+    else canPlay = (mimeType === "audio/mpeg") ? "maybe" : "";
 
     return (canPlay !== "");
-  };
+  }
 
   audioInfo.selectUri = function (filename, data, outMimeType) {
     for (var i = 0; i < data.formats.length; i++) {
@@ -629,4 +581,4 @@ function initSoundLoader () {
   if (audioInfo.disableSound) {
     JSIL.Host.logWriteLine("WARNING: Your browser has insufficient support for playing audio. Sound is disabled.");
   }
-};
+}

@@ -1,9 +1,5 @@
 "use strict";
 
-var currentLogLine = null;
-
-var webglEnabled = false;
-
 var $jsilbrowserstate = window.$jsilbrowserstate = {
   allFileNames: [],
   allAssetNames: [],
@@ -20,9 +16,7 @@ var $jsilbrowserstate = window.$jsilbrowserstate = {
   blockGamepadInput: false
 };
 
-
 JSIL.DeclareNamespace("JSIL.Browser", false);
-
 
 JSIL.Browser.CanvasService = function () {
 };
@@ -84,7 +78,6 @@ JSIL.Browser.KeyboardService.prototype.getHeldKeys = function () {
   return Array.prototype.slice.call($jsilbrowserstate.heldKeys);
 };
 
-
 JSIL.Browser.MouseService = function () {
 };
 
@@ -95,7 +88,6 @@ JSIL.Browser.MouseService.prototype.getHeldButtons = function () {
 JSIL.Browser.MouseService.prototype.getPosition = function () {
   return Array.prototype.slice.call($jsilbrowserstate.mousePosition);
 };
-
 
 JSIL.Browser.PageVisibilityService = function () {
 };
@@ -206,8 +198,7 @@ JSIL.Browser.WarningService.prototype.write = function (text) {
 
 
 JSIL.Browser.TickSchedulerService = function () {
-  var forceSetTimeout = false || 
-    (document.location.search.indexOf("forceSetTimeout") >= 0);
+  var forceSetTimeout = (document.location.search.indexOf("forceSetTimeout") >= 0);
 
   var requestAnimationFrame = window.requestAnimationFrame ||
     window.mozRequestAnimationFrame || 
@@ -263,30 +254,6 @@ JSIL.Browser.WindowService.prototype.alert = function () {
 
 JSIL.Browser.WindowService.prototype.prompt = function () {
   return this.window.prompt.apply(this.window, arguments);
-};
-
-JSIL.Browser.WindowService.prototype.getTitle = function () {
-  return this.window.title;
-};
-
-JSIL.Browser.WindowService.prototype.setTitle = function (value) {
-  return this.window.document.title = this.window.title = value;
-};
-
-JSIL.Browser.WindowService.prototype.getLocationHref = function () {
-  return this.window.location.href;
-};
-
-JSIL.Browser.WindowService.prototype.getLocationHash = function () {
-  return this.window.location.hash;
-};
-
-JSIL.Browser.WindowService.prototype.getLocationSearch = function () {
-  return this.window.location.search;
-};
-
-JSIL.Browser.WindowService.prototype.getNavigatorUserAgent = function () {
-  return this.window.navigator.userAgent;
 };
 
 JSIL.Browser.WindowService.prototype.getNavigatorLanguage = function () {
@@ -548,8 +515,7 @@ function initBrowserHooks () {
   // Be a good browser citizen!
   // Disabling commonly used hotkeys makes people rage.
   var shouldIgnoreEvent = function (evt) {
-    if ($jsilbrowserstate.blockKeyboardInput)
-      return true;
+    if ($jsilbrowserstate.blockKeyboardInput) return true;
 
     if ((document.activeElement !== null)) {
       switch (String(document.activeElement.tagName).toLowerCase()) {
@@ -582,34 +548,6 @@ function initBrowserHooks () {
 
     return false;
   };
-
-    /* // Commented because it prevents writing in a ContentEditable div
-      window.addEventListener(
-    "keydown", function (evt) {
-      if (shouldIgnoreEvent(evt)) {
-        return;
-      }
-
-      evt.preventDefault();
-      var keyCode = evt.keyCode;
-      var codes = keyMappings[keyCode] || [keyCode];        
-      
-      pressKeys(codes);
-    }, true
-  );
-
-  window.addEventListener(
-    "keyup", function (evt) {
-      if (!shouldIgnoreEvent(evt))
-        evt.preventDefault();
-
-      var keyCode = evt.keyCode;
-      var codes = keyMappings[keyCode] || [keyCode];        
-      
-      releaseKeys(codes);
-    }, true
-  );
-  */
 
   JSIL.Host.mapClientCoordinates = function (x, y) {
     var localCanvas = canvas || document.getElementById("canvas");
@@ -684,7 +622,7 @@ function initBrowserHooks () {
         return false;
       }, true
     );
-  };
+  }
 
   document.addEventListener(
     "mousemove", function (evt) {
@@ -694,7 +632,7 @@ function initBrowserHooks () {
 
   if (typeof(initTouchEvents) !== "undefined")
     initTouchEvents();
-};
+}
 
 function getAssetName (filename, preserveCase) {
   var backslashRe = /\\/g;
@@ -715,13 +653,9 @@ function getAssetName (filename, preserveCase) {
     return result;
   else
     return result.toLowerCase();
-};
+}
 
-var loadedFontCount = 0;
-var loadingPollInterval = 1;
 var maxAssetsLoading = 4;
-var soundLoadTimeout = 30000;
-var fontLoadTimeout = 10000;
 var finishStepDuration = 25;
 
 function updateProgressBar (prefix, suffix, bytesLoaded, bytesTotal) {
@@ -759,7 +693,7 @@ function updateProgressBar (prefix, suffix, bytesLoaded, bytesTotal) {
     progressText.style.left = ((loadingProgress.clientWidth - progressText.clientWidth) / 2).toString() + "px";
     progressText.style.top = ((loadingProgress.clientHeight - progressText.clientHeight) / 2).toString() + "px";
   }
-};
+}
 
 function finishLoading () {
   var state = this;
@@ -845,19 +779,13 @@ function finishLoading () {
         var cb = item[2];
 
         // Ensure that we initialize the JSIL runtime before constructing asset objects.
-        if (
-          (item[0] != "Script") && 
-          (item[0] != "Library") &&
-          (item[0] != "NativeLibrary")
-        ) {
+        if ((item[0] !== "Script") && (item[0] !== "Library") && (item[0] !== "NativeLibrary")) {
           initIfNeeded();
         }
 
         updateProgressBar("Loading " + item[3], null, state.assetsFinished, state.assetCount);
 
-        if (typeof (cb) === "function") {
-          cb(state);
-        }
+        if (typeof (cb) === "function") cb(state);
       } catch (exc) {
         state.assetLoadFailures.push(
           [item[3], exc]
@@ -888,14 +816,11 @@ function finishLoading () {
       return;
     }
   }
-};
+}
 
 function pollAssetQueue () {      
   var state = this;
-
-  var w = 0;
   updateProgressBar("Downloading: ", "kb", state.bytesLoaded / 1024, state.assetBytes / 1024);
-
   var makeStepCallback = function (state, type, sizeBytes, i, name) {
     return function (finish) {
       var realName = name;
@@ -988,9 +913,6 @@ function pollAssetQueue () {
         case "NativeLibrary":
           lhsTypeIndex = 0;
           break;
-        case "NativeLibrary":
-          lhsTypeIndex = 0;
-          break;        
         case "Script":
           lhsTypeIndex = 1;
           break;        
@@ -998,9 +920,6 @@ function pollAssetQueue () {
 
       switch (rhs[0]) {
         case "Library":
-        case "NativeLibrary":
-          rhsTypeIndex = 0;
-          break;
         case "NativeLibrary":
           rhsTypeIndex = 0;
           break;        
@@ -1020,7 +939,7 @@ function pollAssetQueue () {
 
     return;
   }
-};
+}
 
 function loadAssets (assets, onDoneLoading) {
   var state = {
@@ -1065,10 +984,8 @@ function beginLoading () {
 
   var progressBar = document.getElementById("progressBar");
   var loadButton = document.getElementById("loadButton");
-  var fullscreenButton = document.getElementById("fullscreenButton");
   var loadingProgress = document.getElementById("loadingProgress");
-  var stats = document.getElementById("stats");
-  
+
   if (progressBar)
     progressBar.style.width = "0px";
   if (loadButton)
@@ -1107,9 +1024,7 @@ function beginLoading () {
 };
 
 function browserFinishedLoadingCallback (loadFailures) {
-  var progressBar = document.getElementById("progressBar");
-  var loadButton = document.getElementById("loadButton");
-  var fullscreenButton = document.getElementById("fullscreenButton"); 
+  var fullscreenButton = document.getElementById("fullscreenButton");
   var splashScreenContainerContainer = document.getElementById("splashScreenContainerContainer");
   var splashScreenContainer = document.getElementById("splashScreenContainer");
   var splashScreen = document.getElementById("splashScreen");

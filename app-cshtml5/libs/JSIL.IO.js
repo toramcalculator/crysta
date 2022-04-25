@@ -2201,15 +2201,7 @@ JSIL.ImplementExternals("System.IO.IsolatedStorage.IsolatedStorageFile", functio
 
     function IsolatedStorageFile_OpenFile(path, mode) {
         return $S01().Construct(path, mode);
-        //var fileInfo = $S00().Construct(path);
-        //var fileStream = fileInfo['Open'](mode);
-        //if (fileStream !== null) {
-        //    var result = $T03().$Cast(fileStream);
-        //} else {
-        //    result = null;
-        //}
-        //return result;
-    };
+    }
 
     $.Method({ Static: false, Public: true }, "OpenFile",
       new JSIL.MethodSignature($jsilcore.TypeRef("System.IO.IsolatedStorage.IsolatedStorageFileStream"), [$.String, $jsilcore.TypeRef("System.IO.FileMode")]),

@@ -9,9 +9,7 @@ test.game = null;
 
 JSIL.DeclareNamespace("JSIL.TestFixture", false);
 
-
-JSIL.TestFixture.RecordErrorService = function () {
-};
+JSIL.TestFixture.RecordErrorService = function () {};
 
 JSIL.TestFixture.RecordErrorService.prototype.error = function (exception) {
   var exceptionMessage = "Unknown error";

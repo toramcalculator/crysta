@@ -1,12 +1,5 @@
 "use strict";
 
-//
-// JSIL loader. Synchronously loads all core JSIL scripts, adds essential libraries to the content manifest,
-//  and loads your manifest scripts.
-// Load this at the top of your document (optionally after declaring a jsilConfig dict in a previous script tag).
-// Asset loading (after page load) is provided by JSIL.Browser.js.
-//
-
 (function (globalNamespace) {
   if (typeof (globalNamespace.JSIL) !== "undefined")
     throw new Error("JSIL.js loaded twice");

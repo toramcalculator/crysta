@@ -2057,7 +2057,6 @@ JSIL.$MakeFieldMarshaller = function (typeObject, field, viewBytes, nativeView, 
 
 JSIL.$MakeProxyFieldGetter = function (typeObject, field, viewBytes, nativeView, isElementProxy) {
   var fieldOffset = field.offsetBytes | 0;
-  var fieldSize = field.sizeBytes | 0;
   var proxyConstructor = JSIL.$GetStructElementProxyConstructor(field.type);
 
   if (!field.type.__IsStruct__)
@@ -2073,8 +2072,6 @@ JSIL.$MakeProxyFieldGetter = function (typeObject, field, viewBytes, nativeView,
     adapterSource.push("var offset = " + fieldOffset + ";");
   }
 
-  var unmarshalConstructor = JSIL.$GetStructUnmarshalConstructor(field.type);
-  var unmarshaller = JSIL.$GetStructUnmarshaller(field.type);
   var cachedInstanceKey = "this.cached$" + field.name;
 
   adapterSource.push("var cachedInstance = " + cachedInstanceKey + ";");

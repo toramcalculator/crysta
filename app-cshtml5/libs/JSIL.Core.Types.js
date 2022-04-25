@@ -254,11 +254,6 @@ JSIL.MakeDelegate("System.Comparison`1", true, ["in T"], new JSIL.MethodSignatur
 JSIL.DeclareNamespace("System.Linq");
 JSIL.MakeInterface(
   "System.Linq.IOrderedEnumerable`1", true, ["TElement"], function ($) {
-      //Note: the code commented below was to implement the IOrderedEnumerable.CreateOrderedEnumerable method but I can't seem to make it work properly so we'll remove it for now.
-      //$.Method({}, "CreateOrderedEnumerable", new JSIL.MethodSignature($jsilcore.TypeRef("System.Linq.IOrderedEnumerable`1", [$.GenericParameter("TElement")]), [
-      //    $jsilcore.TypeRef("System.Func`2", [$.GenericParameter("TElement"), "!!0"]), $jsilcore.TypeRef("System.Collections.Generic.IComparer`1", ["!!0"]),
-      //    $.Boolean
-      //], ["TKey"]));
   }, [$jsilcore.TypeRef("System.Collections.Generic.IEnumerable`1", [new JSIL.GenericParameter("TElement", "System.Linq.IOrderedEnumerable`1")]), $jsilcore.TypeRef("System.Collections.IEnumerable")]);
 
 
@@ -273,21 +268,6 @@ JSIL.MakeInterface(
     var $T01 = function () {
         return ($T01 = JSIL.Memoize(System.Linq.Enumerable))();
     };
-    //function OrderedEnumerable$b2__ctor(collection, keySelector, comparer, descending) {
-    //    var $s00 = new JSIL.MethodSignature(null, [$jsilcore.TypeRef("System.Collections.Generic.IEnumerable`1", [$thisType.TElement.get(this)])]);
-    //    var $s01 = new JSIL.MethodSignature(null, [$jsilcore.TypeRef("System.Comparison`1", [$thisType.TElement.get(this)])]);
-    //    $s00.Call($jsilcore.System.Collections.Generic.List$b1.Of($thisType.TElement.get(this)).prototype, "_ctor", null, this, collection);
-    //    this._keySelector = keySelector;
-    //    this._comparer = comparer;
-    //    if (this._comparer !== null) {
-    //        $s01.Call($jsilcore.System.Collections.Generic.List$b1.Of($thisType.TElement.get(this)).prototype, "Sort", null, this, $jsilcore.System.Comparison$b1.Of($thisType.TElement.get(this))['New'](this, $thisType.Of($thisType.TElement.get(this), $thisType.TKey.get(this)).prototype['CustomComparer'], function () { return JSIL.GetMethodInfo($thisType.Of($thisType.TElement.get(this), $thisType.TKey.get(this)), "CustomComparer", new JSIL.MethodSignature($jsilcore.System.Int32, [$thisType.TElement.get(this), $thisType.TElement.get(this)]), false); }));
-    //    } else {
-    //        $s01.Call($jsilcore.System.Collections.Generic.List$b1.Of($thisType.TElement.get(this)).prototype, "Sort", null, this, $jsilcore.System.Comparison$b1.Of($thisType.TElement.get(this))['New'](this, $thisType.Of($thisType.TElement.get(this), $thisType.TKey.get(this)).prototype['DefaultComparer'], function () { return JSIL.GetMethodInfo($thisType.Of($thisType.TElement.get(this), $thisType.TKey.get(this)), "DefaultComparer", new JSIL.MethodSignature($jsilcore.System.Int32, [$thisType.TElement.get(this), $thisType.TElement.get(this)]), false); }));
-    //    }
-    //    if (descending) {
-    //        $jsilcore.System.Collections.Generic.List$b1.Of($thisType.TElement.get(this)).prototype['Reverse'].call(this);
-    //    }
-    //};
 
     function OrderedEnumerable$b2__ctor(collection, keySelector, comparer, descending) {
         var $temp00;
@@ -396,22 +376,6 @@ JSIL.MakeInterface(
           ]),
           OrderedEnumerable$b2__ctor
         );
-
-        //Note: the code commented below was to implement the IOrderedEnumerable.CreateOrderedEnumerable method but I can't seem to make it work properly so we'll remove it for now.
-    //    $.Method({ Static: false, Public: false, Virtual: true }, "System.Linq.IOrderedEnumerable$lTElement$g.CreateOrderedEnumerable",
-    //  new JSIL.MethodSignature($jsilcore.TypeRef("System.Linq.IOrderedEnumerable`1", [$.GenericParameter("TElement")]), [
-    //      $jsilcore.TypeRef("System.Func`2", [$.GenericParameter("TElement"), "!!0"]), $jsilcore.TypeRef("System.Collections.Generic.IComparer`1", ["!!0"]),
-    //      $.Boolean
-    //  ], ["TKey"]),
-    //  OrderedEnumerable$b1_System_Linq_IOrderedEnumerable$lTElement$g_CreateOrderedEnumerable$b1
-    //)
-    //  .Overrides($jsilcore.TypeRef("System.Linq.IOrderedEnumerable`1", [$.GenericParameter("TElement")]), "CreateOrderedEnumerable");
-
-    //    function OrderedEnumerable$b1_System_Linq_IOrderedEnumerable$lTElement$g_CreateOrderedEnumerable$b1(TKey, keySelector, comparer, descending) {
-    //        var result = new (System.Linq.OrderedEnumerable$b2.Of($thisType.TElement.get(this), TKey))(this.source, keySelector, comparer, descending);
-    //        result.parent = this;
-    //        return result;
-    //    };
 
         $.Method({ Static: false, Public: false }, "CustomComparer",
           new JSIL.MethodSignature($.Int32, [$.GenericParameter("TElement"), $.GenericParameter("TElement")]),

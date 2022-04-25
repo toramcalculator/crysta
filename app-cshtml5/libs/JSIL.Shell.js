@@ -87,48 +87,7 @@ function loadAssets (assets) {
 
     assetLoader(assetPath, assetData);
   }
-};
-
-function shellStartup () {
-  initAssetLoaders();
-
-  var seenFilenames = {};
-
-  var pushAsset = function (assetSpec) {
-    var filename = assetSpec[1];
-    if (seenFilenames[filename])
-      return;
-
-    seenFilenames[filename] = true;
-    allAssetsToLoad.push(assetSpec);
-  }
-
-  var allAssetsToLoad = [];
-
-  if (typeof (assetsToLoad) !== "undefined") {
-    for (var i = 0, l = assetsToLoad.length; i < l; i++)
-      pushAsset(assetsToLoad[i]);
-  }
-
-  if (typeof (contentManifest) === "object") {
-    for (var k in contentManifest) {
-      var subManifest = contentManifest[k];
-
-      for (var i = 0, l = subManifest.length; i < l; i++)
-        pushAsset(subManifest[i]);
-
-    }
-  }
-
-  loadAssets(allAssetsToLoad);
-
-  if (typeof (runMain) === "function") {
-    JSIL.Initialize();
-    JSIL.Host.runInitCallbacks();
-    JSIL.Host.runLaterFlush();
-    runMain();
-  }
-};
+}
 
 var $$ObjectToTag = null;
 JSIL.Shell.TaggedObjectCount = 0;
@@ -138,12 +97,6 @@ JSIL.Shell.TagObject = function (obj, tag) {
     var index = JSIL.Shell.TaggedObjectCount++;
     var objectId = "TAGGED_OBJECT_" + index;
     $$ObjectToTag = obj;
-
-    var evalText = "$$ObjectToTag";
-    var evalResult = evaluate(evalText, {
-      fileName: objectId
-    });
-
     $$ObjectToTag = null;
 
     printErr("// " + objectId + "='" + tag + "'");
