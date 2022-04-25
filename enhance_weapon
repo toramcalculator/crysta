@@ -39,54 +39,54 @@
 "option":"마법추격%+125&시전속도+200&마법배리어+200"
 }
 {
-"name":""
-"enhance":""
-"option":""
+"name":"그와이몰"
+"enhance":"허망의 흑기사"
+"option":"ATK%+6&STR%+5&크리티컬률+%+4&DEF%-15"
 }
 {
-"name":""
-"enhance":""
-"option":""
+"name":"아르티마키나"
+"enhance":"필러골렘"
+"option":"최대MP+400&근거리위력%+4&물리관통%+4"
 }
 {
-"name":""
-"enhance":""
-"option":""
+"name":"샴피"
+"enhance":"마정의 짐승"
+"option":"MATK%+6&마법관통%+5&어그로%-7&MDEF%-18"
 }
 {
-"name":""
-"enhance":""
-"option":""
+"name":"암룡 핀스단"
+"enhance":"이미터그리스"
+"option":"MATK%+7&최대MP+300&방어무너뜨리기%+12"
 }
 {
-"name":""
-"enhance":""
-"option":""
+"name":"왕자 메기스콘II"
+"enhance":"왕자 메기스콘"
+"option":"최대HP+1200&크리티컬률+16&불내성%+3&빛내성%+3"
 }
 {
-"name":""
-"enhance":""
-"option":""
+"name":"사령술사 우사사마II"
+"enhance":"사령술사 우사사마"
+"option":"MATK%+7&시전속도%+14&행동속도%+3&최대HP%-15&공격MP회복%-30"
 }
 {
-"name":""
-"enhance":""
-"option":""
+"name":"제가IV"
+"enhance":"제가III"
+"option":"최대HP+700&공격MP회복+6&마법내성%+5&물내성%+4"
 }
 {
-"name":""
-"enhance":""
-"option":""
+"name":"용사 포툼II"
+"enhance":"용사 포툼"
+"option":"최대HP%+11&비율배리어%+12&명중%+13&어그로%+14"
 }
 {
-"name":""
-"enhance":""
-"option":""
+"name":"피투성이가 된 결정"
+"enhance":"사악한 마검"
+"option":"공격MP회복+7&어그로%+10&크리티컬대미지+6"
 }
 {
-"name":""
-"enhance":""
-"option":""
+"name":"레퓨톤"
+"enhance":"조르반"
+"option":"ATK%+6&MATK%+6&HP자연회복%-10&MP자연회복%-10"
 }
 {
 "name":""
