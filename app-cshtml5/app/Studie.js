@@ -171,19 +171,19 @@ JSIL.DeclareNamespace("Studie");
     return ($T0B = JSIL.Memoize($asm_Studie.Studie.MainPage_ExCrystaInfo)) ();
   };
   var $T0C = function () {
-    return ($T0C = JSIL.Memoize($asm_mscorlib.System.Collections.ObjectModel.Collection$b1.Of($asm_mscorlib.System.Object))) ();
+    return ($T0C = JSIL.Memoize($asm_mscorlib.System.Boolean)) ();
   };
   var $T0D = function () {
-    return ($T0D = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.ItemsControl)) ();
+    return ($T0D = JSIL.Memoize($asm_mscorlib.System.Collections.ObjectModel.Collection$b1.Of($asm_mscorlib.System.Object))) ();
   };
   var $T0E = function () {
-    return ($T0E = JSIL.Memoize($asm_mscorlib.System.Object)) ();
+    return ($T0E = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.ItemsControl)) ();
   };
   var $T0F = function () {
-    return ($T0F = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs)) ();
+    return ($T0F = JSIL.Memoize($asm_mscorlib.System.Object)) ();
   };
   var $T10 = function () {
-    return ($T10 = JSIL.Memoize($asm_mscorlib.System.Boolean)) ();
+    return ($T10 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs)) ();
   };
   var $T11 = function () {
     return ($T11 = JSIL.Memoize($asm_CSharpXamlForHtml5.Windows.UI.Xaml.Controls.Control)) ();
@@ -388,7 +388,7 @@ JSIL.DeclareNamespace("Studie");
     this.ExCrystas = $S01().Construct();
     this.Filters = $S02().Construct();
 
-    for (var text = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/normal"); (text.indexOf("\"name\":\"")) !== -1; ) {
+    for (var text = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/normal"); (text.indexOf("\"name\":\"")) !== -1; ) {
       var text2 = "";
       var text3 = "";
 
@@ -422,7 +422,7 @@ JSIL.DeclareNamespace("Studie");
     }
     this.CrystaAmount[0] = ((this.Crystas)['get_Count']() | 0);
 
-    for (var text6 = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/enhance_normal"); (text6.indexOf("\"name\":\"")) !== -1; ) {
+    for (var text6 = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/enhance_normal"); (text6.indexOf("\"name\":\"")) !== -1; ) {
       var text7 = "";
       var text8 = "";
       var text9 = "";
@@ -462,7 +462,7 @@ JSIL.DeclareNamespace("Studie");
     }
     this.ExCrystaAmount[0] = ((this.ExCrystas)['get_Count']() | 0);
 
-    for (var text12 = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/weapon"); (text12.indexOf("\"name\":\"")) !== -1; ) {
+    for (var text12 = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/weapon"); (text12.indexOf("\"name\":\"")) !== -1; ) {
       var text13 = "";
       var text14 = "";
 
@@ -496,7 +496,7 @@ JSIL.DeclareNamespace("Studie");
     }
     this.CrystaAmount[1] = ((this.Crystas)['get_Count']() | 0);
 
-    for (var text17 = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/enhance_weapon"); (text17.indexOf("\"name\":\"")) !== -1; ) {
+    for (var text17 = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/enhance_weapon"); (text17.indexOf("\"name\":\"")) !== -1; ) {
       var text18 = "";
       var text19 = "";
       var text20 = "";
@@ -536,7 +536,7 @@ JSIL.DeclareNamespace("Studie");
     }
     this.ExCrystaAmount[1] = ((this.ExCrystas)['get_Count']() | 0);
 
-    for (var text23 = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/armor"); (text23.indexOf("\"name\":\"")) !== -1; ) {
+    for (var text23 = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/armor"); (text23.indexOf("\"name\":\"")) !== -1; ) {
       var text24 = "";
       var text25 = "";
 
@@ -570,7 +570,7 @@ JSIL.DeclareNamespace("Studie");
     }
     this.CrystaAmount[2] = ((this.Crystas)['get_Count']() | 0);
 
-    for (var text28 = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/enhance_armor"); (text28.indexOf("\"name\":\"")) !== -1; ) {
+    for (var text28 = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/enhance_armor"); (text28.indexOf("\"name\":\"")) !== -1; ) {
       var text29 = "";
       var text30 = "";
       var text31 = "";
@@ -610,7 +610,7 @@ JSIL.DeclareNamespace("Studie");
     }
     this.ExCrystaAmount[2] = ((this.ExCrystas)['get_Count']() | 0);
 
-    for (var text34 = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/additional"); (text34.indexOf("\"name\":\"")) !== -1; ) {
+    for (var text34 = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/additional"); (text34.indexOf("\"name\":\"")) !== -1; ) {
       var text35 = "";
       var text36 = "";
 
@@ -644,7 +644,7 @@ JSIL.DeclareNamespace("Studie");
     }
     this.CrystaAmount[3] = ((this.Crystas)['get_Count']() | 0);
 
-    for (var text39 = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/enhance_additional"); (text39.indexOf("\"name\":\"")) !== -1; ) {
+    for (var text39 = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/enhance_additional"); (text39.indexOf("\"name\":\"")) !== -1; ) {
       var text40 = "";
       var text41 = "";
       var text42 = "";
@@ -684,7 +684,7 @@ JSIL.DeclareNamespace("Studie");
     }
     this.ExCrystaAmount[3] = ((this.ExCrystas)['get_Count']() | 0);
 
-    for (var text45 = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/special"); (text45.indexOf("\"name\":\"")) !== -1; ) {
+    for (var text45 = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/special"); (text45.indexOf("\"name\":\"")) !== -1; ) {
       var text46 = "";
       var text47 = "";
 
@@ -718,7 +718,7 @@ JSIL.DeclareNamespace("Studie");
     }
     this.CrystaAmount[4] = ((this.Crystas)['get_Count']() | 0);
 
-    for (var text50 = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/enhance_special"); (text50.indexOf("\"name\":\"")) !== -1; ) {
+    for (var text50 = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/enhance_special"); (text50.indexOf("\"name\":\"")) !== -1; ) {
       var text51 = "";
       var text52 = "";
       var text53 = "";
@@ -757,7 +757,7 @@ JSIL.DeclareNamespace("Studie");
       }
     }
     this.ExCrystaAmount[4] = ((this.ExCrystas)['get_Count']() | 0);
-    var text56 = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/optionlist");
+    var text56 = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/optionlist");
     text56 = (JSIL.ConcatString(text56, "\n"));
 
     for (var num30 = 0; num30 < (text56.length | 0); num30 = ((num30 + 1) | 0)) {
@@ -767,7 +767,10 @@ JSIL.DeclareNamespace("Studie");
         text57 = (JSIL.ConcatString(text57, (text56[num30])['toString']()));
         num30 = ((num30 + 1) | 0);
       }
-      ((this.FilterOption)['get_Items']())['Add'](text57);
+      var flag = (text57 != "");
+      if (flag) {
+        ((this.FilterOption)['get_Items']())['Add'](text57);
+      }
     }
   };
 
@@ -1032,7 +1035,7 @@ JSIL.DeclareNamespace("Studie");
       (button.BorderThickness = $T30().$Cast($T22()['ConvertFromInvariantString']($T30().__Type__, "1"))['MemberwiseClone']());
       button['set_Background']($T31().$Cast($T22()['ConvertFromInvariantString']($T31().__Type__, "Gray")));
       var button2 = new ($T2C())();
-      button2['set_Content']($T22()['ConvertFromInvariantString']($T0E().__Type__, " \ub178\ub9d0 \ud06c\ub9ac\uc2a4\ud0c0"));
+      button2['set_Content']($T22()['ConvertFromInvariantString']($T0F().__Type__, " \ub178\ub9d0 \ud06c\ub9ac\uc2a4\ud0c0"));
       button2['add_Click']($T2F()['New'](this, $thisType.prototype['Check1'], function () { return JSIL.GetMethodInfo($thisType, "Check1", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
       button2['set_Background']($T31().$Cast($T22()['ConvertFromInvariantString']($T31().__Type__, "White")));
       (stackPanel['get_Children']())['Add'](button);
@@ -1052,7 +1055,7 @@ JSIL.DeclareNamespace("Studie");
       (button3.BorderThickness = $T30().$Cast($T22()['ConvertFromInvariantString']($T30().__Type__, "1"))['MemberwiseClone']());
       button3['set_Background']($T31().$Cast($T22()['ConvertFromInvariantString']($T31().__Type__, "Gray")));
       var button4 = new ($T2C())();
-      button4['set_Content']($T22()['ConvertFromInvariantString']($T0E().__Type__, " \ub178\ub9d0 \uac15\ud654 \ud06c\ub9ac\uc2a4\ud0c0"));
+      button4['set_Content']($T22()['ConvertFromInvariantString']($T0F().__Type__, " \ub178\ub9d0 \uac15\ud654 \ud06c\ub9ac\uc2a4\ud0c0"));
       button4['add_Click']($T2F()['New'](this, $thisType.prototype['check2'], function () { return JSIL.GetMethodInfo($thisType, "check2", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
       button4['set_Background']($T31().$Cast($T22()['ConvertFromInvariantString']($T31().__Type__, "White")));
       (stackPanel2['get_Children']())['Add'](button3);
@@ -1072,7 +1075,7 @@ JSIL.DeclareNamespace("Studie");
       (button5.BorderThickness = $T30().$Cast($T22()['ConvertFromInvariantString']($T30().__Type__, "1"))['MemberwiseClone']());
       button5['set_Background']($T31().$Cast($T22()['ConvertFromInvariantString']($T31().__Type__, "Gray")));
       var button6 = new ($T2C())();
-      button6['set_Content']($T22()['ConvertFromInvariantString']($T0E().__Type__, " \ubb34\uae30 \ud06c\ub9ac\uc2a4\ud0c0"));
+      button6['set_Content']($T22()['ConvertFromInvariantString']($T0F().__Type__, " \ubb34\uae30 \ud06c\ub9ac\uc2a4\ud0c0"));
       button6['add_Click']($T2F()['New'](this, $thisType.prototype['check3'], function () { return JSIL.GetMethodInfo($thisType, "check3", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
       button6['set_Background']($T31().$Cast($T22()['ConvertFromInvariantString']($T31().__Type__, "White")));
       (stackPanel3['get_Children']())['Add'](button5);
@@ -1092,7 +1095,7 @@ JSIL.DeclareNamespace("Studie");
       (button7.BorderThickness = $T30().$Cast($T22()['ConvertFromInvariantString']($T30().__Type__, "1"))['MemberwiseClone']());
       button7['set_Background']($T31().$Cast($T22()['ConvertFromInvariantString']($T31().__Type__, "Gray")));
       var button8 = new ($T2C())();
-      button8['set_Content']($T22()['ConvertFromInvariantString']($T0E().__Type__, " \ubb34\uae30 \uac15\ud654 \ud06c\ub9ac\uc2a4\ud0c0"));
+      button8['set_Content']($T22()['ConvertFromInvariantString']($T0F().__Type__, " \ubb34\uae30 \uac15\ud654 \ud06c\ub9ac\uc2a4\ud0c0"));
       button8['add_Click']($T2F()['New'](this, $thisType.prototype['check4'], function () { return JSIL.GetMethodInfo($thisType, "check4", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
       button8['set_Background']($T31().$Cast($T22()['ConvertFromInvariantString']($T31().__Type__, "White")));
       (stackPanel4['get_Children']())['Add'](button7);
@@ -1112,7 +1115,7 @@ JSIL.DeclareNamespace("Studie");
       (button9.BorderThickness = $T30().$Cast($T22()['ConvertFromInvariantString']($T30().__Type__, "1"))['MemberwiseClone']());
       button9['set_Background']($T31().$Cast($T22()['ConvertFromInvariantString']($T31().__Type__, "Gray")));
       var button10 = new ($T2C())();
-      button10['set_Content']($T22()['ConvertFromInvariantString']($T0E().__Type__, " \ubc29\uc5b4\uad6c \ud06c\ub9ac\uc2a4\ud0c0"));
+      button10['set_Content']($T22()['ConvertFromInvariantString']($T0F().__Type__, " \ubc29\uc5b4\uad6c \ud06c\ub9ac\uc2a4\ud0c0"));
       button10['add_Click']($T2F()['New'](this, $thisType.prototype['check5'], function () { return JSIL.GetMethodInfo($thisType, "check5", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
       button10['set_Background']($T31().$Cast($T22()['ConvertFromInvariantString']($T31().__Type__, "White")));
       (stackPanel5['get_Children']())['Add'](button9);
@@ -1132,7 +1135,7 @@ JSIL.DeclareNamespace("Studie");
       (button11.BorderThickness = $T30().$Cast($T22()['ConvertFromInvariantString']($T30().__Type__, "1"))['MemberwiseClone']());
       button11['set_Background']($T31().$Cast($T22()['ConvertFromInvariantString']($T31().__Type__, "Gray")));
       var button12 = new ($T2C())();
-      button12['set_Content']($T22()['ConvertFromInvariantString']($T0E().__Type__, " \ubc29\uc5b4\uad6c \uac15\ud654 \ud06c\ub9ac\uc2a4\ud0c0"));
+      button12['set_Content']($T22()['ConvertFromInvariantString']($T0F().__Type__, " \ubc29\uc5b4\uad6c \uac15\ud654 \ud06c\ub9ac\uc2a4\ud0c0"));
       button12['add_Click']($T2F()['New'](this, $thisType.prototype['check6'], function () { return JSIL.GetMethodInfo($thisType, "check6", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
       button12['set_Background']($T31().$Cast($T22()['ConvertFromInvariantString']($T31().__Type__, "White")));
       (stackPanel6['get_Children']())['Add'](button11);
@@ -1152,7 +1155,7 @@ JSIL.DeclareNamespace("Studie");
       (button13.BorderThickness = $T30().$Cast($T22()['ConvertFromInvariantString']($T30().__Type__, "1"))['MemberwiseClone']());
       button13['set_Background']($T31().$Cast($T22()['ConvertFromInvariantString']($T31().__Type__, "Gray")));
       var button14 = new ($T2C())();
-      button14['set_Content']($T22()['ConvertFromInvariantString']($T0E().__Type__, " \ucd94\uac00 \ud06c\ub9ac\uc2a4\ud0c0"));
+      button14['set_Content']($T22()['ConvertFromInvariantString']($T0F().__Type__, " \ucd94\uac00 \ud06c\ub9ac\uc2a4\ud0c0"));
       button14['add_Click']($T2F()['New'](this, $thisType.prototype['check7'], function () { return JSIL.GetMethodInfo($thisType, "check7", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
       button14['set_Background']($T31().$Cast($T22()['ConvertFromInvariantString']($T31().__Type__, "White")));
       (stackPanel7['get_Children']())['Add'](button13);
@@ -1172,7 +1175,7 @@ JSIL.DeclareNamespace("Studie");
       (button15.BorderThickness = $T30().$Cast($T22()['ConvertFromInvariantString']($T30().__Type__, "1"))['MemberwiseClone']());
       button15['set_Background']($T31().$Cast($T22()['ConvertFromInvariantString']($T31().__Type__, "Gray")));
       var button16 = new ($T2C())();
-      button16['set_Content']($T22()['ConvertFromInvariantString']($T0E().__Type__, " \ucd94\uac00 \uac15\ud654 \ud06c\ub9ac\uc2a4\ud0c0"));
+      button16['set_Content']($T22()['ConvertFromInvariantString']($T0F().__Type__, " \ucd94\uac00 \uac15\ud654 \ud06c\ub9ac\uc2a4\ud0c0"));
       button16['add_Click']($T2F()['New'](this, $thisType.prototype['check8'], function () { return JSIL.GetMethodInfo($thisType, "check8", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
       button16['set_Background']($T31().$Cast($T22()['ConvertFromInvariantString']($T31().__Type__, "White")));
       (stackPanel8['get_Children']())['Add'](button15);
@@ -1192,7 +1195,7 @@ JSIL.DeclareNamespace("Studie");
       (button17.BorderThickness = $T30().$Cast($T22()['ConvertFromInvariantString']($T30().__Type__, "1"))['MemberwiseClone']());
       button17['set_Background']($T31().$Cast($T22()['ConvertFromInvariantString']($T31().__Type__, "Gray")));
       var button18 = new ($T2C())();
-      button18['set_Content']($T22()['ConvertFromInvariantString']($T0E().__Type__, " \ud2b9\uc218 \ud06c\ub9ac\uc2a4\ud0c0"));
+      button18['set_Content']($T22()['ConvertFromInvariantString']($T0F().__Type__, " \ud2b9\uc218 \ud06c\ub9ac\uc2a4\ud0c0"));
       button18['add_Click']($T2F()['New'](this, $thisType.prototype['check9'], function () { return JSIL.GetMethodInfo($thisType, "check9", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
       button18['set_Background']($T31().$Cast($T22()['ConvertFromInvariantString']($T31().__Type__, "White")));
       (stackPanel9['get_Children']())['Add'](button17);
@@ -1212,7 +1215,7 @@ JSIL.DeclareNamespace("Studie");
       (button19.BorderThickness = $T30().$Cast($T22()['ConvertFromInvariantString']($T30().__Type__, "1"))['MemberwiseClone']());
       button19['set_Background']($T31().$Cast($T22()['ConvertFromInvariantString']($T31().__Type__, "Gray")));
       var button20 = new ($T2C())();
-      button20['set_Content']($T22()['ConvertFromInvariantString']($T0E().__Type__, " \ucd94\uac00 \uac15\ud654 \ud06c\ub9ac\uc2a4\ud0c0"));
+      button20['set_Content']($T22()['ConvertFromInvariantString']($T0F().__Type__, " \ucd94\uac00 \uac15\ud654 \ud06c\ub9ac\uc2a4\ud0c0"));
       button20['add_Click']($T2F()['New'](this, $thisType.prototype['check10'], function () { return JSIL.GetMethodInfo($thisType, "check10", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
       button20['set_Background']($T31().$Cast($T22()['ConvertFromInvariantString']($T31().__Type__, "White")));
       (stackPanel10['get_Children']())['Add'](button19);
@@ -1261,15 +1264,15 @@ JSIL.DeclareNamespace("Studie");
       $T20()['SetColumn'](comboBox2, $T00().$Cast($T22()['ConvertFromInvariantString']($T00().__Type__, "1")));
       (comboBox2.Margin = $T30().$Cast($T22()['ConvertFromInvariantString']($T30().__Type__, "7"))['MemberwiseClone']());
       var comboBoxItem = new ($T36())();
-      comboBoxItem['set_Content']($T22()['ConvertFromInvariantString']($T0E().__Type__, "\u2265"));
+      comboBoxItem['set_Content']($T22()['ConvertFromInvariantString']($T0F().__Type__, "\u2265"));
       var comboBoxItem2 = new ($T36())();
-      comboBoxItem2['set_Content']($T22()['ConvertFromInvariantString']($T0E().__Type__, ">"));
+      comboBoxItem2['set_Content']($T22()['ConvertFromInvariantString']($T0F().__Type__, ">"));
       var comboBoxItem3 = new ($T36())();
-      comboBoxItem3['set_Content']($T22()['ConvertFromInvariantString']($T0E().__Type__, "="));
+      comboBoxItem3['set_Content']($T22()['ConvertFromInvariantString']($T0F().__Type__, "="));
       var comboBoxItem4 = new ($T36())();
-      comboBoxItem4['set_Content']($T22()['ConvertFromInvariantString']($T0E().__Type__, "<"));
+      comboBoxItem4['set_Content']($T22()['ConvertFromInvariantString']($T0F().__Type__, "<"));
       var comboBoxItem5 = new ($T36())();
-      comboBoxItem5['set_Content']($T22()['ConvertFromInvariantString']($T0E().__Type__, "\u2264"));
+      comboBoxItem5['set_Content']($T22()['ConvertFromInvariantString']($T0F().__Type__, "\u2264"));
       (comboBox2['get_Items']())['Add'](comboBoxItem);
       (comboBox2['get_Items']())['Add'](comboBoxItem2);
       (comboBox2['get_Items']())['Add'](comboBoxItem3);
@@ -1284,7 +1287,7 @@ JSIL.DeclareNamespace("Studie");
       button21['add_Click']($T2F()['New'](this, $thisType.prototype['FilterSet_Click'], function () { return JSIL.GetMethodInfo($thisType, "FilterSet_Click", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
       $T20()['SetColumn'](button21, $T00().$Cast($T22()['ConvertFromInvariantString']($T00().__Type__, "3")));
       (button21.Margin = $T30().$Cast($T22()['ConvertFromInvariantString']($T30().__Type__, "2,7"))['MemberwiseClone']());
-      button21['set_Content']($T22()['ConvertFromInvariantString']($T0E().__Type__, "+"));
+      button21['set_Content']($T22()['ConvertFromInvariantString']($T0F().__Type__, "+"));
       (grid4['get_Children']())['Add'](comboBox);
       (grid4['get_Children']())['Add'](comboBox2);
       (grid4['get_Children']())['Add'](textBox);
@@ -1301,7 +1304,7 @@ JSIL.DeclareNamespace("Studie");
       var listBox = new ($T38())();
       $T2D().prototype['RegisterName'].call(this, "FilterList", listBox);
       listBox['set_Name']("FilterList");
-      listBox['set_IsEnabled']($T10().$Cast($T22()['ConvertFromInvariantString']($T10().__Type__, "False")));
+      listBox['set_IsEnabled']($T0C().$Cast($T22()['ConvertFromInvariantString']($T0C().__Type__, "False")));
       (listBox.Margin = $T30().$Cast($T22()['ConvertFromInvariantString']($T30().__Type__, "7"))['MemberwiseClone']());
       scrollViewer['set_Content'](listBox);
       var comboBox3 = new ($T35())();
@@ -1322,12 +1325,12 @@ JSIL.DeclareNamespace("Studie");
       var button22 = new ($T2C())();
       button22['add_Click']($T2F()['New'](this, $thisType.prototype['StartBtn_Click'], function () { return JSIL.GetMethodInfo($thisType, "StartBtn_Click", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
       (button22.Margin = $T30().$Cast($T22()['ConvertFromInvariantString']($T30().__Type__, "15,7"))['MemberwiseClone']());
-      button22['set_Content']($T22()['ConvertFromInvariantString']($T0E().__Type__, "\uac80\uc0c9"));
+      button22['set_Content']($T22()['ConvertFromInvariantString']($T0F().__Type__, "\uac80\uc0c9"));
       var button23 = new ($T2C())();
       $T20()['SetColumn'](button23, $T00().$Cast($T22()['ConvertFromInvariantString']($T00().__Type__, "1")));
       button23['add_Click']($T2F()['New'](this, $thisType.prototype['DeleteFilterBtn_Click'], function () { return JSIL.GetMethodInfo($thisType, "DeleteFilterBtn_Click", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
       (button23.Margin = $T30().$Cast($T22()['ConvertFromInvariantString']($T30().__Type__, "15,7"))['MemberwiseClone']());
-      button23['set_Content']($T22()['ConvertFromInvariantString']($T0E().__Type__, "\ud544\ud130 \uc0ad\uc81c"));
+      button23['set_Content']($T22()['ConvertFromInvariantString']($T0F().__Type__, "\ud544\ud130 \uc0ad\uc81c"));
       (grid6['get_Children']())['Add'](button22);
       (grid6['get_Children']())['Add'](button23);
       (grid3['get_Children']())['Add'](grid4);
@@ -1338,10 +1341,10 @@ JSIL.DeclareNamespace("Studie");
       var listBox2 = new ($T38())();
       $T2D().prototype['RegisterName'].call(this, "ResultBox", listBox2);
       listBox2['set_Name']("ResultBox");
-      listBox2['set_IsEnabled']($T10().$Cast($T22()['ConvertFromInvariantString']($T10().__Type__, "False")));
+      listBox2['set_IsEnabled']($T0C().$Cast($T22()['ConvertFromInvariantString']($T0C().__Type__, "False")));
       (listBox2.Margin = $T30().$Cast($T22()['ConvertFromInvariantString']($T30().__Type__, "7"))['MemberwiseClone']());
       var dataTemplate = new ($T39())();
-      dataTemplate['SetMethodToInstantiateFrameworkTemplate']($T3B()['New'](this, $thisType.prototype['Instantiate_DataTemplate_57885dca265048b1a4c8c09ab9a4f206'], function () { return JSIL.GetMethodInfo($thisType, "Instantiate_DataTemplate_57885dca265048b1a4c8c09ab9a4f206", new JSIL.MethodSignature($asm_CSharpXamlForHtml5.Windows.UI.Xaml.TemplateInstance, [$asm_CSharpXamlForHtml5.Windows.UI.Xaml.FrameworkElement]), false); }));
+      dataTemplate['SetMethodToInstantiateFrameworkTemplate']($T3B()['New'](this, $thisType.prototype['Instantiate_DataTemplate_f2e8f3d6bdd34537847a51a2102e8541'], function () { return JSIL.GetMethodInfo($thisType, "Instantiate_DataTemplate_f2e8f3d6bdd34537847a51a2102e8541", new JSIL.MethodSignature($asm_CSharpXamlForHtml5.Windows.UI.Xaml.TemplateInstance, [$asm_CSharpXamlForHtml5.Windows.UI.Xaml.FrameworkElement]), false); }));
       listBox2['set_ItemTemplate'](dataTemplate);
       scrollViewer2['set_Content'](listBox2);
       (grid['get_Children']())['Add'](grid2);
@@ -1367,7 +1370,7 @@ JSIL.DeclareNamespace("Studie");
     }
   };
 
-  function MainPage_Instantiate_DataTemplate_57885dca265048b1a4c8c09ab9a4f206 (templateOwner) {
+  function MainPage_Instantiate_DataTemplate_f2e8f3d6bdd34537847a51a2102e8541 (templateOwner) {
     var templateInstance = new ($T3C())();
     templateInstance['set_TemplateOwner'](templateOwner);
     var stackPanel = new ($T28())();
@@ -1403,594 +1406,599 @@ JSIL.DeclareNamespace("Studie");
   };
 
   function MainPage_StartBtn_Click (sender, e) {
-    ((this.ResultBox)['get_Items']())['Clear']();
-    var flag = ($T05()['Format']("{0}", (this.NormCheckbox)['get_Background']()) != "#FFFFFFFF");
+    var flag = (((this.FilterList)['get_Items']())['get_Count']() | 0) === 0;
     if (flag) {
+      $T15()['Show']("\ud544\ud130\ub97c \ud558\ub098 \uc774\uc0c1 \uc124\uc815\ud574\uc8fc\uc138\uc694\n\ud544\ud130\uc124\uc815\ubc29\ubc95: \uac12\uc744 \uc804\ubd80 \ucc44\uc6b4 \ud6c4 \uc6b0\uce21\uc758 + \ubc84\ud2bc \ud074\ub9ad");
+    } else {
+      ((this.ResultBox)['get_Items']())['Clear']();
+      var flag2 = ($T05()['Format']("{0}", (this.NormCheckbox)['get_Background']()) != "#FFFFFFFF");
+      if (flag2) {
 
-      for (var i = 0; i < (this.CrystaAmount[0] | 0); i = ((i + 1) | 0)) {
-        var flag2 = true;
+        for (var i = 0; i < (this.CrystaAmount[0] | 0); i = ((i + 1) | 0)) {
+          var flag3 = true;
 
-      $loop1: 
-        for (var j = 0; j < ((this.Filters)['get_Count']() | 0); j = ((j + 1) | 0)) {
-          flag2 = flag2 && 
-          this['Filtering'](
-            (this.Crystas)['get_Item'](i), 
-            (this.Filters)['get_Item'](j).option, 
-            (this.Filters)['get_Item'](j).sign, 
-            (this.Filters)['get_Item'](j).value
-          );
-          var flag3 = !flag2;
-          if (flag3) {
-            break $loop1;
+        $loop1: 
+          for (var j = 0; j < ((this.Filters)['get_Count']() | 0); j = ((j + 1) | 0)) {
+            flag3 = flag3 && 
+            this['Filtering'](
+              (this.Crystas)['get_Item'](i), 
+              (this.Filters)['get_Item'](j).option, 
+              (this.Filters)['get_Item'](j).sign, 
+              (this.Filters)['get_Item'](j).value
+            );
+            var flag4 = !flag3;
+            if (flag4) {
+              break $loop1;
+            }
           }
-        }
-        var flag4 = flag2;
-        if (flag4) {
-          var text = "";
-          var crystaInfo = (this.Crystas)['get_Item'](i);
+          var flag5 = flag3;
+          if (flag5) {
+            var text = "";
+            var crystaInfo = (this.Crystas)['get_Item'](i);
 
-          for (var k = 0; k < ((crystaInfo.options)['get_Count']() | 0); k = ((k + 1) | 0)) {
-            var text2 = (crystaInfo.options)['get_Item'](k);
-            var flag5 = false;
-            var flag6 = ((text2[(((text2.length | 0) - 1) | 0)])['charCodeAt'](0) | 0) === (("%")['charCodeAt'](0) | 0);
-            if (flag6) {
-              text2 = (text2.substr(0, (((text2.length | 0) - 1) | 0)));
-              flag5 = true;
+            for (var k = 0; k < ((crystaInfo.options)['get_Count']() | 0); k = ((k + 1) | 0)) {
+              var text2 = (crystaInfo.options)['get_Item'](k);
+              var flag6 = false;
+              var flag7 = ((text2[(((text2.length | 0) - 1) | 0)])['charCodeAt'](0) | 0) === (("%")['charCodeAt'](0) | 0);
+              if (flag7) {
+                text2 = (text2.substr(0, (((text2.length | 0) - 1) | 0)));
+                flag6 = true;
+              }
+              text = (JSIL.ConcatString(text, text2));
+              var flag8 = ((crystaInfo.opvalues)['get_Item'](k) | 0) > 0;
+              if (flag8) {
+                text = (JSIL.ConcatString(text, "+"));
+              }
+              text = (JSIL.ConcatString(text, ((crystaInfo.opvalues)['get_Item'](k)).toString()));
+              var flag9 = flag6;
+              if (flag9) {
+                text = (JSIL.ConcatString(text, "%"));
+              }
+              text = (JSIL.ConcatString(text, " "));
             }
-            text = (JSIL.ConcatString(text, text2));
-            var flag7 = ((crystaInfo.opvalues)['get_Item'](k) | 0) > 0;
-            if (flag7) {
-              text = (JSIL.ConcatString(text, "+"));
+            text = this['AddLine'](text, 35);
+            var arg_23C_0 = (this.ResultBox)['get_Items']();
+            var singleItem = new ($T42())();
+            singleItem.SingleItem$IconPath$value = "ms-appx:/normal.png";
+            singleItem.SingleItem$Text$value = ((crystaInfo.$name + "\n -> " + text));
+            arg_23C_0['Add'](singleItem['MemberwiseClone']());
+            var flag10 = (((this.ResultBox)['get_Items']())['get_Count']() | 0) > 30;
+            if (flag10) {
+              $T15()['Show']("30\uac1c\ub97c \ucd08\uacfc\ud558\ub294 \uacb0\uacfc\ub294 \ucd9c\ub825\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4\n\ud544\ud130\ub97c \uc870\uc815\ud558\uc5ec \ubc94\uc704\ub97c \uc881\ud600\uc8fc\uc138\uc694");
+              return;
             }
-            text = (JSIL.ConcatString(text, ((crystaInfo.opvalues)['get_Item'](k)).toString()));
-            var flag8 = flag5;
-            if (flag8) {
-              text = (JSIL.ConcatString(text, "%"));
-            }
-            text = (JSIL.ConcatString(text, " "));
-          }
-          text = this['AddLine'](text, 35);
-          var arg_20F_0 = (this.ResultBox)['get_Items']();
-          var singleItem = new ($T42())();
-          singleItem.SingleItem$IconPath$value = "ms-appx:/normal.png";
-          singleItem.SingleItem$Text$value = ((crystaInfo.$name + "\n -> " + text));
-          arg_20F_0['Add'](singleItem['MemberwiseClone']());
-          var flag9 = (((this.ResultBox)['get_Items']())['get_Count']() | 0) > 30;
-          if (flag9) {
-            $T15()['Show']("30\uac1c\ub97c \ucd08\uacfc\ud558\ub294 \uacb0\uacfc\ub294 \ucd9c\ub825\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4\n\ud544\ud130\ub97c \uc870\uc815\ud558\uc5ec \ubc94\uc704\ub97c \uc881\ud600\uc8fc\uc138\uc694");
-            return;
-          }
-        }
-      }
-    }
-    var flag10 = ($T05()['Format']("{0}", (this.NormCheckboxEx)['get_Background']()) != "#FFFFFFFF");
-    if (flag10) {
-
-      for (var l = 0; l < (this.ExCrystaAmount[0] | 0); l = ((l + 1) | 0)) {
-        var flag11 = true;
-
-      $loop4: 
-        for (var m = 0; m < ((this.Filters)['get_Count']() | 0); m = ((m + 1) | 0)) {
-          flag11 = flag11 && 
-          this['Filtering'](
-            (this.ExCrystas)['get_Item'](l), 
-            (this.Filters)['get_Item'](m).option, 
-            (this.Filters)['get_Item'](m).sign, 
-            (this.Filters)['get_Item'](m).value
-          );
-          var flag12 = !flag11;
-          if (flag12) {
-            break $loop4;
-          }
-        }
-        var flag13 = flag11;
-        if (flag13) {
-          var text3 = "";
-          var exCrystaInfo = (this.ExCrystas)['get_Item'](l);
-
-          for (var n = 0; n < ((exCrystaInfo.options)['get_Count']() | 0); n = ((n + 1) | 0)) {
-            var text4 = (exCrystaInfo.options)['get_Item'](n);
-            var flag14 = false;
-            var flag15 = ((text4[(((text4.length | 0) - 1) | 0)])['charCodeAt'](0) | 0) === (("%")['charCodeAt'](0) | 0);
-            if (flag15) {
-              text4 = (text4.substr(0, (((text4.length | 0) - 1) | 0)));
-              flag14 = true;
-            }
-            text3 = (JSIL.ConcatString(text3, text4));
-            var flag16 = ((exCrystaInfo.opvalues)['get_Item'](n) | 0) > 0;
-            if (flag16) {
-              text3 = (JSIL.ConcatString(text3, "+"));
-            }
-            text3 = (JSIL.ConcatString(text3, ((exCrystaInfo.opvalues)['get_Item'](n)).toString()));
-            var flag17 = flag14;
-            if (flag17) {
-              text3 = (JSIL.ConcatString(text3, "%"));
-            }
-            text3 = (JSIL.ConcatString(text3, " "));
-          }
-          text3 = this['AddLine'](text3, 35);
-          var arg_494_0 = (this.ResultBox)['get_Items']();
-          singleItem = new ($T42())();
-          singleItem.SingleItem$IconPath$value = "ms-appx:/normalEx.png";
-          singleItem.SingleItem$Text$value = (JSIL.ConcatString.apply(null, JSIL.Array.New($T05(), [(this.ExCrystas)['get_Item'](l).$name, "(\uac15\ud654: ", (this.ExCrystas)['get_Item'](l).Enhance, ")\n -> ", text3])));
-          arg_494_0['Add'](singleItem['MemberwiseClone']());
-          var flag18 = (((this.ResultBox)['get_Items']())['get_Count']() | 0) > 30;
-          if (flag18) {
-            $T15()['Show']("30\uac1c\ub97c \ucd08\uacfc\ud558\ub294 \uacb0\uacfc\ub294 \ucd9c\ub825\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4\n\ud544\ud130\ub97c \uc870\uc815\ud558\uc5ec \ubc94\uc704\ub97c \uc881\ud600\uc8fc\uc138\uc694");
-            return;
           }
         }
       }
-    }
-    var flag19 = ($T05()['Format']("{0}", (this.WeaponCheckbox)['get_Background']()) != "#FFFFFFFF");
-    if (flag19) {
+      var flag11 = ($T05()['Format']("{0}", (this.NormCheckboxEx)['get_Background']()) != "#FFFFFFFF");
+      if (flag11) {
 
-      for (i = (this.CrystaAmount[0] | 0); i < (this.CrystaAmount[1] | 0); i = ((i + 1) | 0)) {
-        var flag20 = true;
+        for (var l = 0; l < (this.ExCrystaAmount[0] | 0); l = ((l + 1) | 0)) {
+          var flag12 = true;
 
-      $loop7: 
-        for (var num = 0; num < ((this.Filters)['get_Count']() | 0); num = ((num + 1) | 0)) {
-          flag20 = flag20 && 
-          this['Filtering'](
-            (this.Crystas)['get_Item'](i), 
-            (this.Filters)['get_Item'](num).option, 
-            (this.Filters)['get_Item'](num).sign, 
-            (this.Filters)['get_Item'](num).value
-          );
-          var flag21 = !flag20;
-          if (flag21) {
-            break $loop7;
+        $loop4: 
+          for (var m = 0; m < ((this.Filters)['get_Count']() | 0); m = ((m + 1) | 0)) {
+            flag12 = flag12 && 
+            this['Filtering'](
+              (this.ExCrystas)['get_Item'](l), 
+              (this.Filters)['get_Item'](m).option, 
+              (this.Filters)['get_Item'](m).sign, 
+              (this.Filters)['get_Item'](m).value
+            );
+            var flag13 = !flag12;
+            if (flag13) {
+              break $loop4;
+            }
           }
-        }
-        var flag22 = flag20;
-        if (flag22) {
-          var text5 = "";
-          var crystaInfo2 = (this.Crystas)['get_Item'](i);
+          var flag14 = flag12;
+          if (flag14) {
+            var text3 = "";
+            var exCrystaInfo = (this.ExCrystas)['get_Item'](l);
 
-          for (var num2 = 0; num2 < ((crystaInfo2.options)['get_Count']() | 0); num2 = ((num2 + 1) | 0)) {
-            var text6 = (crystaInfo2.options)['get_Item'](num2);
-            var flag23 = false;
-            var flag24 = ((text6[(((text6.length | 0) - 1) | 0)])['charCodeAt'](0) | 0) === (("%")['charCodeAt'](0) | 0);
-            if (flag24) {
-              text6 = (text6.substr(0, (((text6.length | 0) - 1) | 0)));
-              flag23 = true;
+            for (var n = 0; n < ((exCrystaInfo.options)['get_Count']() | 0); n = ((n + 1) | 0)) {
+              var text4 = (exCrystaInfo.options)['get_Item'](n);
+              var flag15 = false;
+              var flag16 = ((text4[(((text4.length | 0) - 1) | 0)])['charCodeAt'](0) | 0) === (("%")['charCodeAt'](0) | 0);
+              if (flag16) {
+                text4 = (text4.substr(0, (((text4.length | 0) - 1) | 0)));
+                flag15 = true;
+              }
+              text3 = (JSIL.ConcatString(text3, text4));
+              var flag17 = ((exCrystaInfo.opvalues)['get_Item'](n) | 0) > 0;
+              if (flag17) {
+                text3 = (JSIL.ConcatString(text3, "+"));
+              }
+              text3 = (JSIL.ConcatString(text3, ((exCrystaInfo.opvalues)['get_Item'](n)).toString()));
+              var flag18 = flag15;
+              if (flag18) {
+                text3 = (JSIL.ConcatString(text3, "%"));
+              }
+              text3 = (JSIL.ConcatString(text3, " "));
             }
-            text5 = (JSIL.ConcatString(text5, text6));
-            var flag25 = ((crystaInfo2.opvalues)['get_Item'](num2) | 0) > 0;
-            if (flag25) {
-              text5 = (JSIL.ConcatString(text5, "+"));
+            text3 = this['AddLine'](text3, 35);
+            var arg_4C1_0 = (this.ResultBox)['get_Items']();
+            singleItem = new ($T42())();
+            singleItem.SingleItem$IconPath$value = "ms-appx:/normalEx.png";
+            singleItem.SingleItem$Text$value = (JSIL.ConcatString.apply(null, JSIL.Array.New($T05(), [(this.ExCrystas)['get_Item'](l).$name, "(\uac15\ud654: ", (this.ExCrystas)['get_Item'](l).Enhance, ")\n -> ", text3])));
+            arg_4C1_0['Add'](singleItem['MemberwiseClone']());
+            var flag19 = (((this.ResultBox)['get_Items']())['get_Count']() | 0) > 30;
+            if (flag19) {
+              $T15()['Show']("30\uac1c\ub97c \ucd08\uacfc\ud558\ub294 \uacb0\uacfc\ub294 \ucd9c\ub825\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4\n\ud544\ud130\ub97c \uc870\uc815\ud558\uc5ec \ubc94\uc704\ub97c \uc881\ud600\uc8fc\uc138\uc694");
+              return;
             }
-            text5 = (JSIL.ConcatString(text5, ((crystaInfo2.opvalues)['get_Item'](num2)).toString()));
-            var flag26 = flag23;
-            if (flag26) {
-              text5 = (JSIL.ConcatString(text5, "%"));
-            }
-            text5 = (JSIL.ConcatString(text5, " "));
-          }
-          text5 = this['AddLine'](text5, 35);
-          var arg_6EB_0 = (this.ResultBox)['get_Items']();
-          singleItem = new ($T42())();
-          singleItem.SingleItem$IconPath$value = "ms-appx:/weapon.png";
-          singleItem.SingleItem$Text$value = ((crystaInfo2.$name + "\n -> " + text5));
-          arg_6EB_0['Add'](singleItem['MemberwiseClone']());
-          var flag27 = (((this.ResultBox)['get_Items']())['get_Count']() | 0) > 30;
-          if (flag27) {
-            $T15()['Show']("30\uac1c\ub97c \ucd08\uacfc\ud558\ub294 \uacb0\uacfc\ub294 \ucd9c\ub825\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4\n\ud544\ud130\ub97c \uc870\uc815\ud558\uc5ec \ubc94\uc704\ub97c \uc881\ud600\uc8fc\uc138\uc694");
-            return;
-          }
-        }
-      }
-    }
-    var flag28 = ($T05()['Format']("{0}", (this.WeaponCheckboxEx)['get_Background']()) != "#FFFFFFFF");
-    if (flag28) {
-
-      for (l = (this.ExCrystaAmount[0] | 0); l < (this.ExCrystaAmount[1] | 0); l = ((l + 1) | 0)) {
-        var flag29 = true;
-
-      $loop10: 
-        for (var num3 = 0; num3 < ((this.Filters)['get_Count']() | 0); num3 = ((num3 + 1) | 0)) {
-          flag29 = flag29 && 
-          this['Filtering'](
-            (this.ExCrystas)['get_Item'](l), 
-            (this.Filters)['get_Item'](num3).option, 
-            (this.Filters)['get_Item'](num3).sign, 
-            (this.Filters)['get_Item'](num3).value
-          );
-          var flag30 = !flag29;
-          if (flag30) {
-            break $loop10;
-          }
-        }
-        var flag31 = flag29;
-        if (flag31) {
-          var text7 = "";
-          var exCrystaInfo2 = (this.ExCrystas)['get_Item'](l);
-
-          for (var num4 = 0; num4 < ((exCrystaInfo2.options)['get_Count']() | 0); num4 = ((num4 + 1) | 0)) {
-            var text8 = (exCrystaInfo2.options)['get_Item'](num4);
-            var flag32 = false;
-            var flag33 = ((text8[(((text8.length | 0) - 1) | 0)])['charCodeAt'](0) | 0) === (("%")['charCodeAt'](0) | 0);
-            if (flag33) {
-              text8 = (text8.substr(0, (((text8.length | 0) - 1) | 0)));
-              flag32 = true;
-            }
-            text7 = (JSIL.ConcatString(text7, text8));
-            var flag34 = ((exCrystaInfo2.opvalues)['get_Item'](num4) | 0) > 0;
-            if (flag34) {
-              text7 = (JSIL.ConcatString(text7, "+"));
-            }
-            text7 = (JSIL.ConcatString(text7, ((exCrystaInfo2.opvalues)['get_Item'](num4)).toString()));
-            var flag35 = flag32;
-            if (flag35) {
-              text7 = (JSIL.ConcatString(text7, "%"));
-            }
-            text7 = (JSIL.ConcatString(text7, " "));
-          }
-          text7 = this['AddLine'](text7, 35);
-          var arg_977_0 = (this.ResultBox)['get_Items']();
-          singleItem = new ($T42())();
-          singleItem.SingleItem$IconPath$value = "ms-appx:/weaponEx.png";
-          singleItem.SingleItem$Text$value = (JSIL.ConcatString.apply(null, JSIL.Array.New($T05(), [(this.ExCrystas)['get_Item'](l).$name, "(\uac15\ud654: ", (this.ExCrystas)['get_Item'](l).Enhance, ")\n -> ", text7])));
-          arg_977_0['Add'](singleItem['MemberwiseClone']());
-          var flag36 = (((this.ResultBox)['get_Items']())['get_Count']() | 0) > 30;
-          if (flag36) {
-            $T15()['Show']("30\uac1c\ub97c \ucd08\uacfc\ud558\ub294 \uacb0\uacfc\ub294 \ucd9c\ub825\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4\n\ud544\ud130\ub97c \uc870\uc815\ud558\uc5ec \ubc94\uc704\ub97c \uc881\ud600\uc8fc\uc138\uc694");
-            return;
           }
         }
       }
-    }
-    var flag37 = ($T05()['Format']("{0}", (this.ArmorCheckbox)['get_Background']()) != "#FFFFFFFF");
-    if (flag37) {
+      var flag20 = ($T05()['Format']("{0}", (this.WeaponCheckbox)['get_Background']()) != "#FFFFFFFF");
+      if (flag20) {
 
-      for (i = (this.CrystaAmount[1] | 0); i < (this.CrystaAmount[2] | 0); i = ((i + 1) | 0)) {
-        var flag38 = true;
+        for (i = (this.CrystaAmount[0] | 0); i < (this.CrystaAmount[1] | 0); i = ((i + 1) | 0)) {
+          var flag21 = true;
 
-      $loop13: 
-        for (var num5 = 0; num5 < ((this.Filters)['get_Count']() | 0); num5 = ((num5 + 1) | 0)) {
-          flag38 = flag38 && 
-          this['Filtering'](
-            (this.Crystas)['get_Item'](i), 
-            (this.Filters)['get_Item'](num5).option, 
-            (this.Filters)['get_Item'](num5).sign, 
-            (this.Filters)['get_Item'](num5).value
-          );
-          var flag39 = !flag38;
-          if (flag39) {
-            break $loop13;
+        $loop7: 
+          for (var num = 0; num < ((this.Filters)['get_Count']() | 0); num = ((num + 1) | 0)) {
+            flag21 = flag21 && 
+            this['Filtering'](
+              (this.Crystas)['get_Item'](i), 
+              (this.Filters)['get_Item'](num).option, 
+              (this.Filters)['get_Item'](num).sign, 
+              (this.Filters)['get_Item'](num).value
+            );
+            var flag22 = !flag21;
+            if (flag22) {
+              break $loop7;
+            }
           }
-        }
-        var flag40 = flag38;
-        if (flag40) {
-          var text9 = "";
-          var crystaInfo3 = (this.Crystas)['get_Item'](i);
+          var flag23 = flag21;
+          if (flag23) {
+            var text5 = "";
+            var crystaInfo2 = (this.Crystas)['get_Item'](i);
 
-          for (var num6 = 0; num6 < ((crystaInfo3.options)['get_Count']() | 0); num6 = ((num6 + 1) | 0)) {
-            var text10 = (crystaInfo3.options)['get_Item'](num6);
-            var flag41 = false;
-            var flag42 = ((text10[(((text10.length | 0) - 1) | 0)])['charCodeAt'](0) | 0) === (("%")['charCodeAt'](0) | 0);
-            if (flag42) {
-              text10 = (text10.substr(0, (((text10.length | 0) - 1) | 0)));
-              flag41 = true;
+            for (var num2 = 0; num2 < ((crystaInfo2.options)['get_Count']() | 0); num2 = ((num2 + 1) | 0)) {
+              var text6 = (crystaInfo2.options)['get_Item'](num2);
+              var flag24 = false;
+              var flag25 = ((text6[(((text6.length | 0) - 1) | 0)])['charCodeAt'](0) | 0) === (("%")['charCodeAt'](0) | 0);
+              if (flag25) {
+                text6 = (text6.substr(0, (((text6.length | 0) - 1) | 0)));
+                flag24 = true;
+              }
+              text5 = (JSIL.ConcatString(text5, text6));
+              var flag26 = ((crystaInfo2.opvalues)['get_Item'](num2) | 0) > 0;
+              if (flag26) {
+                text5 = (JSIL.ConcatString(text5, "+"));
+              }
+              text5 = (JSIL.ConcatString(text5, ((crystaInfo2.opvalues)['get_Item'](num2)).toString()));
+              var flag27 = flag24;
+              if (flag27) {
+                text5 = (JSIL.ConcatString(text5, "%"));
+              }
+              text5 = (JSIL.ConcatString(text5, " "));
             }
-            text9 = (JSIL.ConcatString(text9, text10));
-            var flag43 = ((crystaInfo3.opvalues)['get_Item'](num6) | 0) > 0;
-            if (flag43) {
-              text9 = (JSIL.ConcatString(text9, "+"));
+            text5 = this['AddLine'](text5, 35);
+            var arg_718_0 = (this.ResultBox)['get_Items']();
+            singleItem = new ($T42())();
+            singleItem.SingleItem$IconPath$value = "ms-appx:/weapon.png";
+            singleItem.SingleItem$Text$value = ((crystaInfo2.$name + "\n -> " + text5));
+            arg_718_0['Add'](singleItem['MemberwiseClone']());
+            var flag28 = (((this.ResultBox)['get_Items']())['get_Count']() | 0) > 30;
+            if (flag28) {
+              $T15()['Show']("30\uac1c\ub97c \ucd08\uacfc\ud558\ub294 \uacb0\uacfc\ub294 \ucd9c\ub825\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4\n\ud544\ud130\ub97c \uc870\uc815\ud558\uc5ec \ubc94\uc704\ub97c \uc881\ud600\uc8fc\uc138\uc694");
+              return;
             }
-            text9 = (JSIL.ConcatString(text9, ((crystaInfo3.opvalues)['get_Item'](num6)).toString()));
-            var flag44 = flag41;
-            if (flag44) {
-              text9 = (JSIL.ConcatString(text9, "%"));
-            }
-            text9 = (JSIL.ConcatString(text9, " "));
-          }
-          text9 = this['AddLine'](text9, 35);
-          var arg_BCE_0 = (this.ResultBox)['get_Items']();
-          singleItem = new ($T42())();
-          singleItem.SingleItem$IconPath$value = "ms-appx:/armor.png";
-          singleItem.SingleItem$Text$value = ((crystaInfo3.$name + "\n -> " + text9));
-          arg_BCE_0['Add'](singleItem['MemberwiseClone']());
-          var flag45 = (((this.ResultBox)['get_Items']())['get_Count']() | 0) > 30;
-          if (flag45) {
-            $T15()['Show']("30\uac1c\ub97c \ucd08\uacfc\ud558\ub294 \uacb0\uacfc\ub294 \ucd9c\ub825\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4\n\ud544\ud130\ub97c \uc870\uc815\ud558\uc5ec \ubc94\uc704\ub97c \uc881\ud600\uc8fc\uc138\uc694");
-            return;
-          }
-        }
-      }
-    }
-    var flag46 = ($T05()['Format']("{0}", (this.ArmorCheckboxEx)['get_Background']()) != "#FFFFFFFF");
-    if (flag46) {
-
-      for (l = (this.ExCrystaAmount[1] | 0); l < (this.ExCrystaAmount[2] | 0); l = ((l + 1) | 0)) {
-        var flag47 = true;
-
-      $loop16: 
-        for (var num7 = 0; num7 < ((this.Filters)['get_Count']() | 0); num7 = ((num7 + 1) | 0)) {
-          flag47 = flag47 && 
-          this['Filtering'](
-            (this.ExCrystas)['get_Item'](l), 
-            (this.Filters)['get_Item'](num7).option, 
-            (this.Filters)['get_Item'](num7).sign, 
-            (this.Filters)['get_Item'](num7).value
-          );
-          var flag48 = !flag47;
-          if (flag48) {
-            break $loop16;
-          }
-        }
-        var flag49 = flag47;
-        if (flag49) {
-          var text11 = "";
-          var exCrystaInfo3 = (this.ExCrystas)['get_Item'](l);
-
-          for (var num8 = 0; num8 < ((exCrystaInfo3.options)['get_Count']() | 0); num8 = ((num8 + 1) | 0)) {
-            var text12 = (exCrystaInfo3.options)['get_Item'](num8);
-            var flag50 = false;
-            var flag51 = ((text12[(((text12.length | 0) - 1) | 0)])['charCodeAt'](0) | 0) === (("%")['charCodeAt'](0) | 0);
-            if (flag51) {
-              text12 = (text12.substr(0, (((text12.length | 0) - 1) | 0)));
-              flag50 = true;
-            }
-            text11 = (JSIL.ConcatString(text11, text12));
-            var flag52 = ((exCrystaInfo3.opvalues)['get_Item'](num8) | 0) > 0;
-            if (flag52) {
-              text11 = (JSIL.ConcatString(text11, "+"));
-            }
-            text11 = (JSIL.ConcatString(text11, ((exCrystaInfo3.opvalues)['get_Item'](num8)).toString()));
-            var flag53 = flag50;
-            if (flag53) {
-              text11 = (JSIL.ConcatString(text11, "%"));
-            }
-            text11 = (JSIL.ConcatString(text11, " "));
-          }
-          text11 = this['AddLine'](text11, 35);
-          var arg_E5A_0 = (this.ResultBox)['get_Items']();
-          singleItem = new ($T42())();
-          singleItem.SingleItem$IconPath$value = "ms-appx:/armorEx.png";
-          singleItem.SingleItem$Text$value = (JSIL.ConcatString.apply(null, JSIL.Array.New($T05(), [(this.ExCrystas)['get_Item'](l).$name, "(\uac15\ud654: ", (this.ExCrystas)['get_Item'](l).Enhance, ")\n -> ", text11])));
-          arg_E5A_0['Add'](singleItem['MemberwiseClone']());
-          var flag54 = (((this.ResultBox)['get_Items']())['get_Count']() | 0) > 30;
-          if (flag54) {
-            $T15()['Show']("30\uac1c\ub97c \ucd08\uacfc\ud558\ub294 \uacb0\uacfc\ub294 \ucd9c\ub825\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4\n\ud544\ud130\ub97c \uc870\uc815\ud558\uc5ec \ubc94\uc704\ub97c \uc881\ud600\uc8fc\uc138\uc694");
-            return;
           }
         }
       }
-    }
-    var flag55 = ($T05()['Format']("{0}", (this.AdditionalCheckbox)['get_Background']()) != "#FFFFFFFF");
-    if (flag55) {
+      var flag29 = ($T05()['Format']("{0}", (this.WeaponCheckboxEx)['get_Background']()) != "#FFFFFFFF");
+      if (flag29) {
 
-      for (i = (this.CrystaAmount[2] | 0); i < (this.CrystaAmount[3] | 0); i = ((i + 1) | 0)) {
-        var flag56 = true;
+        for (l = (this.ExCrystaAmount[0] | 0); l < (this.ExCrystaAmount[1] | 0); l = ((l + 1) | 0)) {
+          var flag30 = true;
 
-      $loop19: 
-        for (var num9 = 0; num9 < ((this.Filters)['get_Count']() | 0); num9 = ((num9 + 1) | 0)) {
-          flag56 = flag56 && 
-          this['Filtering'](
-            (this.Crystas)['get_Item'](i), 
-            (this.Filters)['get_Item'](num9).option, 
-            (this.Filters)['get_Item'](num9).sign, 
-            (this.Filters)['get_Item'](num9).value
-          );
-          var flag57 = !flag56;
-          if (flag57) {
-            break $loop19;
+        $loop10: 
+          for (var num3 = 0; num3 < ((this.Filters)['get_Count']() | 0); num3 = ((num3 + 1) | 0)) {
+            flag30 = flag30 && 
+            this['Filtering'](
+              (this.ExCrystas)['get_Item'](l), 
+              (this.Filters)['get_Item'](num3).option, 
+              (this.Filters)['get_Item'](num3).sign, 
+              (this.Filters)['get_Item'](num3).value
+            );
+            var flag31 = !flag30;
+            if (flag31) {
+              break $loop10;
+            }
           }
-        }
-        var flag58 = flag56;
-        if (flag58) {
-          var text13 = "";
-          var crystaInfo4 = (this.Crystas)['get_Item'](i);
+          var flag32 = flag30;
+          if (flag32) {
+            var text7 = "";
+            var exCrystaInfo2 = (this.ExCrystas)['get_Item'](l);
 
-          for (var num10 = 0; num10 < ((crystaInfo4.options)['get_Count']() | 0); num10 = ((num10 + 1) | 0)) {
-            var text14 = (crystaInfo4.options)['get_Item'](num10);
-            var flag59 = false;
-            var flag60 = ((text14[(((text14.length | 0) - 1) | 0)])['charCodeAt'](0) | 0) === (("%")['charCodeAt'](0) | 0);
-            if (flag60) {
-              text14 = (text14.substr(0, (((text14.length | 0) - 1) | 0)));
-              flag59 = true;
+            for (var num4 = 0; num4 < ((exCrystaInfo2.options)['get_Count']() | 0); num4 = ((num4 + 1) | 0)) {
+              var text8 = (exCrystaInfo2.options)['get_Item'](num4);
+              var flag33 = false;
+              var flag34 = ((text8[(((text8.length | 0) - 1) | 0)])['charCodeAt'](0) | 0) === (("%")['charCodeAt'](0) | 0);
+              if (flag34) {
+                text8 = (text8.substr(0, (((text8.length | 0) - 1) | 0)));
+                flag33 = true;
+              }
+              text7 = (JSIL.ConcatString(text7, text8));
+              var flag35 = ((exCrystaInfo2.opvalues)['get_Item'](num4) | 0) > 0;
+              if (flag35) {
+                text7 = (JSIL.ConcatString(text7, "+"));
+              }
+              text7 = (JSIL.ConcatString(text7, ((exCrystaInfo2.opvalues)['get_Item'](num4)).toString()));
+              var flag36 = flag33;
+              if (flag36) {
+                text7 = (JSIL.ConcatString(text7, "%"));
+              }
+              text7 = (JSIL.ConcatString(text7, " "));
             }
-            text13 = (JSIL.ConcatString(text13, text14));
-            var flag61 = ((crystaInfo4.opvalues)['get_Item'](num10) | 0) > 0;
-            if (flag61) {
-              text13 = (JSIL.ConcatString(text13, "+"));
+            text7 = this['AddLine'](text7, 35);
+            var arg_9A4_0 = (this.ResultBox)['get_Items']();
+            singleItem = new ($T42())();
+            singleItem.SingleItem$IconPath$value = "ms-appx:/weaponEx.png";
+            singleItem.SingleItem$Text$value = (JSIL.ConcatString.apply(null, JSIL.Array.New($T05(), [(this.ExCrystas)['get_Item'](l).$name, "(\uac15\ud654: ", (this.ExCrystas)['get_Item'](l).Enhance, ")\n -> ", text7])));
+            arg_9A4_0['Add'](singleItem['MemberwiseClone']());
+            var flag37 = (((this.ResultBox)['get_Items']())['get_Count']() | 0) > 30;
+            if (flag37) {
+              $T15()['Show']("30\uac1c\ub97c \ucd08\uacfc\ud558\ub294 \uacb0\uacfc\ub294 \ucd9c\ub825\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4\n\ud544\ud130\ub97c \uc870\uc815\ud558\uc5ec \ubc94\uc704\ub97c \uc881\ud600\uc8fc\uc138\uc694");
+              return;
             }
-            text13 = (JSIL.ConcatString(text13, ((crystaInfo4.opvalues)['get_Item'](num10)).toString()));
-            var flag62 = flag59;
-            if (flag62) {
-              text13 = (JSIL.ConcatString(text13, "%"));
-            }
-            text13 = (JSIL.ConcatString(text13, " "));
-          }
-          text13 = this['AddLine'](text13, 35);
-          var arg_10B1_0 = (this.ResultBox)['get_Items']();
-          singleItem = new ($T42())();
-          singleItem.SingleItem$IconPath$value = "ms-appx:/additional.png";
-          singleItem.SingleItem$Text$value = ((crystaInfo4.$name + "\n -> " + text13));
-          arg_10B1_0['Add'](singleItem['MemberwiseClone']());
-          var flag63 = (((this.ResultBox)['get_Items']())['get_Count']() | 0) > 30;
-          if (flag63) {
-            $T15()['Show']("30\uac1c\ub97c \ucd08\uacfc\ud558\ub294 \uacb0\uacfc\ub294 \ucd9c\ub825\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4\n\ud544\ud130\ub97c \uc870\uc815\ud558\uc5ec \ubc94\uc704\ub97c \uc881\ud600\uc8fc\uc138\uc694");
-            return;
-          }
-        }
-      }
-    }
-    var flag64 = ($T05()['Format']("{0}", (this.AdditionalCheckboxEx)['get_Background']()) != "#FFFFFFFF");
-    if (flag64) {
-
-      for (l = (this.ExCrystaAmount[2] | 0); l < (this.ExCrystaAmount[3] | 0); l = ((l + 1) | 0)) {
-        var flag65 = true;
-
-      $loop22: 
-        for (var num11 = 0; num11 < ((this.Filters)['get_Count']() | 0); num11 = ((num11 + 1) | 0)) {
-          flag65 = flag65 && 
-          this['Filtering'](
-            (this.ExCrystas)['get_Item'](l), 
-            (this.Filters)['get_Item'](num11).option, 
-            (this.Filters)['get_Item'](num11).sign, 
-            (this.Filters)['get_Item'](num11).value
-          );
-          var flag66 = !flag65;
-          if (flag66) {
-            break $loop22;
-          }
-        }
-        var flag67 = flag65;
-        if (flag67) {
-          var text15 = "";
-          var exCrystaInfo4 = (this.ExCrystas)['get_Item'](l);
-
-          for (var num12 = 0; num12 < ((exCrystaInfo4.options)['get_Count']() | 0); num12 = ((num12 + 1) | 0)) {
-            var text16 = (exCrystaInfo4.options)['get_Item'](num12);
-            var flag68 = false;
-            var flag69 = ((text16[(((text16.length | 0) - 1) | 0)])['charCodeAt'](0) | 0) === (("%")['charCodeAt'](0) | 0);
-            if (flag69) {
-              text16 = (text16.substr(0, (((text16.length | 0) - 1) | 0)));
-              flag68 = true;
-            }
-            text15 = (JSIL.ConcatString(text15, text16));
-            var flag70 = ((exCrystaInfo4.opvalues)['get_Item'](num12) | 0) > 0;
-            if (flag70) {
-              text15 = (JSIL.ConcatString(text15, "+"));
-            }
-            text15 = (JSIL.ConcatString(text15, ((exCrystaInfo4.opvalues)['get_Item'](num12)).toString()));
-            var flag71 = flag68;
-            if (flag71) {
-              text15 = (JSIL.ConcatString(text15, "%"));
-            }
-            text15 = (JSIL.ConcatString(text15, " "));
-          }
-          text15 = this['AddLine'](text15, 35);
-          var arg_133D_0 = (this.ResultBox)['get_Items']();
-          singleItem = new ($T42())();
-          singleItem.SingleItem$IconPath$value = "ms-appx:/additionalEx.png";
-          singleItem.SingleItem$Text$value = (JSIL.ConcatString.apply(null, JSIL.Array.New($T05(), [(this.ExCrystas)['get_Item'](l).$name, "(\uac15\ud654: ", (this.ExCrystas)['get_Item'](l).Enhance, ")\n -> ", text15])));
-          arg_133D_0['Add'](singleItem['MemberwiseClone']());
-          var flag72 = (((this.ResultBox)['get_Items']())['get_Count']() | 0) > 30;
-          if (flag72) {
-            $T15()['Show']("30\uac1c\ub97c \ucd08\uacfc\ud558\ub294 \uacb0\uacfc\ub294 \ucd9c\ub825\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4\n\ud544\ud130\ub97c \uc870\uc815\ud558\uc5ec \ubc94\uc704\ub97c \uc881\ud600\uc8fc\uc138\uc694");
-            return;
           }
         }
       }
-    }
-    var flag73 = ($T05()['Format']("{0}", (this.SpecialCheckbox)['get_Background']()) != "#FFFFFFFF");
-    if (flag73) {
+      var flag38 = ($T05()['Format']("{0}", (this.ArmorCheckbox)['get_Background']()) != "#FFFFFFFF");
+      if (flag38) {
 
-      for (i = (this.CrystaAmount[3] | 0); i < (this.CrystaAmount[4] | 0); i = ((i + 1) | 0)) {
-        var flag74 = true;
+        for (i = (this.CrystaAmount[1] | 0); i < (this.CrystaAmount[2] | 0); i = ((i + 1) | 0)) {
+          var flag39 = true;
 
-      $loop25: 
-        for (var num13 = 0; num13 < ((this.Filters)['get_Count']() | 0); num13 = ((num13 + 1) | 0)) {
-          flag74 = flag74 && 
-          this['Filtering'](
-            (this.Crystas)['get_Item'](i), 
-            (this.Filters)['get_Item'](num13).option, 
-            (this.Filters)['get_Item'](num13).sign, 
-            (this.Filters)['get_Item'](num13).value
-          );
-          var flag75 = !flag74;
-          if (flag75) {
-            break $loop25;
+        $loop13: 
+          for (var num5 = 0; num5 < ((this.Filters)['get_Count']() | 0); num5 = ((num5 + 1) | 0)) {
+            flag39 = flag39 && 
+            this['Filtering'](
+              (this.Crystas)['get_Item'](i), 
+              (this.Filters)['get_Item'](num5).option, 
+              (this.Filters)['get_Item'](num5).sign, 
+              (this.Filters)['get_Item'](num5).value
+            );
+            var flag40 = !flag39;
+            if (flag40) {
+              break $loop13;
+            }
           }
-        }
-        var flag76 = flag74;
-        if (flag76) {
-          var text17 = "";
-          var crystaInfo5 = (this.Crystas)['get_Item'](i);
+          var flag41 = flag39;
+          if (flag41) {
+            var text9 = "";
+            var crystaInfo3 = (this.Crystas)['get_Item'](i);
 
-          for (var num14 = 0; num14 < ((crystaInfo5.options)['get_Count']() | 0); num14 = ((num14 + 1) | 0)) {
-            var text18 = (crystaInfo5.options)['get_Item'](num14);
-            var flag77 = false;
-            var flag78 = ((text18[(((text18.length | 0) - 1) | 0)])['charCodeAt'](0) | 0) === (("%")['charCodeAt'](0) | 0);
-            if (flag78) {
-              text18 = (text18.substr(0, (((text18.length | 0) - 1) | 0)));
-              flag77 = true;
+            for (var num6 = 0; num6 < ((crystaInfo3.options)['get_Count']() | 0); num6 = ((num6 + 1) | 0)) {
+              var text10 = (crystaInfo3.options)['get_Item'](num6);
+              var flag42 = false;
+              var flag43 = ((text10[(((text10.length | 0) - 1) | 0)])['charCodeAt'](0) | 0) === (("%")['charCodeAt'](0) | 0);
+              if (flag43) {
+                text10 = (text10.substr(0, (((text10.length | 0) - 1) | 0)));
+                flag42 = true;
+              }
+              text9 = (JSIL.ConcatString(text9, text10));
+              var flag44 = ((crystaInfo3.opvalues)['get_Item'](num6) | 0) > 0;
+              if (flag44) {
+                text9 = (JSIL.ConcatString(text9, "+"));
+              }
+              text9 = (JSIL.ConcatString(text9, ((crystaInfo3.opvalues)['get_Item'](num6)).toString()));
+              var flag45 = flag42;
+              if (flag45) {
+                text9 = (JSIL.ConcatString(text9, "%"));
+              }
+              text9 = (JSIL.ConcatString(text9, " "));
             }
-            text17 = (JSIL.ConcatString(text17, text18));
-            var flag79 = ((crystaInfo5.opvalues)['get_Item'](num14) | 0) > 0;
-            if (flag79) {
-              text17 = (JSIL.ConcatString(text17, "+"));
+            text9 = this['AddLine'](text9, 35);
+            var arg_BFB_0 = (this.ResultBox)['get_Items']();
+            singleItem = new ($T42())();
+            singleItem.SingleItem$IconPath$value = "ms-appx:/armor.png";
+            singleItem.SingleItem$Text$value = ((crystaInfo3.$name + "\n -> " + text9));
+            arg_BFB_0['Add'](singleItem['MemberwiseClone']());
+            var flag46 = (((this.ResultBox)['get_Items']())['get_Count']() | 0) > 30;
+            if (flag46) {
+              $T15()['Show']("30\uac1c\ub97c \ucd08\uacfc\ud558\ub294 \uacb0\uacfc\ub294 \ucd9c\ub825\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4\n\ud544\ud130\ub97c \uc870\uc815\ud558\uc5ec \ubc94\uc704\ub97c \uc881\ud600\uc8fc\uc138\uc694");
+              return;
             }
-            text17 = (JSIL.ConcatString(text17, ((crystaInfo5.opvalues)['get_Item'](num14)).toString()));
-            var flag80 = flag77;
-            if (flag80) {
-              text17 = (JSIL.ConcatString(text17, "%"));
-            }
-            text17 = (JSIL.ConcatString(text17, " "));
-          }
-          text17 = this['AddLine'](text17, 35);
-          var arg_1594_0 = (this.ResultBox)['get_Items']();
-          singleItem = new ($T42())();
-          singleItem.SingleItem$IconPath$value = "ms-appx:/special.png";
-          singleItem.SingleItem$Text$value = ((crystaInfo5.$name + "\n -> " + text17));
-          arg_1594_0['Add'](singleItem['MemberwiseClone']());
-          var flag81 = (((this.ResultBox)['get_Items']())['get_Count']() | 0) > 30;
-          if (flag81) {
-            $T15()['Show']("30\uac1c\ub97c \ucd08\uacfc\ud558\ub294 \uacb0\uacfc\ub294 \ucd9c\ub825\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4\n\ud544\ud130\ub97c \uc870\uc815\ud558\uc5ec \ubc94\uc704\ub97c \uc881\ud600\uc8fc\uc138\uc694");
-            return;
           }
         }
       }
-    }
-    var flag82 = ($T05()['Format']("{0}", (this.SpecialCheckboxEx)['get_Background']()) != "#FFFFFFFF");
-    if (flag82) {
+      var flag47 = ($T05()['Format']("{0}", (this.ArmorCheckboxEx)['get_Background']()) != "#FFFFFFFF");
+      if (flag47) {
 
-    $loop27: 
-      for (l = (this.ExCrystaAmount[3] | 0); l < (this.ExCrystaAmount[4] | 0); l = ((l + 1) | 0)) {
-        var flag83 = true;
+        for (l = (this.ExCrystaAmount[1] | 0); l < (this.ExCrystaAmount[2] | 0); l = ((l + 1) | 0)) {
+          var flag48 = true;
 
-      $loop28: 
-        for (var num15 = 0; num15 < ((this.Filters)['get_Count']() | 0); num15 = ((num15 + 1) | 0)) {
-          flag83 = flag83 && 
-          this['Filtering'](
-            (this.ExCrystas)['get_Item'](l), 
-            (this.Filters)['get_Item'](num15).option, 
-            (this.Filters)['get_Item'](num15).sign, 
-            (this.Filters)['get_Item'](num15).value
-          );
-          var flag84 = !flag83;
-          if (flag84) {
-            break $loop28;
+        $loop16: 
+          for (var num7 = 0; num7 < ((this.Filters)['get_Count']() | 0); num7 = ((num7 + 1) | 0)) {
+            flag48 = flag48 && 
+            this['Filtering'](
+              (this.ExCrystas)['get_Item'](l), 
+              (this.Filters)['get_Item'](num7).option, 
+              (this.Filters)['get_Item'](num7).sign, 
+              (this.Filters)['get_Item'](num7).value
+            );
+            var flag49 = !flag48;
+            if (flag49) {
+              break $loop16;
+            }
+          }
+          var flag50 = flag48;
+          if (flag50) {
+            var text11 = "";
+            var exCrystaInfo3 = (this.ExCrystas)['get_Item'](l);
+
+            for (var num8 = 0; num8 < ((exCrystaInfo3.options)['get_Count']() | 0); num8 = ((num8 + 1) | 0)) {
+              var text12 = (exCrystaInfo3.options)['get_Item'](num8);
+              var flag51 = false;
+              var flag52 = ((text12[(((text12.length | 0) - 1) | 0)])['charCodeAt'](0) | 0) === (("%")['charCodeAt'](0) | 0);
+              if (flag52) {
+                text12 = (text12.substr(0, (((text12.length | 0) - 1) | 0)));
+                flag51 = true;
+              }
+              text11 = (JSIL.ConcatString(text11, text12));
+              var flag53 = ((exCrystaInfo3.opvalues)['get_Item'](num8) | 0) > 0;
+              if (flag53) {
+                text11 = (JSIL.ConcatString(text11, "+"));
+              }
+              text11 = (JSIL.ConcatString(text11, ((exCrystaInfo3.opvalues)['get_Item'](num8)).toString()));
+              var flag54 = flag51;
+              if (flag54) {
+                text11 = (JSIL.ConcatString(text11, "%"));
+              }
+              text11 = (JSIL.ConcatString(text11, " "));
+            }
+            text11 = this['AddLine'](text11, 35);
+            var arg_E87_0 = (this.ResultBox)['get_Items']();
+            singleItem = new ($T42())();
+            singleItem.SingleItem$IconPath$value = "ms-appx:/armorEx.png";
+            singleItem.SingleItem$Text$value = (JSIL.ConcatString.apply(null, JSIL.Array.New($T05(), [(this.ExCrystas)['get_Item'](l).$name, "(\uac15\ud654: ", (this.ExCrystas)['get_Item'](l).Enhance, ")\n -> ", text11])));
+            arg_E87_0['Add'](singleItem['MemberwiseClone']());
+            var flag55 = (((this.ResultBox)['get_Items']())['get_Count']() | 0) > 30;
+            if (flag55) {
+              $T15()['Show']("30\uac1c\ub97c \ucd08\uacfc\ud558\ub294 \uacb0\uacfc\ub294 \ucd9c\ub825\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4\n\ud544\ud130\ub97c \uc870\uc815\ud558\uc5ec \ubc94\uc704\ub97c \uc881\ud600\uc8fc\uc138\uc694");
+              return;
+            }
           }
         }
-        var flag85 = flag83;
-        if (flag85) {
-          var text19 = "";
-          var exCrystaInfo5 = (this.ExCrystas)['get_Item'](l);
+      }
+      var flag56 = ($T05()['Format']("{0}", (this.AdditionalCheckbox)['get_Background']()) != "#FFFFFFFF");
+      if (flag56) {
 
-          for (var num16 = 0; num16 < ((exCrystaInfo5.options)['get_Count']() | 0); num16 = ((num16 + 1) | 0)) {
-            var text20 = (exCrystaInfo5.options)['get_Item'](num16);
-            var flag86 = false;
-            var flag87 = ((text20[(((text20.length | 0) - 1) | 0)])['charCodeAt'](0) | 0) === (("%")['charCodeAt'](0) | 0);
-            if (flag87) {
-              text20 = (text20.substr(0, (((text20.length | 0) - 1) | 0)));
-              flag86 = true;
+        for (i = (this.CrystaAmount[2] | 0); i < (this.CrystaAmount[3] | 0); i = ((i + 1) | 0)) {
+          var flag57 = true;
+
+        $loop19: 
+          for (var num9 = 0; num9 < ((this.Filters)['get_Count']() | 0); num9 = ((num9 + 1) | 0)) {
+            flag57 = flag57 && 
+            this['Filtering'](
+              (this.Crystas)['get_Item'](i), 
+              (this.Filters)['get_Item'](num9).option, 
+              (this.Filters)['get_Item'](num9).sign, 
+              (this.Filters)['get_Item'](num9).value
+            );
+            var flag58 = !flag57;
+            if (flag58) {
+              break $loop19;
             }
-            text19 = (JSIL.ConcatString(text19, text20));
-            var flag88 = ((exCrystaInfo5.opvalues)['get_Item'](num16) | 0) > 0;
-            if (flag88) {
-              text19 = (JSIL.ConcatString(text19, "+"));
-            }
-            text19 = (JSIL.ConcatString(text19, ((exCrystaInfo5.opvalues)['get_Item'](num16)).toString()));
-            var flag89 = flag86;
-            if (flag89) {
-              text19 = (JSIL.ConcatString(text19, "%"));
-            }
-            text19 = (JSIL.ConcatString(text19, " "));
           }
-          text19 = this['AddLine'](text19, 35);
-          var arg_1820_0 = (this.ResultBox)['get_Items']();
-          singleItem = new ($T42())();
-          singleItem.SingleItem$IconPath$value = "ms-appx:/specialEx.png";
-          singleItem.SingleItem$Text$value = (JSIL.ConcatString.apply(null, JSIL.Array.New($T05(), [(this.ExCrystas)['get_Item'](l).$name, "(\uac15\ud654: ", (this.ExCrystas)['get_Item'](l).Enhance, ")\n -> ", text19])));
-          arg_1820_0['Add'](singleItem['MemberwiseClone']());
-          var flag90 = (((this.ResultBox)['get_Items']())['get_Count']() | 0) > 30;
-          if (flag90) {
-            $T15()['Show']("30\uac1c\ub97c \ucd08\uacfc\ud558\ub294 \uacb0\uacfc\ub294 \ucd9c\ub825\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4\n\ud544\ud130\ub97c \uc870\uc815\ud558\uc5ec \ubc94\uc704\ub97c \uc881\ud600\uc8fc\uc138\uc694");
-            break $loop27;
+          var flag59 = flag57;
+          if (flag59) {
+            var text13 = "";
+            var crystaInfo4 = (this.Crystas)['get_Item'](i);
+
+            for (var num10 = 0; num10 < ((crystaInfo4.options)['get_Count']() | 0); num10 = ((num10 + 1) | 0)) {
+              var text14 = (crystaInfo4.options)['get_Item'](num10);
+              var flag60 = false;
+              var flag61 = ((text14[(((text14.length | 0) - 1) | 0)])['charCodeAt'](0) | 0) === (("%")['charCodeAt'](0) | 0);
+              if (flag61) {
+                text14 = (text14.substr(0, (((text14.length | 0) - 1) | 0)));
+                flag60 = true;
+              }
+              text13 = (JSIL.ConcatString(text13, text14));
+              var flag62 = ((crystaInfo4.opvalues)['get_Item'](num10) | 0) > 0;
+              if (flag62) {
+                text13 = (JSIL.ConcatString(text13, "+"));
+              }
+              text13 = (JSIL.ConcatString(text13, ((crystaInfo4.opvalues)['get_Item'](num10)).toString()));
+              var flag63 = flag60;
+              if (flag63) {
+                text13 = (JSIL.ConcatString(text13, "%"));
+              }
+              text13 = (JSIL.ConcatString(text13, " "));
+            }
+            text13 = this['AddLine'](text13, 35);
+            var arg_10DE_0 = (this.ResultBox)['get_Items']();
+            singleItem = new ($T42())();
+            singleItem.SingleItem$IconPath$value = "ms-appx:/additional.png";
+            singleItem.SingleItem$Text$value = ((crystaInfo4.$name + "\n -> " + text13));
+            arg_10DE_0['Add'](singleItem['MemberwiseClone']());
+            var flag64 = (((this.ResultBox)['get_Items']())['get_Count']() | 0) > 30;
+            if (flag64) {
+              $T15()['Show']("30\uac1c\ub97c \ucd08\uacfc\ud558\ub294 \uacb0\uacfc\ub294 \ucd9c\ub825\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4\n\ud544\ud130\ub97c \uc870\uc815\ud558\uc5ec \ubc94\uc704\ub97c \uc881\ud600\uc8fc\uc138\uc694");
+              return;
+            }
+          }
+        }
+      }
+      var flag65 = ($T05()['Format']("{0}", (this.AdditionalCheckboxEx)['get_Background']()) != "#FFFFFFFF");
+      if (flag65) {
+
+        for (l = (this.ExCrystaAmount[2] | 0); l < (this.ExCrystaAmount[3] | 0); l = ((l + 1) | 0)) {
+          var flag66 = true;
+
+        $loop22: 
+          for (var num11 = 0; num11 < ((this.Filters)['get_Count']() | 0); num11 = ((num11 + 1) | 0)) {
+            flag66 = flag66 && 
+            this['Filtering'](
+              (this.ExCrystas)['get_Item'](l), 
+              (this.Filters)['get_Item'](num11).option, 
+              (this.Filters)['get_Item'](num11).sign, 
+              (this.Filters)['get_Item'](num11).value
+            );
+            var flag67 = !flag66;
+            if (flag67) {
+              break $loop22;
+            }
+          }
+          var flag68 = flag66;
+          if (flag68) {
+            var text15 = "";
+            var exCrystaInfo4 = (this.ExCrystas)['get_Item'](l);
+
+            for (var num12 = 0; num12 < ((exCrystaInfo4.options)['get_Count']() | 0); num12 = ((num12 + 1) | 0)) {
+              var text16 = (exCrystaInfo4.options)['get_Item'](num12);
+              var flag69 = false;
+              var flag70 = ((text16[(((text16.length | 0) - 1) | 0)])['charCodeAt'](0) | 0) === (("%")['charCodeAt'](0) | 0);
+              if (flag70) {
+                text16 = (text16.substr(0, (((text16.length | 0) - 1) | 0)));
+                flag69 = true;
+              }
+              text15 = (JSIL.ConcatString(text15, text16));
+              var flag71 = ((exCrystaInfo4.opvalues)['get_Item'](num12) | 0) > 0;
+              if (flag71) {
+                text15 = (JSIL.ConcatString(text15, "+"));
+              }
+              text15 = (JSIL.ConcatString(text15, ((exCrystaInfo4.opvalues)['get_Item'](num12)).toString()));
+              var flag72 = flag69;
+              if (flag72) {
+                text15 = (JSIL.ConcatString(text15, "%"));
+              }
+              text15 = (JSIL.ConcatString(text15, " "));
+            }
+            text15 = this['AddLine'](text15, 35);
+            var arg_136A_0 = (this.ResultBox)['get_Items']();
+            singleItem = new ($T42())();
+            singleItem.SingleItem$IconPath$value = "ms-appx:/additionalEx.png";
+            singleItem.SingleItem$Text$value = (JSIL.ConcatString.apply(null, JSIL.Array.New($T05(), [(this.ExCrystas)['get_Item'](l).$name, "(\uac15\ud654: ", (this.ExCrystas)['get_Item'](l).Enhance, ")\n -> ", text15])));
+            arg_136A_0['Add'](singleItem['MemberwiseClone']());
+            var flag73 = (((this.ResultBox)['get_Items']())['get_Count']() | 0) > 30;
+            if (flag73) {
+              $T15()['Show']("30\uac1c\ub97c \ucd08\uacfc\ud558\ub294 \uacb0\uacfc\ub294 \ucd9c\ub825\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4\n\ud544\ud130\ub97c \uc870\uc815\ud558\uc5ec \ubc94\uc704\ub97c \uc881\ud600\uc8fc\uc138\uc694");
+              return;
+            }
+          }
+        }
+      }
+      var flag74 = ($T05()['Format']("{0}", (this.SpecialCheckbox)['get_Background']()) != "#FFFFFFFF");
+      if (flag74) {
+
+        for (i = (this.CrystaAmount[3] | 0); i < (this.CrystaAmount[4] | 0); i = ((i + 1) | 0)) {
+          var flag75 = true;
+
+        $loop25: 
+          for (var num13 = 0; num13 < ((this.Filters)['get_Count']() | 0); num13 = ((num13 + 1) | 0)) {
+            flag75 = flag75 && 
+            this['Filtering'](
+              (this.Crystas)['get_Item'](i), 
+              (this.Filters)['get_Item'](num13).option, 
+              (this.Filters)['get_Item'](num13).sign, 
+              (this.Filters)['get_Item'](num13).value
+            );
+            var flag76 = !flag75;
+            if (flag76) {
+              break $loop25;
+            }
+          }
+          var flag77 = flag75;
+          if (flag77) {
+            var text17 = "";
+            var crystaInfo5 = (this.Crystas)['get_Item'](i);
+
+            for (var num14 = 0; num14 < ((crystaInfo5.options)['get_Count']() | 0); num14 = ((num14 + 1) | 0)) {
+              var text18 = (crystaInfo5.options)['get_Item'](num14);
+              var flag78 = false;
+              var flag79 = ((text18[(((text18.length | 0) - 1) | 0)])['charCodeAt'](0) | 0) === (("%")['charCodeAt'](0) | 0);
+              if (flag79) {
+                text18 = (text18.substr(0, (((text18.length | 0) - 1) | 0)));
+                flag78 = true;
+              }
+              text17 = (JSIL.ConcatString(text17, text18));
+              var flag80 = ((crystaInfo5.opvalues)['get_Item'](num14) | 0) > 0;
+              if (flag80) {
+                text17 = (JSIL.ConcatString(text17, "+"));
+              }
+              text17 = (JSIL.ConcatString(text17, ((crystaInfo5.opvalues)['get_Item'](num14)).toString()));
+              var flag81 = flag78;
+              if (flag81) {
+                text17 = (JSIL.ConcatString(text17, "%"));
+              }
+              text17 = (JSIL.ConcatString(text17, " "));
+            }
+            text17 = this['AddLine'](text17, 35);
+            var arg_15C1_0 = (this.ResultBox)['get_Items']();
+            singleItem = new ($T42())();
+            singleItem.SingleItem$IconPath$value = "ms-appx:/special.png";
+            singleItem.SingleItem$Text$value = ((crystaInfo5.$name + "\n -> " + text17));
+            arg_15C1_0['Add'](singleItem['MemberwiseClone']());
+            var flag82 = (((this.ResultBox)['get_Items']())['get_Count']() | 0) > 30;
+            if (flag82) {
+              $T15()['Show']("30\uac1c\ub97c \ucd08\uacfc\ud558\ub294 \uacb0\uacfc\ub294 \ucd9c\ub825\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4\n\ud544\ud130\ub97c \uc870\uc815\ud558\uc5ec \ubc94\uc704\ub97c \uc881\ud600\uc8fc\uc138\uc694");
+              return;
+            }
+          }
+        }
+      }
+      var flag83 = ($T05()['Format']("{0}", (this.SpecialCheckboxEx)['get_Background']()) != "#FFFFFFFF");
+      if (flag83) {
+
+      $loop27: 
+        for (l = (this.ExCrystaAmount[3] | 0); l < (this.ExCrystaAmount[4] | 0); l = ((l + 1) | 0)) {
+          var flag84 = true;
+
+        $loop28: 
+          for (var num15 = 0; num15 < ((this.Filters)['get_Count']() | 0); num15 = ((num15 + 1) | 0)) {
+            flag84 = flag84 && 
+            this['Filtering'](
+              (this.ExCrystas)['get_Item'](l), 
+              (this.Filters)['get_Item'](num15).option, 
+              (this.Filters)['get_Item'](num15).sign, 
+              (this.Filters)['get_Item'](num15).value
+            );
+            var flag85 = !flag84;
+            if (flag85) {
+              break $loop28;
+            }
+          }
+          var flag86 = flag84;
+          if (flag86) {
+            var text19 = "";
+            var exCrystaInfo5 = (this.ExCrystas)['get_Item'](l);
+
+            for (var num16 = 0; num16 < ((exCrystaInfo5.options)['get_Count']() | 0); num16 = ((num16 + 1) | 0)) {
+              var text20 = (exCrystaInfo5.options)['get_Item'](num16);
+              var flag87 = false;
+              var flag88 = ((text20[(((text20.length | 0) - 1) | 0)])['charCodeAt'](0) | 0) === (("%")['charCodeAt'](0) | 0);
+              if (flag88) {
+                text20 = (text20.substr(0, (((text20.length | 0) - 1) | 0)));
+                flag87 = true;
+              }
+              text19 = (JSIL.ConcatString(text19, text20));
+              var flag89 = ((exCrystaInfo5.opvalues)['get_Item'](num16) | 0) > 0;
+              if (flag89) {
+                text19 = (JSIL.ConcatString(text19, "+"));
+              }
+              text19 = (JSIL.ConcatString(text19, ((exCrystaInfo5.opvalues)['get_Item'](num16)).toString()));
+              var flag90 = flag87;
+              if (flag90) {
+                text19 = (JSIL.ConcatString(text19, "%"));
+              }
+              text19 = (JSIL.ConcatString(text19, " "));
+            }
+            text19 = this['AddLine'](text19, 35);
+            var arg_184D_0 = (this.ResultBox)['get_Items']();
+            singleItem = new ($T42())();
+            singleItem.SingleItem$IconPath$value = "ms-appx:/specialEx.png";
+            singleItem.SingleItem$Text$value = (JSIL.ConcatString.apply(null, JSIL.Array.New($T05(), [(this.ExCrystas)['get_Item'](l).$name, "(\uac15\ud654: ", (this.ExCrystas)['get_Item'](l).Enhance, ")\n -> ", text19])));
+            arg_184D_0['Add'](singleItem['MemberwiseClone']());
+            var flag91 = (((this.ResultBox)['get_Items']())['get_Count']() | 0) > 30;
+            if (flag91) {
+              $T15()['Show']("30\uac1c\ub97c \ucd08\uacfc\ud558\ub294 \uacb0\uacfc\ub294 \ucd9c\ub825\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4\n\ud544\ud130\ub97c \uc870\uc815\ud558\uc5ec \ubc94\uc704\ub97c \uc881\ud600\uc8fc\uc138\uc694");
+              break $loop27;
+            }
           }
         }
       }
@@ -2094,9 +2102,9 @@ JSIL.DeclareNamespace("Studie");
       MainPage_InitializeComponent
     );
 
-    $.Method({Static:false, Public:false}, "Instantiate_DataTemplate_57885dca265048b1a4c8c09ab9a4f206", 
+    $.Method({Static:false, Public:false}, "Instantiate_DataTemplate_f2e8f3d6bdd34537847a51a2102e8541", 
       new JSIL.MethodSignature($asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.TemplateInstance"), [$asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.FrameworkElement")]), 
-      MainPage_Instantiate_DataTemplate_57885dca265048b1a4c8c09ab9a4f206
+      MainPage_Instantiate_DataTemplate_f2e8f3d6bdd34537847a51a2102e8541
     );
 
     $.Method({Static:false, Public:false}, "Set_FilterIndex", 
