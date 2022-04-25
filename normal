@@ -80,7 +80,7 @@
 }
 {
 "name":"메기스톤"
-"option":"STR+1&INT+1&AGI+1&DEX+1&최대HP+100&최대MP+50"
+"option":"STR+1&INT+1&VIT+1&AGI+1&DEX+1&최대HP+100&최대MP+50"
 }
 {
 "name":"메탈 스팅거"
