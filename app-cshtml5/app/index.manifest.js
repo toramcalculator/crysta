@@ -16,7 +16,6 @@ var $asm_Microsoft_Build_Tasks_v4_0 = JSIL.GetAssembly("Microsoft.Build.Tasks.v4
 var $asm_Microsoft_Build_Utilities_v4_0 = JSIL.GetAssembly("Microsoft.Build.Utilities.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a");
 var $asm_Microsoft_CSharp = JSIL.GetAssembly("Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a");
 var $asm_mscorlib = JSIL.GetAssembly("mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089");
-var $asm_mscorlib = JSIL.GetAssembly("mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089");
 var $asm_PresentationCore = JSIL.GetAssembly("PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35");
 var $asm_PresentationFramework = JSIL.GetAssembly("PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35");
 var $asm_PresentationUI = JSIL.GetAssembly("PresentationUI, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35");
