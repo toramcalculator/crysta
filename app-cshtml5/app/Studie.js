@@ -15,7 +15,7 @@ var $asm_Studie = JSIL.DeclareAssembly("Studie, Version=1.0.0.0, Culture=neutral
 
   function $1c0$1c0Studie$1c0$1c0Component$1c0$1c0App$1c0$1c0Xaml$1c0$1c0Factory_Instantiate () {
     return $T00()['Instantiate']($T01().__Type__);
-  };
+  }
 
   JSIL.MakeStaticClass("\u01c0\u01c0Studie\u01c0\u01c0Component\u01c0\u01c0App\u01c0\u01c0Xaml\u01c0\u01c0Factory", true, [], function ($interfaceBuilder) {
     $ = $interfaceBuilder;
@@ -87,14 +87,11 @@ JSIL.DeclareNamespace("Studie");
     this['InitializeComponent']();
     var content = new ($T01())();
     $T02().Window$Current$value['set_Content'](content);
-  };
+  }
 
   function App_InitializeComponent () {
     if (!this._contentLoaded) {
       this._contentLoaded = true;
-      if (false) {
-        $T03().$Cast(this).XamlSourcePath = "Studie\\App.xaml";
-      }
       $T04().OutputRootPath = "Output\\";
       $T04().OutputAppFilesPath = "app-cshtml5\\app\\";
       $T04().OutputLibrariesPath = "app-cshtml5\\libs\\";
@@ -103,7 +100,7 @@ JSIL.DeclareNamespace("Studie");
       this['set_Resources'](resources);
       this['set_Resources'](resources);
     }
-  };
+  }
 
   JSIL.MakeType({
       BaseType: $asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.Application"), 
@@ -130,7 +127,7 @@ JSIL.DeclareNamespace("Studie");
 
 })();
 
-/* class Studie.MainPage */ 
+/* class Studie.MainPage */
 
 (function MainPage$Members () {
   var $, $thisType;
@@ -378,6 +375,22 @@ JSIL.DeclareNamespace("Studie");
     return ($S0D = JSIL.Memoize(new JSIL.ConstructorSignature($asm_CSharpXamlForHtml5.TypeRef("Windows.UI.Xaml.Data.Binding"), null))) ();
   };
 
+  // const getJson = function (path) {
+  //   fetch(path).then(r => {
+  //     return r.json()
+  //   }).then(jsonData => {
+  //     for (let i in jsonData) {
+  //       for (let j in jsonData[i]) {
+  //         const BossName = jsonData[i][j]["name"];
+  //         const option = jsonData[i][j]["option"];
+  //
+  //       }
+  //     }
+  //   })
+  // };
+  //
+  // getJson("data/normal.json")
+
   function MainPage__ctor () {
     this.CrystaAmount = JSIL.Array.New($T00(), 5);
     this.ExCrystaAmount = JSIL.Array.New($T00(), 5);
@@ -390,10 +403,9 @@ JSIL.DeclareNamespace("Studie");
       this.ExCrystas = $S01().Construct();
       this.Filters = $S02().Construct();
 
-      for (var text = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/normal"); (text.indexOf("\"name\":\"")) !== -1; ) {
+      for (let text = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/normal"); (text.indexOf("\"name\":\"")) !== -1; ) {
         var text2 = "";
         var text3 = "";
-
         for (var num = (((text.indexOf("\"name\":\"")) + ("\"name\":\"".length | 0)) | 0); ((text[num])['charCodeAt'](0) | 0) !== (("\"")['charCodeAt'](0) | 0); num = ((num + 1) | 0)) {
           text2 = (JSIL.ConcatString(text2, (text[num])['toString']()));
         }
@@ -401,8 +413,10 @@ JSIL.DeclareNamespace("Studie");
         for (var num2 = (((text.indexOf("\"option\":\"")) + ("\"option\":\"".length | 0)) | 0); ((text[num2])['charCodeAt'](0) | 0) !== (("\"")['charCodeAt'](0) | 0); num2 = ((num2 + 1) | 0)) {
           text3 = (JSIL.ConcatString(text3, (text[num2])['toString']()));
         }
+
         text = (System.String.Remove(text, text.indexOf("\"name\":\""), "\"name\":\"".length));
         text = (System.String.Remove(text, text.indexOf("\"option\":\""), "\"option\":\"".length));
+        // text2 == 보스 이름
         $S03().CallVirtual("Add", null, this.Crystas, new ($T07())(text2));
         text3 = (JSIL.ConcatString(text3, "&"));
 
@@ -410,6 +424,7 @@ JSIL.DeclareNamespace("Studie");
           var text4 = "";
           var text5 = "";
 
+          //text3 == 옵션
           while ((((text3[j])['charCodeAt'](0) | 0) !== (("+")['charCodeAt'](0) | 0)) && (((text3[j])['charCodeAt'](0) | 0) !== (("-")['charCodeAt'](0) | 0))) {
             text4 = (JSIL.ConcatString(text4, (text3[j])['toString']()));
             j = ((j + 1) | 0);
@@ -418,6 +433,7 @@ JSIL.DeclareNamespace("Studie");
           for (; ((text3[j])['charCodeAt'](0) | 0) !== (("&")['charCodeAt'](0) | 0); j = ((j + 1) | 0)) {
             text5 = (JSIL.ConcatString(text5, (text3[j])['toString']()));
           }
+
           $S04().CallVirtual("Add", null, (this.Crystas)['get_Item'](((((this.Crystas)['get_Count']() | 0) - 1) | 0)).options, text4);
           $S05().CallVirtual("Add", null, (this.Crystas)['get_Item'](((((this.Crystas)['get_Count']() | 0) - 1) | 0)).opvalues, $S06().CallStatic($T0A(), "ToInt32", null, text5));
         }
@@ -429,11 +445,11 @@ JSIL.DeclareNamespace("Studie");
         var text8 = "";
         var text9 = "";
 
-        for (var num3 = (((text6.indexOf("\"name\":\"")) + ("\"name\":\"".length | 0)) | 0); ((text6[num3])['charCodeAt'](0) | 0) !== (("\"")['charCodeAt'](0) | 0); num3 = ((num3 + 1) | 0)) {
+        for (let num3 = (((text6.indexOf("\"name\":\"")) + ("\"name\":\"".length | 0)) | 0); ((text6[num3])['charCodeAt'](0) | 0) !== (("\"")['charCodeAt'](0) | 0); num3 = ((num3 + 1) | 0)) {
           text7 = (JSIL.ConcatString(text7, (text6[num3])['toString']()));
         }
 
-        for (var num4 = (((text6.indexOf("\"enhance\":\"")) + ("\"enhance\":\"".length | 0)) | 0); ((text6[num4])['charCodeAt'](0) | 0) !== (("\"")['charCodeAt'](0) | 0); num4 = ((num4 + 1) | 0)) {
+        for (let num4 = (((text6.indexOf("\"enhance\":\"")) + ("\"enhance\":\"".length | 0)) | 0); ((text6[num4])['charCodeAt'](0) | 0) !== (("\"")['charCodeAt'](0) | 0); num4 = ((num4 + 1) | 0)) {
           text8 = (JSIL.ConcatString(text8, (text6[num4])['toString']()));
         }
 
@@ -464,108 +480,108 @@ JSIL.DeclareNamespace("Studie");
       }
       this.ExCrystaAmount[0] = ((this.ExCrystas)['get_Count']() | 0);
     }
-  };
+  }
 
   function MainPage_AddLine (target, length) {
-    var num = (((target.length | 0) / (length | 0)) | 0);
+    const num = (((target.length | 0) / (length | 0)) | 0);
 
-    for (var i = 1; i <= num; i = ((i + 1) | 0)) {
+    for (let i = 1; i <= num; i = ((i + 1) | 0)) {
       target = (System.String.Insert(target, Math.imul(length, i), "\n"));
     }
     return target;
-  };
+  }
 
-  function MainPage_Check1 (sender, e) {
-    var flag = ($T05()['Format']("{0}", (this.NormCheckbox)['get_Background']()) == "#FFFFFFFF");
+  function MainPage_Check1 () {
+    var flag = ("#FFFFFFFF" === $T05()['Format']("{0}", (this.NormCheckbox)['get_Background']()));
     if (flag) {
       (this.NormCheckbox)['set_Background']($S08().Construct($T11()['get_Gray']()['MemberwiseClone']()));
     } else {
       (this.NormCheckbox)['set_Background']($S08().Construct($T11()['get_White']()['MemberwiseClone']()));
     }
-  };
+  }
 
-  function MainPage_check10 (sender, e) {
-    var flag = ($T05()['Format']("{0}", (this.SpecialCheckboxEx)['get_Background']()) == "#FFFFFFFF");
+  function MainPage_check10 () {
+    var flag = ("#FFFFFFFF" === $T05()['Format']("{0}", (this.SpecialCheckboxEx)['get_Background']()));
     if (flag) {
       (this.SpecialCheckboxEx)['set_Background']($S08().Construct($T11()['get_Gray']()['MemberwiseClone']()));
     } else {
       (this.SpecialCheckboxEx)['set_Background']($S08().Construct($T11()['get_White']()['MemberwiseClone']()));
     }
-  };
+  }
 
-  function MainPage_check2 (sender, e) {
-    var flag = ($T05()['Format']("{0}", (this.NormCheckboxEx)['get_Background']()) == "#FFFFFFFF");
+  function MainPage_check2 () {
+    var flag = ("#FFFFFFFF" === $T05()['Format']("{0}", (this.NormCheckboxEx)['get_Background']()));
     if (flag) {
       (this.NormCheckboxEx)['set_Background']($S08().Construct($T11()['get_Gray']()['MemberwiseClone']()));
     } else {
       (this.NormCheckboxEx)['set_Background']($S08().Construct($T11()['get_White']()['MemberwiseClone']()));
     }
-  };
+  }
 
-  function MainPage_check3 (sender, e) {
-    var flag = ($T05()['Format']("{0}", (this.WeaponCheckbox)['get_Background']()) == "#FFFFFFFF");
+  function MainPage_check3 () {
+    var flag = ("#FFFFFFFF" === $T05()['Format']("{0}", (this.WeaponCheckbox)['get_Background']()));
     if (flag) {
       (this.WeaponCheckbox)['set_Background']($S08().Construct($T11()['get_Gray']()['MemberwiseClone']()));
     } else {
       (this.WeaponCheckbox)['set_Background']($S08().Construct($T11()['get_White']()['MemberwiseClone']()));
     }
-  };
+  }
 
-  function MainPage_check4 (sender, e) {
-    var flag = ($T05()['Format']("{0}", (this.WeaponCheckboxEx)['get_Background']()) == "#FFFFFFFF");
+  function MainPage_check4 () {
+    var flag = ("#FFFFFFFF" === $T05()['Format']("{0}", (this.WeaponCheckboxEx)['get_Background']()));
     if (flag) {
       (this.WeaponCheckboxEx)['set_Background']($S08().Construct($T11()['get_Gray']()['MemberwiseClone']()));
     } else {
       (this.WeaponCheckboxEx)['set_Background']($S08().Construct($T11()['get_White']()['MemberwiseClone']()));
     }
-  };
+  }
 
-  function MainPage_check5 (sender, e) {
-    var flag = ($T05()['Format']("{0}", (this.ArmorCheckbox)['get_Background']()) == "#FFFFFFFF");
+  function MainPage_check5 () {
+    var flag = ("#FFFFFFFF" === $T05()['Format']("{0}", (this.ArmorCheckbox)['get_Background']()));
     if (flag) {
       (this.ArmorCheckbox)['set_Background']($S08().Construct($T11()['get_Gray']()['MemberwiseClone']()));
     } else {
       (this.ArmorCheckbox)['set_Background']($S08().Construct($T11()['get_White']()['MemberwiseClone']()));
     }
-  };
+  }
 
-  function MainPage_check6 (sender, e) {
-    var flag = ($T05()['Format']("{0}", (this.ArmorCheckboxEx)['get_Background']()) == "#FFFFFFFF");
+  function MainPage_check6 () {
+    var flag = ("#FFFFFFFF" === $T05()['Format']("{0}", (this.ArmorCheckboxEx)['get_Background']()));
     if (flag) {
       (this.ArmorCheckboxEx)['set_Background']($S08().Construct($T11()['get_Gray']()['MemberwiseClone']()));
     } else {
       (this.ArmorCheckboxEx)['set_Background']($S08().Construct($T11()['get_White']()['MemberwiseClone']()));
     }
-  };
+  }
 
-  function MainPage_check7 (sender, e) {
-    var flag = ($T05()['Format']("{0}", (this.AdditionalCheckbox)['get_Background']()) == "#FFFFFFFF");
+  function MainPage_check7 () {
+    var flag = ("#FFFFFFFF" === $T05()['Format']("{0}", (this.AdditionalCheckbox)['get_Background']()));
     if (flag) {
       (this.AdditionalCheckbox)['set_Background']($S08().Construct($T11()['get_Gray']()['MemberwiseClone']()));
     } else {
       (this.AdditionalCheckbox)['set_Background']($S08().Construct($T11()['get_White']()['MemberwiseClone']()));
     }
-  };
+  }
 
-  function MainPage_check8 (sender, e) {
-    var flag = ($T05()['Format']("{0}", (this.AdditionalCheckboxEx)['get_Background']()) == "#FFFFFFFF");
+  function MainPage_check8 () {
+    var flag = ($T05()['Format']("{0}", (this.AdditionalCheckboxEx)['get_Background']()) === "#FFFFFFFF");
     if (flag) {
       (this.AdditionalCheckboxEx)['set_Background']($S08().Construct($T11()['get_Gray']()['MemberwiseClone']()));
     } else {
       (this.AdditionalCheckboxEx)['set_Background']($S08().Construct($T11()['get_White']()['MemberwiseClone']()));
     }
-  };
+  }
 
-  function MainPage_check9 (sender, e) {
-    var flag = ($T05()['Format']("{0}", (this.SpecialCheckbox)['get_Background']()) == "#FFFFFFFF");
+  function MainPage_check9 () {
+    var flag = ($T05()['Format']("{0}", (this.SpecialCheckbox)['get_Background']()) === "#FFFFFFFF");
     if (flag) {
       (this.SpecialCheckbox)['set_Background']($S08().Construct($T11()['get_Gray']()['MemberwiseClone']()));
     } else {
       (this.SpecialCheckbox)['set_Background']($S08().Construct($T11()['get_White']()['MemberwiseClone']()));
     }
-  };
+  }
 
-  function MainPage_DeleteFilterBtn_Click (sender, e) {
+  function MainPage_DeleteFilterBtn_Click () {
     var flag = !(this.FilterListCombo)['get_IsEnabled']();
     if (flag) {
       $T13()['Show']("\uc0ad\uc81c\ud560 \ud544\ud130\uac00 \uc874\uc7ac\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4");
@@ -575,15 +591,15 @@ JSIL.DeclareNamespace("Studie");
       ((this.FilterListCombo)['get_Items']())['RemoveAt']((this.FilterListCombo)['get_SelectedIndex']());
       this['Set_FilterIndex']();
     }
-  };
+  }
 
   function MainPage_Filtering (crysta, filteroption, filtersign, filtervalue) {
     var flag = false;
 
-  $loop0: 
+  $loop0:
     for (var i = 0; i < ((crysta.options)['get_Count']() | 0); i = ((i + 1) | 0)) {
-      flag = flag || 
-      ((crysta.options)['get_Item'](i) == filteroption);
+      flag = flag ||
+      ((crysta.options)['get_Item'](i) === filteroption);
       var flag2 = flag;
       if (flag2) {
         break $loop0;
@@ -613,20 +629,20 @@ JSIL.DeclareNamespace("Studie");
       }
     }
     return result;
-  };
+  }
 
   function MainPage_FilterSet_Click (sender, e, $exception) {
     try {
       var flag = (((this.FilterOption)['get_SelectedIndex']() | 0) === -1) || 
       (((this.FilterSign)['get_SelectedIndex']() | 0) === -1) || 
-      ((this.FilterValue)['get_Text']() == "");
+      ("" === (this.FilterValue)['get_Text']());
       if (flag) {
         throw $S09().Construct("\ud544\ud130\uc758 \uac12\uc744 \uc804\ubd80 \uc124\uc815\ud574\uc8fc\uc138\uc694");
       }
 
     $loop0: 
       for (var i = 0; i < ((this.Filters)['get_Count']() | 0); i = ((i + 1) | 0)) {
-        var flag2 = (((this.FilterOption)['get_SelectedValue']())['toString']() == (this.Filters)['get_Item'](i).option);
+        var flag2 = ((this.Filters)['get_Item'](i).option === ((this.FilterOption)['get_SelectedValue']())['toString']());
         if (flag2) {
           ((this.FilterList)['get_Items']())['RemoveAt'](i);
           ((this.FilterListCombo)['get_Items']())['RemoveAt'](i);
@@ -634,8 +650,8 @@ JSIL.DeclareNamespace("Studie");
           break $loop0;
         }
       }
-      var value = ($S06().CallStatic($T0A(), "ToInt32", null, (this.FilterValue)['get_Text']()) | 0);
-      var item = (JSIL.ConcatString.apply(null, JSIL.Array.New($T05(), [((this.FilterOption)['get_SelectedValue']())['toString'](), " ", ((this.FilterSign)['get_SelectedValue']())['toString'](), " ", (value).toString()])));
+      const value = ($S06().CallStatic($T0A(), "ToInt32", null, (this.FilterValue)['get_Text']()) | 0);
+      const item = (JSIL.ConcatString.apply(null, JSIL.Array.New($T05(), [((this.FilterOption)['get_SelectedValue']())['toString'](), " ", ((this.FilterSign)['get_SelectedValue']())['toString'](), " ", (value).toString()])));
       ((this.FilterList)['get_Items']())['Add'](item);
       $S0A().CallVirtual("Add", null, this.Filters, new ($T1A())(((this.FilterOption)['get_SelectedValue']())['toString'](), (this.FilterSign)['get_SelectedIndex'](), value));
       ((this.FilterListCombo)['get_Items']())['Add'](item);
@@ -647,14 +663,14 @@ JSIL.DeclareNamespace("Studie");
         $T13()['Show']($exception['get_Message']());
       }
     }
-  };
+  }
 
   function MainPage_GetDataFromHub (SourceUrl) {
     var webClient = new ($T1C())();
     webClient.WebClient$Encoding$value = $T1D()['get_UTF8']();
     $S0B().CallVirtual("Add", null, webClient['get_Headers'](), "origin", "dcinside.com");
     return $S0C().CallVirtual("DownloadString", null, webClient, SourceUrl);
-  };
+  }
 
   function MainPage_InitializeComponent () {
     if (!this._contentLoaded) {
@@ -1294,7 +1310,7 @@ JSIL.DeclareNamespace("Studie");
       this.FilterListCombo = comboBox3;
       this.ResultBox = listBox2;
     }
-  };
+  }
 
   function MainPage_Instantiate_DataTemplate_2ab3788a67cd47a8ba11a0f71c44d1a1 (templateOwner) {
     var templateInstance = new ($T3C())();
@@ -1318,10 +1334,10 @@ JSIL.DeclareNamespace("Studie");
     textBlock['SetBinding']($T40().TextProperty, binding2);
     templateInstance['set_TemplateContent'](stackPanel);
     return templateInstance;
-  };
+  }
 
   function MainPage_Set_FilterIndex () {
-    var flag = (((this.FilterListCombo)['get_Items']())['get_Count']() | 0) > 0;
+    const flag = (((this.FilterListCombo)['get_Items']())['get_Count']() | 0) > 0;
     if (flag) {
       (this.FilterListCombo)['set_SelectedIndex']((((((this.FilterListCombo)['get_Items']())['get_Count']() | 0) - 1) | 0));
       (this.FilterListCombo)['set_IsEnabled'](true);
@@ -1329,11 +1345,11 @@ JSIL.DeclareNamespace("Studie");
       (this.FilterListCombo)['set_SelectedIndex'](0);
       (this.FilterListCombo)['set_IsEnabled'](false);
     }
-  };
+  }
 
   function MainPage_StartBtn_Click (sender, e) {
     ((this.ResultBox)['get_Items']())['Clear']();
-    var flag = ($T05()['Format']("{0}", (this.NormCheckbox)['get_Background']()) != "#FFFFFFFF");
+    const flag = ("#FFFFFFFF" !== $T05()['Format']("{0}", (this.NormCheckbox)['get_Background']()));
     if (flag) {
 
       for (var i = 0; i < (this.CrystaAmount[0] | 0); i = ((i + 1) | 0)) {
@@ -1392,7 +1408,7 @@ JSIL.DeclareNamespace("Studie");
         }
       }
     }
-    var flag10 = ($T05()['Format']("{0}", (this.NormCheckboxEx)['get_Background']()) != "#FFFFFFFF");
+    const flag10 = ("#FFFFFFFF" !== $T05()['Format']("{0}", (this.NormCheckboxEx)['get_Background']()));
     if (flag10) {
 
     $loop3: 
