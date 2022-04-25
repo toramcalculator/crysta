@@ -91,5 +91,5 @@
 {
 "name":"글라우스"
 "enhance":"포레스티어"
-"option":"Avoid회복%+15&마법내성%+6&MATK%+6&경갑옷장비시:MATK업[AGI%]+25"
+"option":"Avoid회복%+15&마법내성%+6&MATK%+6&(경갑옷장비시)MATK업(AGI%)+25"
 }
