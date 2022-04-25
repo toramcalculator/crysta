@@ -1,5 +1,5 @@
-<!DOCTYPE html> 
-<html>
+<!DOCTYPE html>
+<html lang="ko">
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="utf-8" />
@@ -20,22 +20,19 @@
     <script type="application/javascript">jsilConfig["libraryRoot"] = "app-cshtml5/libs/";</script>
     <script type="application/javascript">jsilConfig["manifests"] = ["app-cshtml5/app/index"];</script>
     <script type="application/javascript" src="app-cshtml5/libs/JSIL.js?20224250240"></script>
-      
-      
+    <title>크리스타 리스트</title>
   </head>
-  <body onload="onLoad()"> <!-- Note: "onLoad" is defined in "JSIL.Browser.js" -->
+  <body onload="onLoad()">
 
     <div id="cshtml5-root" style="position: relative; width: 100%; height: 100%; overflow-x: hidden; overflow-y: hidden"></div>
     <div id="log"></div>
  
     <script type="application/javascript">
         function runMain() {
-
                 JSIL.LocalStorage.Initialize("Studie");
-                var asm = JSIL.GetAssembly("Studie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", true);
-                var app = new asm.Studie.App();
-                
-        };
+                const asm = JSIL.GetAssembly("Studie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", true)
+                new asm.Studie.App();
+        }
     </script>
   </body>
 </html>
