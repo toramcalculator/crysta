@@ -68,7 +68,7 @@
 }
 {
 "name":"유유린"
-"option":"Guard률%+2&Guard력%+2&Avoid회복%+2&이상내성%-6"
+"option":"Guard회복%+2&Guard력%+2&Avoid회복%+2&이상내성%-6"
 }
 {
 "name":"복면전사"
@@ -92,7 +92,7 @@
 }
 {
 "name":"인자니오"
-"option":"무기ATK+10&비율배리어%+3&Guard률%+1&공격MP회복-1"
+"option":"무기ATK+10&비율배리어%+3&Guard회복%+1&공격MP회복-1"
 }
 {
 "name":"아라네아"
