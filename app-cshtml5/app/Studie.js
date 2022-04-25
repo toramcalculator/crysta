@@ -388,7 +388,7 @@ JSIL.DeclareNamespace("Studie");
     this.ExCrystas = $S01().Construct();
     this.Filters = $S02().Construct();
 
-    for (var text = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/normal"); (text.indexOf("\"name\":\"")) !== -1; ) {
+    for (var text = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/normal"); (text.indexOf("\"name\":\"")) !== -1; ) {
       var text2 = "";
       var text3 = "";
 
@@ -422,7 +422,7 @@ JSIL.DeclareNamespace("Studie");
     }
     this.CrystaAmount[0] = ((this.Crystas)['get_Count']() | 0);
 
-    for (var text6 = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/enhance_normal"); (text6.indexOf("\"name\":\"")) !== -1; ) {
+    for (var text6 = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/enhance_normal"); (text6.indexOf("\"name\":\"")) !== -1; ) {
       var text7 = "";
       var text8 = "";
       var text9 = "";
@@ -462,7 +462,7 @@ JSIL.DeclareNamespace("Studie");
     }
     this.ExCrystaAmount[0] = ((this.ExCrystas)['get_Count']() | 0);
 
-    for (var text12 = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/weapon"); (text12.indexOf("\"name\":\"")) !== -1; ) {
+    for (var text12 = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/weapon"); (text12.indexOf("\"name\":\"")) !== -1; ) {
       var text13 = "";
       var text14 = "";
 
@@ -496,7 +496,7 @@ JSIL.DeclareNamespace("Studie");
     }
     this.CrystaAmount[1] = ((this.Crystas)['get_Count']() | 0);
 
-    for (var text17 = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/enhance_weapon"); (text17.indexOf("\"name\":\"")) !== -1; ) {
+    for (var text17 = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/enhance_weapon"); (text17.indexOf("\"name\":\"")) !== -1; ) {
       var text18 = "";
       var text19 = "";
       var text20 = "";
@@ -536,7 +536,7 @@ JSIL.DeclareNamespace("Studie");
     }
     this.ExCrystaAmount[1] = ((this.ExCrystas)['get_Count']() | 0);
 
-    for (var text23 = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/armor"); (text23.indexOf("\"name\":\"")) !== -1; ) {
+    for (var text23 = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/armor"); (text23.indexOf("\"name\":\"")) !== -1; ) {
       var text24 = "";
       var text25 = "";
 
@@ -570,7 +570,7 @@ JSIL.DeclareNamespace("Studie");
     }
     this.CrystaAmount[2] = ((this.Crystas)['get_Count']() | 0);
 
-    for (var text28 = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/enhance_armor"); (text28.indexOf("\"name\":\"")) !== -1; ) {
+    for (var text28 = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/enhance_armor"); (text28.indexOf("\"name\":\"")) !== -1; ) {
       var text29 = "";
       var text30 = "";
       var text31 = "";
@@ -610,7 +610,7 @@ JSIL.DeclareNamespace("Studie");
     }
     this.ExCrystaAmount[2] = ((this.ExCrystas)['get_Count']() | 0);
 
-    for (var text34 = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/additional"); (text34.indexOf("\"name\":\"")) !== -1; ) {
+    for (var text34 = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/additional"); (text34.indexOf("\"name\":\"")) !== -1; ) {
       var text35 = "";
       var text36 = "";
 
@@ -644,7 +644,7 @@ JSIL.DeclareNamespace("Studie");
     }
     this.CrystaAmount[3] = ((this.Crystas)['get_Count']() | 0);
 
-    for (var text39 = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/enhance_additional"); (text39.indexOf("\"name\":\"")) !== -1; ) {
+    for (var text39 = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/enhance_additional"); (text39.indexOf("\"name\":\"")) !== -1; ) {
       var text40 = "";
       var text41 = "";
       var text42 = "";
@@ -684,7 +684,7 @@ JSIL.DeclareNamespace("Studie");
     }
     this.ExCrystaAmount[3] = ((this.ExCrystas)['get_Count']() | 0);
 
-    for (var text45 = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/special"); (text45.indexOf("\"name\":\"")) !== -1; ) {
+    for (var text45 = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/special"); (text45.indexOf("\"name\":\"")) !== -1; ) {
       var text46 = "";
       var text47 = "";
 
@@ -718,7 +718,7 @@ JSIL.DeclareNamespace("Studie");
     }
     this.CrystaAmount[4] = ((this.Crystas)['get_Count']() | 0);
 
-    for (var text50 = this['GetDataFromHub']("http://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/toramcalculator/crysta/main/enhance_special"); (text50.indexOf("\"name\":\"")) !== -1; ) {
+    for (var text50 = this['GetDataFromHub']("https://raw.githubusercontent.com/toramcalculator/crysta/main/enhance_special"); (text50.indexOf("\"name\":\"")) !== -1; ) {
       var text51 = "";
       var text52 = "";
       var text53 = "";
