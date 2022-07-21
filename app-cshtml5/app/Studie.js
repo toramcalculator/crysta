@@ -1215,7 +1215,7 @@ JSIL.DeclareNamespace("Studie");
       (button19.BorderThickness = $T30().$Cast($T22()['ConvertFromInvariantString']($T30().__Type__, "1"))['MemberwiseClone']());
       button19['set_Background']($T31().$Cast($T22()['ConvertFromInvariantString']($T31().__Type__, "Gray")));
       var button20 = new ($T2C())();
-      button20['set_Content']($T22()['ConvertFromInvariantString']($T0F().__Type__, " \ucd94\uac00 \uac15\ud654 \ud06c\ub9ac\uc2a4\ud0c0"));
+      button20['set_Content']($T22()['ConvertFromInvariantString']($T0F().__Type__, " \ud2b9\uc218 \uac15\ud654 \ud06c\ub9ac\uc2a4\ud0c0"));
       button20['add_Click']($T2F()['New'](this, $thisType.prototype['check10'], function () { return JSIL.GetMethodInfo($thisType, "check10", new JSIL.MethodSignature(null, [$asm_mscorlib.System.Object, $asm_CSharpXamlForHtml5.Windows.UI.Xaml.RoutedEventArgs]), false); }));
       button20['set_Background']($T31().$Cast($T22()['ConvertFromInvariantString']($T31().__Type__, "White")));
       (stackPanel10['get_Children']())['Add'](button19);
