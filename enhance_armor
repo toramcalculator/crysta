@@ -1,4 +1,4 @@
-{
+﻿{
 "name":"이코노스"
 "enhance":"보스로가"
 "option":"최대HP+2000&무기ATK%+2"
@@ -112,4 +112,9 @@
 "name":"블랙 베리"
 "enhance":"대경의 현영"
 "option":"최대HP+3000&최대MP+400&MATK%+9&Avoid회복%-20"
+}
+{
+"name":"가람므와"
+"enhance":"바위용 펠젠"
+"option":"최대HP+6000&무기ATK%+6"
 }
