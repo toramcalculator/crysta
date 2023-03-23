@@ -193,3 +193,8 @@
 "enhance":"피스테우스"
 "option":"MATK%+9&DEX%+7&시전속도%+5"
 }
+{
+"name":"낙룡 레돌기"
+"enhance":"레퓨톤"
+"option":"ATK%+10&MATK%+10&HP자연회복%-12&MP자연회복%-12"
+}
